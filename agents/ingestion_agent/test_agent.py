@@ -19,5 +19,5 @@ response = agent.invoke(
     }
 )
 
-print("\nFinal Answer:")
-print(response["messages"][-1].content)
+print("\nFULL RESPONSE:\n")
+print(response)
