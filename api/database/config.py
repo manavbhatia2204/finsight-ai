@@ -16,4 +16,3 @@ DB_CONFIG = {
     "port": os.getenv("DB_PORT"),
     "database": os.getenv("DB_NAME"),
 }
-print(DB_CONFIG)
