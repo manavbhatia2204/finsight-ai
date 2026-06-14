@@ -1,0 +1,3079 @@
+indicator_name,indicator_code,date,value
+Consumer Price Index,CPIAUCSL,1947-01-01,21.48
+Consumer Price Index,CPIAUCSL,1947-02-01,21.62
+Consumer Price Index,CPIAUCSL,1947-03-01,22.0
+Consumer Price Index,CPIAUCSL,1947-04-01,22.0
+Consumer Price Index,CPIAUCSL,1947-05-01,21.95
+Consumer Price Index,CPIAUCSL,1947-06-01,22.08
+Consumer Price Index,CPIAUCSL,1947-07-01,22.23
+Consumer Price Index,CPIAUCSL,1947-08-01,22.4
+Consumer Price Index,CPIAUCSL,1947-09-01,22.84
+Consumer Price Index,CPIAUCSL,1947-10-01,22.91
+Consumer Price Index,CPIAUCSL,1947-11-01,23.06
+Consumer Price Index,CPIAUCSL,1947-12-01,23.41
+Consumer Price Index,CPIAUCSL,1948-01-01,23.68
+Consumer Price Index,CPIAUCSL,1948-02-01,23.67
+Consumer Price Index,CPIAUCSL,1948-03-01,23.5
+Consumer Price Index,CPIAUCSL,1948-04-01,23.82
+Consumer Price Index,CPIAUCSL,1948-05-01,24.01
+Consumer Price Index,CPIAUCSL,1948-06-01,24.15
+Consumer Price Index,CPIAUCSL,1948-07-01,24.4
+Consumer Price Index,CPIAUCSL,1948-08-01,24.43
+Consumer Price Index,CPIAUCSL,1948-09-01,24.36
+Consumer Price Index,CPIAUCSL,1948-10-01,24.31
+Consumer Price Index,CPIAUCSL,1948-11-01,24.16
+Consumer Price Index,CPIAUCSL,1948-12-01,24.05
+Consumer Price Index,CPIAUCSL,1949-01-01,24.01
+Consumer Price Index,CPIAUCSL,1949-02-01,23.91
+Consumer Price Index,CPIAUCSL,1949-03-01,23.91
+Consumer Price Index,CPIAUCSL,1949-04-01,23.92
+Consumer Price Index,CPIAUCSL,1949-05-01,23.91
+Consumer Price Index,CPIAUCSL,1949-06-01,23.92
+Consumer Price Index,CPIAUCSL,1949-07-01,23.7
+Consumer Price Index,CPIAUCSL,1949-08-01,23.7
+Consumer Price Index,CPIAUCSL,1949-09-01,23.75
+Consumer Price Index,CPIAUCSL,1949-10-01,23.67
+Consumer Price Index,CPIAUCSL,1949-11-01,23.7
+Consumer Price Index,CPIAUCSL,1949-12-01,23.61
+Consumer Price Index,CPIAUCSL,1950-01-01,23.51
+Consumer Price Index,CPIAUCSL,1950-02-01,23.61
+Consumer Price Index,CPIAUCSL,1950-03-01,23.64
+Consumer Price Index,CPIAUCSL,1950-04-01,23.65
+Consumer Price Index,CPIAUCSL,1950-05-01,23.77
+Consumer Price Index,CPIAUCSL,1950-06-01,23.88
+Consumer Price Index,CPIAUCSL,1950-07-01,24.07
+Consumer Price Index,CPIAUCSL,1950-08-01,24.2
+Consumer Price Index,CPIAUCSL,1950-09-01,24.34
+Consumer Price Index,CPIAUCSL,1950-10-01,24.5
+Consumer Price Index,CPIAUCSL,1950-11-01,24.6
+Consumer Price Index,CPIAUCSL,1950-12-01,24.98
+Consumer Price Index,CPIAUCSL,1951-01-01,25.38
+Consumer Price Index,CPIAUCSL,1951-02-01,25.83
+Consumer Price Index,CPIAUCSL,1951-03-01,25.88
+Consumer Price Index,CPIAUCSL,1951-04-01,25.92
+Consumer Price Index,CPIAUCSL,1951-05-01,25.99
+Consumer Price Index,CPIAUCSL,1951-06-01,25.93
+Consumer Price Index,CPIAUCSL,1951-07-01,25.91
+Consumer Price Index,CPIAUCSL,1951-08-01,25.86
+Consumer Price Index,CPIAUCSL,1951-09-01,26.03
+Consumer Price Index,CPIAUCSL,1951-10-01,26.16
+Consumer Price Index,CPIAUCSL,1951-11-01,26.32
+Consumer Price Index,CPIAUCSL,1951-12-01,26.47
+Consumer Price Index,CPIAUCSL,1952-01-01,26.45
+Consumer Price Index,CPIAUCSL,1952-02-01,26.41
+Consumer Price Index,CPIAUCSL,1952-03-01,26.39
+Consumer Price Index,CPIAUCSL,1952-04-01,26.46
+Consumer Price Index,CPIAUCSL,1952-05-01,26.47
+Consumer Price Index,CPIAUCSL,1952-06-01,26.53
+Consumer Price Index,CPIAUCSL,1952-07-01,26.68
+Consumer Price Index,CPIAUCSL,1952-08-01,26.69
+Consumer Price Index,CPIAUCSL,1952-09-01,26.63
+Consumer Price Index,CPIAUCSL,1952-10-01,26.69
+Consumer Price Index,CPIAUCSL,1952-11-01,26.69
+Consumer Price Index,CPIAUCSL,1952-12-01,26.71
+Consumer Price Index,CPIAUCSL,1953-01-01,26.64
+Consumer Price Index,CPIAUCSL,1953-02-01,26.59
+Consumer Price Index,CPIAUCSL,1953-03-01,26.63
+Consumer Price Index,CPIAUCSL,1953-04-01,26.69
+Consumer Price Index,CPIAUCSL,1953-05-01,26.7
+Consumer Price Index,CPIAUCSL,1953-06-01,26.77
+Consumer Price Index,CPIAUCSL,1953-07-01,26.79
+Consumer Price Index,CPIAUCSL,1953-08-01,26.85
+Consumer Price Index,CPIAUCSL,1953-09-01,26.89
+Consumer Price Index,CPIAUCSL,1953-10-01,26.95
+Consumer Price Index,CPIAUCSL,1953-11-01,26.85
+Consumer Price Index,CPIAUCSL,1953-12-01,26.87
+Consumer Price Index,CPIAUCSL,1954-01-01,26.94
+Consumer Price Index,CPIAUCSL,1954-02-01,26.99
+Consumer Price Index,CPIAUCSL,1954-03-01,26.93
+Consumer Price Index,CPIAUCSL,1954-04-01,26.86
+Consumer Price Index,CPIAUCSL,1954-05-01,26.93
+Consumer Price Index,CPIAUCSL,1954-06-01,26.94
+Consumer Price Index,CPIAUCSL,1954-07-01,26.86
+Consumer Price Index,CPIAUCSL,1954-08-01,26.85
+Consumer Price Index,CPIAUCSL,1954-09-01,26.81
+Consumer Price Index,CPIAUCSL,1954-10-01,26.72
+Consumer Price Index,CPIAUCSL,1954-11-01,26.78
+Consumer Price Index,CPIAUCSL,1954-12-01,26.77
+Consumer Price Index,CPIAUCSL,1955-01-01,26.77
+Consumer Price Index,CPIAUCSL,1955-02-01,26.82
+Consumer Price Index,CPIAUCSL,1955-03-01,26.79
+Consumer Price Index,CPIAUCSL,1955-04-01,26.79
+Consumer Price Index,CPIAUCSL,1955-05-01,26.77
+Consumer Price Index,CPIAUCSL,1955-06-01,26.71
+Consumer Price Index,CPIAUCSL,1955-07-01,26.76
+Consumer Price Index,CPIAUCSL,1955-08-01,26.72
+Consumer Price Index,CPIAUCSL,1955-09-01,26.85
+Consumer Price Index,CPIAUCSL,1955-10-01,26.82
+Consumer Price Index,CPIAUCSL,1955-11-01,26.88
+Consumer Price Index,CPIAUCSL,1955-12-01,26.87
+Consumer Price Index,CPIAUCSL,1956-01-01,26.83
+Consumer Price Index,CPIAUCSL,1956-02-01,26.86
+Consumer Price Index,CPIAUCSL,1956-03-01,26.89
+Consumer Price Index,CPIAUCSL,1956-04-01,26.93
+Consumer Price Index,CPIAUCSL,1956-05-01,27.03
+Consumer Price Index,CPIAUCSL,1956-06-01,27.15
+Consumer Price Index,CPIAUCSL,1956-07-01,27.29
+Consumer Price Index,CPIAUCSL,1956-08-01,27.31
+Consumer Price Index,CPIAUCSL,1956-09-01,27.35
+Consumer Price Index,CPIAUCSL,1956-10-01,27.51
+Consumer Price Index,CPIAUCSL,1956-11-01,27.51
+Consumer Price Index,CPIAUCSL,1956-12-01,27.63
+Consumer Price Index,CPIAUCSL,1957-01-01,27.67
+Consumer Price Index,CPIAUCSL,1957-02-01,27.8
+Consumer Price Index,CPIAUCSL,1957-03-01,27.86
+Consumer Price Index,CPIAUCSL,1957-04-01,27.93
+Consumer Price Index,CPIAUCSL,1957-05-01,28.0
+Consumer Price Index,CPIAUCSL,1957-06-01,28.11
+Consumer Price Index,CPIAUCSL,1957-07-01,28.19
+Consumer Price Index,CPIAUCSL,1957-08-01,28.28
+Consumer Price Index,CPIAUCSL,1957-09-01,28.32
+Consumer Price Index,CPIAUCSL,1957-10-01,28.32
+Consumer Price Index,CPIAUCSL,1957-11-01,28.41
+Consumer Price Index,CPIAUCSL,1957-12-01,28.47
+Consumer Price Index,CPIAUCSL,1958-01-01,28.64
+Consumer Price Index,CPIAUCSL,1958-02-01,28.7
+Consumer Price Index,CPIAUCSL,1958-03-01,28.87
+Consumer Price Index,CPIAUCSL,1958-04-01,28.94
+Consumer Price Index,CPIAUCSL,1958-05-01,28.94
+Consumer Price Index,CPIAUCSL,1958-06-01,28.91
+Consumer Price Index,CPIAUCSL,1958-07-01,28.89
+Consumer Price Index,CPIAUCSL,1958-08-01,28.94
+Consumer Price Index,CPIAUCSL,1958-09-01,28.91
+Consumer Price Index,CPIAUCSL,1958-10-01,28.91
+Consumer Price Index,CPIAUCSL,1958-11-01,28.95
+Consumer Price Index,CPIAUCSL,1958-12-01,28.97
+Consumer Price Index,CPIAUCSL,1959-01-01,29.01
+Consumer Price Index,CPIAUCSL,1959-02-01,29.0
+Consumer Price Index,CPIAUCSL,1959-03-01,28.97
+Consumer Price Index,CPIAUCSL,1959-04-01,28.98
+Consumer Price Index,CPIAUCSL,1959-05-01,29.04
+Consumer Price Index,CPIAUCSL,1959-06-01,29.11
+Consumer Price Index,CPIAUCSL,1959-07-01,29.15
+Consumer Price Index,CPIAUCSL,1959-08-01,29.18
+Consumer Price Index,CPIAUCSL,1959-09-01,29.25
+Consumer Price Index,CPIAUCSL,1959-10-01,29.35
+Consumer Price Index,CPIAUCSL,1959-11-01,29.35
+Consumer Price Index,CPIAUCSL,1959-12-01,29.41
+Consumer Price Index,CPIAUCSL,1960-01-01,29.37
+Consumer Price Index,CPIAUCSL,1960-02-01,29.41
+Consumer Price Index,CPIAUCSL,1960-03-01,29.41
+Consumer Price Index,CPIAUCSL,1960-04-01,29.54
+Consumer Price Index,CPIAUCSL,1960-05-01,29.57
+Consumer Price Index,CPIAUCSL,1960-06-01,29.61
+Consumer Price Index,CPIAUCSL,1960-07-01,29.55
+Consumer Price Index,CPIAUCSL,1960-08-01,29.61
+Consumer Price Index,CPIAUCSL,1960-09-01,29.61
+Consumer Price Index,CPIAUCSL,1960-10-01,29.75
+Consumer Price Index,CPIAUCSL,1960-11-01,29.78
+Consumer Price Index,CPIAUCSL,1960-12-01,29.81
+Consumer Price Index,CPIAUCSL,1961-01-01,29.84
+Consumer Price Index,CPIAUCSL,1961-02-01,29.84
+Consumer Price Index,CPIAUCSL,1961-03-01,29.84
+Consumer Price Index,CPIAUCSL,1961-04-01,29.81
+Consumer Price Index,CPIAUCSL,1961-05-01,29.84
+Consumer Price Index,CPIAUCSL,1961-06-01,29.84
+Consumer Price Index,CPIAUCSL,1961-07-01,29.92
+Consumer Price Index,CPIAUCSL,1961-08-01,29.94
+Consumer Price Index,CPIAUCSL,1961-09-01,29.98
+Consumer Price Index,CPIAUCSL,1961-10-01,29.98
+Consumer Price Index,CPIAUCSL,1961-11-01,29.98
+Consumer Price Index,CPIAUCSL,1961-12-01,30.01
+Consumer Price Index,CPIAUCSL,1962-01-01,30.04
+Consumer Price Index,CPIAUCSL,1962-02-01,30.11
+Consumer Price Index,CPIAUCSL,1962-03-01,30.17
+Consumer Price Index,CPIAUCSL,1962-04-01,30.21
+Consumer Price Index,CPIAUCSL,1962-05-01,30.24
+Consumer Price Index,CPIAUCSL,1962-06-01,30.21
+Consumer Price Index,CPIAUCSL,1962-07-01,30.22
+Consumer Price Index,CPIAUCSL,1962-08-01,30.28
+Consumer Price Index,CPIAUCSL,1962-09-01,30.42
+Consumer Price Index,CPIAUCSL,1962-10-01,30.38
+Consumer Price Index,CPIAUCSL,1962-11-01,30.38
+Consumer Price Index,CPIAUCSL,1962-12-01,30.38
+Consumer Price Index,CPIAUCSL,1963-01-01,30.44
+Consumer Price Index,CPIAUCSL,1963-02-01,30.48
+Consumer Price Index,CPIAUCSL,1963-03-01,30.51
+Consumer Price Index,CPIAUCSL,1963-04-01,30.48
+Consumer Price Index,CPIAUCSL,1963-05-01,30.51
+Consumer Price Index,CPIAUCSL,1963-06-01,30.61
+Consumer Price Index,CPIAUCSL,1963-07-01,30.69
+Consumer Price Index,CPIAUCSL,1963-08-01,30.75
+Consumer Price Index,CPIAUCSL,1963-09-01,30.72
+Consumer Price Index,CPIAUCSL,1963-10-01,30.75
+Consumer Price Index,CPIAUCSL,1963-11-01,30.78
+Consumer Price Index,CPIAUCSL,1963-12-01,30.88
+Consumer Price Index,CPIAUCSL,1964-01-01,30.94
+Consumer Price Index,CPIAUCSL,1964-02-01,30.91
+Consumer Price Index,CPIAUCSL,1964-03-01,30.94
+Consumer Price Index,CPIAUCSL,1964-04-01,30.95
+Consumer Price Index,CPIAUCSL,1964-05-01,30.98
+Consumer Price Index,CPIAUCSL,1964-06-01,31.01
+Consumer Price Index,CPIAUCSL,1964-07-01,31.02
+Consumer Price Index,CPIAUCSL,1964-08-01,31.05
+Consumer Price Index,CPIAUCSL,1964-09-01,31.08
+Consumer Price Index,CPIAUCSL,1964-10-01,31.12
+Consumer Price Index,CPIAUCSL,1964-11-01,31.21
+Consumer Price Index,CPIAUCSL,1964-12-01,31.25
+Consumer Price Index,CPIAUCSL,1965-01-01,31.28
+Consumer Price Index,CPIAUCSL,1965-02-01,31.28
+Consumer Price Index,CPIAUCSL,1965-03-01,31.31
+Consumer Price Index,CPIAUCSL,1965-04-01,31.38
+Consumer Price Index,CPIAUCSL,1965-05-01,31.48
+Consumer Price Index,CPIAUCSL,1965-06-01,31.61
+Consumer Price Index,CPIAUCSL,1965-07-01,31.58
+Consumer Price Index,CPIAUCSL,1965-08-01,31.55
+Consumer Price Index,CPIAUCSL,1965-09-01,31.62
+Consumer Price Index,CPIAUCSL,1965-10-01,31.65
+Consumer Price Index,CPIAUCSL,1965-11-01,31.75
+Consumer Price Index,CPIAUCSL,1965-12-01,31.85
+Consumer Price Index,CPIAUCSL,1966-01-01,31.88
+Consumer Price Index,CPIAUCSL,1966-02-01,32.08
+Consumer Price Index,CPIAUCSL,1966-03-01,32.18
+Consumer Price Index,CPIAUCSL,1966-04-01,32.28
+Consumer Price Index,CPIAUCSL,1966-05-01,32.35
+Consumer Price Index,CPIAUCSL,1966-06-01,32.38
+Consumer Price Index,CPIAUCSL,1966-07-01,32.45
+Consumer Price Index,CPIAUCSL,1966-08-01,32.65
+Consumer Price Index,CPIAUCSL,1966-09-01,32.75
+Consumer Price Index,CPIAUCSL,1966-10-01,32.85
+Consumer Price Index,CPIAUCSL,1966-11-01,32.88
+Consumer Price Index,CPIAUCSL,1966-12-01,32.92
+Consumer Price Index,CPIAUCSL,1967-01-01,32.9
+Consumer Price Index,CPIAUCSL,1967-02-01,33.0
+Consumer Price Index,CPIAUCSL,1967-03-01,33.0
+Consumer Price Index,CPIAUCSL,1967-04-01,33.1
+Consumer Price Index,CPIAUCSL,1967-05-01,33.1
+Consumer Price Index,CPIAUCSL,1967-06-01,33.3
+Consumer Price Index,CPIAUCSL,1967-07-01,33.4
+Consumer Price Index,CPIAUCSL,1967-08-01,33.5
+Consumer Price Index,CPIAUCSL,1967-09-01,33.6
+Consumer Price Index,CPIAUCSL,1967-10-01,33.7
+Consumer Price Index,CPIAUCSL,1967-11-01,33.9
+Consumer Price Index,CPIAUCSL,1967-12-01,34.0
+Consumer Price Index,CPIAUCSL,1968-01-01,34.1
+Consumer Price Index,CPIAUCSL,1968-02-01,34.2
+Consumer Price Index,CPIAUCSL,1968-03-01,34.3
+Consumer Price Index,CPIAUCSL,1968-04-01,34.4
+Consumer Price Index,CPIAUCSL,1968-05-01,34.5
+Consumer Price Index,CPIAUCSL,1968-06-01,34.7
+Consumer Price Index,CPIAUCSL,1968-07-01,34.9
+Consumer Price Index,CPIAUCSL,1968-08-01,35.0
+Consumer Price Index,CPIAUCSL,1968-09-01,35.1
+Consumer Price Index,CPIAUCSL,1968-10-01,35.3
+Consumer Price Index,CPIAUCSL,1968-11-01,35.4
+Consumer Price Index,CPIAUCSL,1968-12-01,35.6
+Consumer Price Index,CPIAUCSL,1969-01-01,35.7
+Consumer Price Index,CPIAUCSL,1969-02-01,35.8
+Consumer Price Index,CPIAUCSL,1969-03-01,36.1
+Consumer Price Index,CPIAUCSL,1969-04-01,36.3
+Consumer Price Index,CPIAUCSL,1969-05-01,36.4
+Consumer Price Index,CPIAUCSL,1969-06-01,36.6
+Consumer Price Index,CPIAUCSL,1969-07-01,36.8
+Consumer Price Index,CPIAUCSL,1969-08-01,36.9
+Consumer Price Index,CPIAUCSL,1969-09-01,37.1
+Consumer Price Index,CPIAUCSL,1969-10-01,37.3
+Consumer Price Index,CPIAUCSL,1969-11-01,37.5
+Consumer Price Index,CPIAUCSL,1969-12-01,37.7
+Consumer Price Index,CPIAUCSL,1970-01-01,37.9
+Consumer Price Index,CPIAUCSL,1970-02-01,38.1
+Consumer Price Index,CPIAUCSL,1970-03-01,38.3
+Consumer Price Index,CPIAUCSL,1970-04-01,38.5
+Consumer Price Index,CPIAUCSL,1970-05-01,38.6
+Consumer Price Index,CPIAUCSL,1970-06-01,38.8
+Consumer Price Index,CPIAUCSL,1970-07-01,38.9
+Consumer Price Index,CPIAUCSL,1970-08-01,39.0
+Consumer Price Index,CPIAUCSL,1970-09-01,39.2
+Consumer Price Index,CPIAUCSL,1970-10-01,39.4
+Consumer Price Index,CPIAUCSL,1970-11-01,39.6
+Consumer Price Index,CPIAUCSL,1970-12-01,39.8
+Consumer Price Index,CPIAUCSL,1971-01-01,39.9
+Consumer Price Index,CPIAUCSL,1971-02-01,39.9
+Consumer Price Index,CPIAUCSL,1971-03-01,40.0
+Consumer Price Index,CPIAUCSL,1971-04-01,40.1
+Consumer Price Index,CPIAUCSL,1971-05-01,40.3
+Consumer Price Index,CPIAUCSL,1971-06-01,40.5
+Consumer Price Index,CPIAUCSL,1971-07-01,40.6
+Consumer Price Index,CPIAUCSL,1971-08-01,40.7
+Consumer Price Index,CPIAUCSL,1971-09-01,40.8
+Consumer Price Index,CPIAUCSL,1971-10-01,40.9
+Consumer Price Index,CPIAUCSL,1971-11-01,41.0
+Consumer Price Index,CPIAUCSL,1971-12-01,41.1
+Consumer Price Index,CPIAUCSL,1972-01-01,41.2
+Consumer Price Index,CPIAUCSL,1972-02-01,41.4
+Consumer Price Index,CPIAUCSL,1972-03-01,41.4
+Consumer Price Index,CPIAUCSL,1972-04-01,41.5
+Consumer Price Index,CPIAUCSL,1972-05-01,41.6
+Consumer Price Index,CPIAUCSL,1972-06-01,41.7
+Consumer Price Index,CPIAUCSL,1972-07-01,41.8
+Consumer Price Index,CPIAUCSL,1972-08-01,41.9
+Consumer Price Index,CPIAUCSL,1972-09-01,42.1
+Consumer Price Index,CPIAUCSL,1972-10-01,42.2
+Consumer Price Index,CPIAUCSL,1972-11-01,42.4
+Consumer Price Index,CPIAUCSL,1972-12-01,42.5
+Consumer Price Index,CPIAUCSL,1973-01-01,42.7
+Consumer Price Index,CPIAUCSL,1973-02-01,43.0
+Consumer Price Index,CPIAUCSL,1973-03-01,43.4
+Consumer Price Index,CPIAUCSL,1973-04-01,43.7
+Consumer Price Index,CPIAUCSL,1973-05-01,43.9
+Consumer Price Index,CPIAUCSL,1973-06-01,44.2
+Consumer Price Index,CPIAUCSL,1973-07-01,44.2
+Consumer Price Index,CPIAUCSL,1973-08-01,45.0
+Consumer Price Index,CPIAUCSL,1973-09-01,45.2
+Consumer Price Index,CPIAUCSL,1973-10-01,45.6
+Consumer Price Index,CPIAUCSL,1973-11-01,45.9
+Consumer Price Index,CPIAUCSL,1973-12-01,46.3
+Consumer Price Index,CPIAUCSL,1974-01-01,46.8
+Consumer Price Index,CPIAUCSL,1974-02-01,47.3
+Consumer Price Index,CPIAUCSL,1974-03-01,47.8
+Consumer Price Index,CPIAUCSL,1974-04-01,48.1
+Consumer Price Index,CPIAUCSL,1974-05-01,48.6
+Consumer Price Index,CPIAUCSL,1974-06-01,49.0
+Consumer Price Index,CPIAUCSL,1974-07-01,49.3
+Consumer Price Index,CPIAUCSL,1974-08-01,49.9
+Consumer Price Index,CPIAUCSL,1974-09-01,50.6
+Consumer Price Index,CPIAUCSL,1974-10-01,51.0
+Consumer Price Index,CPIAUCSL,1974-11-01,51.5
+Consumer Price Index,CPIAUCSL,1974-12-01,51.9
+Consumer Price Index,CPIAUCSL,1975-01-01,52.3
+Consumer Price Index,CPIAUCSL,1975-02-01,52.6
+Consumer Price Index,CPIAUCSL,1975-03-01,52.8
+Consumer Price Index,CPIAUCSL,1975-04-01,53.0
+Consumer Price Index,CPIAUCSL,1975-05-01,53.1
+Consumer Price Index,CPIAUCSL,1975-06-01,53.5
+Consumer Price Index,CPIAUCSL,1975-07-01,54.0
+Consumer Price Index,CPIAUCSL,1975-08-01,54.2
+Consumer Price Index,CPIAUCSL,1975-09-01,54.6
+Consumer Price Index,CPIAUCSL,1975-10-01,54.9
+Consumer Price Index,CPIAUCSL,1975-11-01,55.3
+Consumer Price Index,CPIAUCSL,1975-12-01,55.6
+Consumer Price Index,CPIAUCSL,1976-01-01,55.8
+Consumer Price Index,CPIAUCSL,1976-02-01,55.9
+Consumer Price Index,CPIAUCSL,1976-03-01,56.0
+Consumer Price Index,CPIAUCSL,1976-04-01,56.1
+Consumer Price Index,CPIAUCSL,1976-05-01,56.4
+Consumer Price Index,CPIAUCSL,1976-06-01,56.7
+Consumer Price Index,CPIAUCSL,1976-07-01,57.0
+Consumer Price Index,CPIAUCSL,1976-08-01,57.3
+Consumer Price Index,CPIAUCSL,1976-09-01,57.6
+Consumer Price Index,CPIAUCSL,1976-10-01,57.9
+Consumer Price Index,CPIAUCSL,1976-11-01,58.1
+Consumer Price Index,CPIAUCSL,1976-12-01,58.4
+Consumer Price Index,CPIAUCSL,1977-01-01,58.7
+Consumer Price Index,CPIAUCSL,1977-02-01,59.3
+Consumer Price Index,CPIAUCSL,1977-03-01,59.6
+Consumer Price Index,CPIAUCSL,1977-04-01,60.0
+Consumer Price Index,CPIAUCSL,1977-05-01,60.2
+Consumer Price Index,CPIAUCSL,1977-06-01,60.5
+Consumer Price Index,CPIAUCSL,1977-07-01,60.8
+Consumer Price Index,CPIAUCSL,1977-08-01,61.1
+Consumer Price Index,CPIAUCSL,1977-09-01,61.3
+Consumer Price Index,CPIAUCSL,1977-10-01,61.6
+Consumer Price Index,CPIAUCSL,1977-11-01,62.0
+Consumer Price Index,CPIAUCSL,1977-12-01,62.3
+Consumer Price Index,CPIAUCSL,1978-01-01,62.7
+Consumer Price Index,CPIAUCSL,1978-02-01,63.0
+Consumer Price Index,CPIAUCSL,1978-03-01,63.4
+Consumer Price Index,CPIAUCSL,1978-04-01,63.9
+Consumer Price Index,CPIAUCSL,1978-05-01,64.5
+Consumer Price Index,CPIAUCSL,1978-06-01,65.0
+Consumer Price Index,CPIAUCSL,1978-07-01,65.5
+Consumer Price Index,CPIAUCSL,1978-08-01,65.9
+Consumer Price Index,CPIAUCSL,1978-09-01,66.5
+Consumer Price Index,CPIAUCSL,1978-10-01,67.1
+Consumer Price Index,CPIAUCSL,1978-11-01,67.5
+Consumer Price Index,CPIAUCSL,1978-12-01,67.9
+Consumer Price Index,CPIAUCSL,1979-01-01,68.5
+Consumer Price Index,CPIAUCSL,1979-02-01,69.2
+Consumer Price Index,CPIAUCSL,1979-03-01,69.9
+Consumer Price Index,CPIAUCSL,1979-04-01,70.6
+Consumer Price Index,CPIAUCSL,1979-05-01,71.4
+Consumer Price Index,CPIAUCSL,1979-06-01,72.2
+Consumer Price Index,CPIAUCSL,1979-07-01,73.0
+Consumer Price Index,CPIAUCSL,1979-08-01,73.7
+Consumer Price Index,CPIAUCSL,1979-09-01,74.4
+Consumer Price Index,CPIAUCSL,1979-10-01,75.2
+Consumer Price Index,CPIAUCSL,1979-11-01,76.0
+Consumer Price Index,CPIAUCSL,1979-12-01,76.9
+Consumer Price Index,CPIAUCSL,1980-01-01,78.0
+Consumer Price Index,CPIAUCSL,1980-02-01,79.0
+Consumer Price Index,CPIAUCSL,1980-03-01,80.1
+Consumer Price Index,CPIAUCSL,1980-04-01,80.9
+Consumer Price Index,CPIAUCSL,1980-05-01,81.7
+Consumer Price Index,CPIAUCSL,1980-06-01,82.5
+Consumer Price Index,CPIAUCSL,1980-07-01,82.6
+Consumer Price Index,CPIAUCSL,1980-08-01,83.2
+Consumer Price Index,CPIAUCSL,1980-09-01,83.9
+Consumer Price Index,CPIAUCSL,1980-10-01,84.7
+Consumer Price Index,CPIAUCSL,1980-11-01,85.6
+Consumer Price Index,CPIAUCSL,1980-12-01,86.4
+Consumer Price Index,CPIAUCSL,1981-01-01,87.2
+Consumer Price Index,CPIAUCSL,1981-02-01,88.0
+Consumer Price Index,CPIAUCSL,1981-03-01,88.6
+Consumer Price Index,CPIAUCSL,1981-04-01,89.1
+Consumer Price Index,CPIAUCSL,1981-05-01,89.7
+Consumer Price Index,CPIAUCSL,1981-06-01,90.5
+Consumer Price Index,CPIAUCSL,1981-07-01,91.5
+Consumer Price Index,CPIAUCSL,1981-08-01,92.2
+Consumer Price Index,CPIAUCSL,1981-09-01,93.1
+Consumer Price Index,CPIAUCSL,1981-10-01,93.4
+Consumer Price Index,CPIAUCSL,1981-11-01,93.8
+Consumer Price Index,CPIAUCSL,1981-12-01,94.1
+Consumer Price Index,CPIAUCSL,1982-01-01,94.4
+Consumer Price Index,CPIAUCSL,1982-02-01,94.7
+Consumer Price Index,CPIAUCSL,1982-03-01,94.7
+Consumer Price Index,CPIAUCSL,1982-04-01,95.0
+Consumer Price Index,CPIAUCSL,1982-05-01,95.9
+Consumer Price Index,CPIAUCSL,1982-06-01,97.0
+Consumer Price Index,CPIAUCSL,1982-07-01,97.5
+Consumer Price Index,CPIAUCSL,1982-08-01,97.7
+Consumer Price Index,CPIAUCSL,1982-09-01,97.7
+Consumer Price Index,CPIAUCSL,1982-10-01,98.1
+Consumer Price Index,CPIAUCSL,1982-11-01,98.0
+Consumer Price Index,CPIAUCSL,1982-12-01,97.7
+Consumer Price Index,CPIAUCSL,1983-01-01,97.9
+Consumer Price Index,CPIAUCSL,1983-02-01,98.0
+Consumer Price Index,CPIAUCSL,1983-03-01,98.1
+Consumer Price Index,CPIAUCSL,1983-04-01,98.8
+Consumer Price Index,CPIAUCSL,1983-05-01,99.2
+Consumer Price Index,CPIAUCSL,1983-06-01,99.4
+Consumer Price Index,CPIAUCSL,1983-07-01,99.8
+Consumer Price Index,CPIAUCSL,1983-08-01,100.1
+Consumer Price Index,CPIAUCSL,1983-09-01,100.4
+Consumer Price Index,CPIAUCSL,1983-10-01,100.8
+Consumer Price Index,CPIAUCSL,1983-11-01,101.1
+Consumer Price Index,CPIAUCSL,1983-12-01,101.4
+Consumer Price Index,CPIAUCSL,1984-01-01,102.1
+Consumer Price Index,CPIAUCSL,1984-02-01,102.6
+Consumer Price Index,CPIAUCSL,1984-03-01,102.9
+Consumer Price Index,CPIAUCSL,1984-04-01,103.3
+Consumer Price Index,CPIAUCSL,1984-05-01,103.5
+Consumer Price Index,CPIAUCSL,1984-06-01,103.7
+Consumer Price Index,CPIAUCSL,1984-07-01,104.1
+Consumer Price Index,CPIAUCSL,1984-08-01,104.4
+Consumer Price Index,CPIAUCSL,1984-09-01,104.7
+Consumer Price Index,CPIAUCSL,1984-10-01,105.1
+Consumer Price Index,CPIAUCSL,1984-11-01,105.3
+Consumer Price Index,CPIAUCSL,1984-12-01,105.5
+Consumer Price Index,CPIAUCSL,1985-01-01,105.7
+Consumer Price Index,CPIAUCSL,1985-02-01,106.3
+Consumer Price Index,CPIAUCSL,1985-03-01,106.8
+Consumer Price Index,CPIAUCSL,1985-04-01,107.0
+Consumer Price Index,CPIAUCSL,1985-05-01,107.2
+Consumer Price Index,CPIAUCSL,1985-06-01,107.5
+Consumer Price Index,CPIAUCSL,1985-07-01,107.7
+Consumer Price Index,CPIAUCSL,1985-08-01,107.9
+Consumer Price Index,CPIAUCSL,1985-09-01,108.1
+Consumer Price Index,CPIAUCSL,1985-10-01,108.5
+Consumer Price Index,CPIAUCSL,1985-11-01,109.0
+Consumer Price Index,CPIAUCSL,1985-12-01,109.5
+Consumer Price Index,CPIAUCSL,1986-01-01,109.9
+Consumer Price Index,CPIAUCSL,1986-02-01,109.7
+Consumer Price Index,CPIAUCSL,1986-03-01,109.1
+Consumer Price Index,CPIAUCSL,1986-04-01,108.7
+Consumer Price Index,CPIAUCSL,1986-05-01,109.0
+Consumer Price Index,CPIAUCSL,1986-06-01,109.4
+Consumer Price Index,CPIAUCSL,1986-07-01,109.5
+Consumer Price Index,CPIAUCSL,1986-08-01,109.6
+Consumer Price Index,CPIAUCSL,1986-09-01,110.0
+Consumer Price Index,CPIAUCSL,1986-10-01,110.2
+Consumer Price Index,CPIAUCSL,1986-11-01,110.4
+Consumer Price Index,CPIAUCSL,1986-12-01,110.8
+Consumer Price Index,CPIAUCSL,1987-01-01,111.4
+Consumer Price Index,CPIAUCSL,1987-02-01,111.8
+Consumer Price Index,CPIAUCSL,1987-03-01,112.2
+Consumer Price Index,CPIAUCSL,1987-04-01,112.7
+Consumer Price Index,CPIAUCSL,1987-05-01,113.0
+Consumer Price Index,CPIAUCSL,1987-06-01,113.5
+Consumer Price Index,CPIAUCSL,1987-07-01,113.8
+Consumer Price Index,CPIAUCSL,1987-08-01,114.3
+Consumer Price Index,CPIAUCSL,1987-09-01,114.7
+Consumer Price Index,CPIAUCSL,1987-10-01,115.0
+Consumer Price Index,CPIAUCSL,1987-11-01,115.4
+Consumer Price Index,CPIAUCSL,1987-12-01,115.6
+Consumer Price Index,CPIAUCSL,1988-01-01,116.0
+Consumer Price Index,CPIAUCSL,1988-02-01,116.2
+Consumer Price Index,CPIAUCSL,1988-03-01,116.5
+Consumer Price Index,CPIAUCSL,1988-04-01,117.2
+Consumer Price Index,CPIAUCSL,1988-05-01,117.5
+Consumer Price Index,CPIAUCSL,1988-06-01,118.0
+Consumer Price Index,CPIAUCSL,1988-07-01,118.5
+Consumer Price Index,CPIAUCSL,1988-08-01,119.0
+Consumer Price Index,CPIAUCSL,1988-09-01,119.5
+Consumer Price Index,CPIAUCSL,1988-10-01,119.9
+Consumer Price Index,CPIAUCSL,1988-11-01,120.3
+Consumer Price Index,CPIAUCSL,1988-12-01,120.7
+Consumer Price Index,CPIAUCSL,1989-01-01,121.2
+Consumer Price Index,CPIAUCSL,1989-02-01,121.6
+Consumer Price Index,CPIAUCSL,1989-03-01,122.2
+Consumer Price Index,CPIAUCSL,1989-04-01,123.1
+Consumer Price Index,CPIAUCSL,1989-05-01,123.7
+Consumer Price Index,CPIAUCSL,1989-06-01,124.1
+Consumer Price Index,CPIAUCSL,1989-07-01,124.5
+Consumer Price Index,CPIAUCSL,1989-08-01,124.5
+Consumer Price Index,CPIAUCSL,1989-09-01,124.8
+Consumer Price Index,CPIAUCSL,1989-10-01,125.4
+Consumer Price Index,CPIAUCSL,1989-11-01,125.9
+Consumer Price Index,CPIAUCSL,1989-12-01,126.3
+Consumer Price Index,CPIAUCSL,1990-01-01,127.5
+Consumer Price Index,CPIAUCSL,1990-02-01,128.0
+Consumer Price Index,CPIAUCSL,1990-03-01,128.6
+Consumer Price Index,CPIAUCSL,1990-04-01,128.9
+Consumer Price Index,CPIAUCSL,1990-05-01,129.1
+Consumer Price Index,CPIAUCSL,1990-06-01,129.9
+Consumer Price Index,CPIAUCSL,1990-07-01,130.5
+Consumer Price Index,CPIAUCSL,1990-08-01,131.6
+Consumer Price Index,CPIAUCSL,1990-09-01,132.5
+Consumer Price Index,CPIAUCSL,1990-10-01,133.4
+Consumer Price Index,CPIAUCSL,1990-11-01,133.7
+Consumer Price Index,CPIAUCSL,1990-12-01,134.2
+Consumer Price Index,CPIAUCSL,1991-01-01,134.7
+Consumer Price Index,CPIAUCSL,1991-02-01,134.8
+Consumer Price Index,CPIAUCSL,1991-03-01,134.8
+Consumer Price Index,CPIAUCSL,1991-04-01,135.1
+Consumer Price Index,CPIAUCSL,1991-05-01,135.6
+Consumer Price Index,CPIAUCSL,1991-06-01,136.0
+Consumer Price Index,CPIAUCSL,1991-07-01,136.2
+Consumer Price Index,CPIAUCSL,1991-08-01,136.6
+Consumer Price Index,CPIAUCSL,1991-09-01,137.0
+Consumer Price Index,CPIAUCSL,1991-10-01,137.2
+Consumer Price Index,CPIAUCSL,1991-11-01,137.8
+Consumer Price Index,CPIAUCSL,1991-12-01,138.2
+Consumer Price Index,CPIAUCSL,1992-01-01,138.3
+Consumer Price Index,CPIAUCSL,1992-02-01,138.6
+Consumer Price Index,CPIAUCSL,1992-03-01,139.1
+Consumer Price Index,CPIAUCSL,1992-04-01,139.4
+Consumer Price Index,CPIAUCSL,1992-05-01,139.7
+Consumer Price Index,CPIAUCSL,1992-06-01,140.1
+Consumer Price Index,CPIAUCSL,1992-07-01,140.5
+Consumer Price Index,CPIAUCSL,1992-08-01,140.8
+Consumer Price Index,CPIAUCSL,1992-09-01,141.1
+Consumer Price Index,CPIAUCSL,1992-10-01,141.7
+Consumer Price Index,CPIAUCSL,1992-11-01,142.1
+Consumer Price Index,CPIAUCSL,1992-12-01,142.3
+Consumer Price Index,CPIAUCSL,1993-01-01,142.8
+Consumer Price Index,CPIAUCSL,1993-02-01,143.1
+Consumer Price Index,CPIAUCSL,1993-03-01,143.3
+Consumer Price Index,CPIAUCSL,1993-04-01,143.8
+Consumer Price Index,CPIAUCSL,1993-05-01,144.2
+Consumer Price Index,CPIAUCSL,1993-06-01,144.3
+Consumer Price Index,CPIAUCSL,1993-07-01,144.5
+Consumer Price Index,CPIAUCSL,1993-08-01,144.8
+Consumer Price Index,CPIAUCSL,1993-09-01,145.0
+Consumer Price Index,CPIAUCSL,1993-10-01,145.6
+Consumer Price Index,CPIAUCSL,1993-11-01,146.0
+Consumer Price Index,CPIAUCSL,1993-12-01,146.3
+Consumer Price Index,CPIAUCSL,1994-01-01,146.3
+Consumer Price Index,CPIAUCSL,1994-02-01,146.7
+Consumer Price Index,CPIAUCSL,1994-03-01,147.1
+Consumer Price Index,CPIAUCSL,1994-04-01,147.2
+Consumer Price Index,CPIAUCSL,1994-05-01,147.5
+Consumer Price Index,CPIAUCSL,1994-06-01,147.9
+Consumer Price Index,CPIAUCSL,1994-07-01,148.4
+Consumer Price Index,CPIAUCSL,1994-08-01,149.0
+Consumer Price Index,CPIAUCSL,1994-09-01,149.3
+Consumer Price Index,CPIAUCSL,1994-10-01,149.4
+Consumer Price Index,CPIAUCSL,1994-11-01,149.8
+Consumer Price Index,CPIAUCSL,1994-12-01,150.1
+Consumer Price Index,CPIAUCSL,1995-01-01,150.5
+Consumer Price Index,CPIAUCSL,1995-02-01,150.9
+Consumer Price Index,CPIAUCSL,1995-03-01,151.2
+Consumer Price Index,CPIAUCSL,1995-04-01,151.8
+Consumer Price Index,CPIAUCSL,1995-05-01,152.1
+Consumer Price Index,CPIAUCSL,1995-06-01,152.4
+Consumer Price Index,CPIAUCSL,1995-07-01,152.6
+Consumer Price Index,CPIAUCSL,1995-08-01,152.9
+Consumer Price Index,CPIAUCSL,1995-09-01,153.1
+Consumer Price Index,CPIAUCSL,1995-10-01,153.5
+Consumer Price Index,CPIAUCSL,1995-11-01,153.7
+Consumer Price Index,CPIAUCSL,1995-12-01,153.9
+Consumer Price Index,CPIAUCSL,1996-01-01,154.7
+Consumer Price Index,CPIAUCSL,1996-02-01,155.0
+Consumer Price Index,CPIAUCSL,1996-03-01,155.5
+Consumer Price Index,CPIAUCSL,1996-04-01,156.1
+Consumer Price Index,CPIAUCSL,1996-05-01,156.4
+Consumer Price Index,CPIAUCSL,1996-06-01,156.7
+Consumer Price Index,CPIAUCSL,1996-07-01,157.0
+Consumer Price Index,CPIAUCSL,1996-08-01,157.2
+Consumer Price Index,CPIAUCSL,1996-09-01,157.7
+Consumer Price Index,CPIAUCSL,1996-10-01,158.2
+Consumer Price Index,CPIAUCSL,1996-11-01,158.7
+Consumer Price Index,CPIAUCSL,1996-12-01,159.1
+Consumer Price Index,CPIAUCSL,1997-01-01,159.4
+Consumer Price Index,CPIAUCSL,1997-02-01,159.7
+Consumer Price Index,CPIAUCSL,1997-03-01,159.8
+Consumer Price Index,CPIAUCSL,1997-04-01,159.9
+Consumer Price Index,CPIAUCSL,1997-05-01,159.9
+Consumer Price Index,CPIAUCSL,1997-06-01,160.2
+Consumer Price Index,CPIAUCSL,1997-07-01,160.4
+Consumer Price Index,CPIAUCSL,1997-08-01,160.8
+Consumer Price Index,CPIAUCSL,1997-09-01,161.2
+Consumer Price Index,CPIAUCSL,1997-10-01,161.5
+Consumer Price Index,CPIAUCSL,1997-11-01,161.7
+Consumer Price Index,CPIAUCSL,1997-12-01,161.8
+Consumer Price Index,CPIAUCSL,1998-01-01,162.0
+Consumer Price Index,CPIAUCSL,1998-02-01,162.0
+Consumer Price Index,CPIAUCSL,1998-03-01,162.0
+Consumer Price Index,CPIAUCSL,1998-04-01,162.2
+Consumer Price Index,CPIAUCSL,1998-05-01,162.6
+Consumer Price Index,CPIAUCSL,1998-06-01,162.8
+Consumer Price Index,CPIAUCSL,1998-07-01,163.2
+Consumer Price Index,CPIAUCSL,1998-08-01,163.4
+Consumer Price Index,CPIAUCSL,1998-09-01,163.5
+Consumer Price Index,CPIAUCSL,1998-10-01,163.9
+Consumer Price Index,CPIAUCSL,1998-11-01,164.1
+Consumer Price Index,CPIAUCSL,1998-12-01,164.4
+Consumer Price Index,CPIAUCSL,1999-01-01,164.7
+Consumer Price Index,CPIAUCSL,1999-02-01,164.7
+Consumer Price Index,CPIAUCSL,1999-03-01,164.8
+Consumer Price Index,CPIAUCSL,1999-04-01,165.9
+Consumer Price Index,CPIAUCSL,1999-05-01,166.0
+Consumer Price Index,CPIAUCSL,1999-06-01,166.0
+Consumer Price Index,CPIAUCSL,1999-07-01,166.7
+Consumer Price Index,CPIAUCSL,1999-08-01,167.1
+Consumer Price Index,CPIAUCSL,1999-09-01,167.8
+Consumer Price Index,CPIAUCSL,1999-10-01,168.1
+Consumer Price Index,CPIAUCSL,1999-11-01,168.4
+Consumer Price Index,CPIAUCSL,1999-12-01,168.8
+Consumer Price Index,CPIAUCSL,2000-01-01,169.3
+Consumer Price Index,CPIAUCSL,2000-02-01,170.0
+Consumer Price Index,CPIAUCSL,2000-03-01,171.0
+Consumer Price Index,CPIAUCSL,2000-04-01,170.9
+Consumer Price Index,CPIAUCSL,2000-05-01,171.2
+Consumer Price Index,CPIAUCSL,2000-06-01,172.2
+Consumer Price Index,CPIAUCSL,2000-07-01,172.7
+Consumer Price Index,CPIAUCSL,2000-08-01,172.7
+Consumer Price Index,CPIAUCSL,2000-09-01,173.6
+Consumer Price Index,CPIAUCSL,2000-10-01,173.9
+Consumer Price Index,CPIAUCSL,2000-11-01,174.2
+Consumer Price Index,CPIAUCSL,2000-12-01,174.6
+Consumer Price Index,CPIAUCSL,2001-01-01,175.6
+Consumer Price Index,CPIAUCSL,2001-02-01,176.0
+Consumer Price Index,CPIAUCSL,2001-03-01,176.1
+Consumer Price Index,CPIAUCSL,2001-04-01,176.4
+Consumer Price Index,CPIAUCSL,2001-05-01,177.3
+Consumer Price Index,CPIAUCSL,2001-06-01,177.7
+Consumer Price Index,CPIAUCSL,2001-07-01,177.4
+Consumer Price Index,CPIAUCSL,2001-08-01,177.4
+Consumer Price Index,CPIAUCSL,2001-09-01,178.1
+Consumer Price Index,CPIAUCSL,2001-10-01,177.6
+Consumer Price Index,CPIAUCSL,2001-11-01,177.5
+Consumer Price Index,CPIAUCSL,2001-12-01,177.4
+Consumer Price Index,CPIAUCSL,2002-01-01,177.7
+Consumer Price Index,CPIAUCSL,2002-02-01,178.0
+Consumer Price Index,CPIAUCSL,2002-03-01,178.5
+Consumer Price Index,CPIAUCSL,2002-04-01,179.3
+Consumer Price Index,CPIAUCSL,2002-05-01,179.5
+Consumer Price Index,CPIAUCSL,2002-06-01,179.6
+Consumer Price Index,CPIAUCSL,2002-07-01,180.0
+Consumer Price Index,CPIAUCSL,2002-08-01,180.5
+Consumer Price Index,CPIAUCSL,2002-09-01,180.8
+Consumer Price Index,CPIAUCSL,2002-10-01,181.2
+Consumer Price Index,CPIAUCSL,2002-11-01,181.5
+Consumer Price Index,CPIAUCSL,2002-12-01,181.8
+Consumer Price Index,CPIAUCSL,2003-01-01,182.6
+Consumer Price Index,CPIAUCSL,2003-02-01,183.6
+Consumer Price Index,CPIAUCSL,2003-03-01,183.9
+Consumer Price Index,CPIAUCSL,2003-04-01,183.2
+Consumer Price Index,CPIAUCSL,2003-05-01,182.9
+Consumer Price Index,CPIAUCSL,2003-06-01,183.1
+Consumer Price Index,CPIAUCSL,2003-07-01,183.7
+Consumer Price Index,CPIAUCSL,2003-08-01,184.5
+Consumer Price Index,CPIAUCSL,2003-09-01,185.1
+Consumer Price Index,CPIAUCSL,2003-10-01,184.9
+Consumer Price Index,CPIAUCSL,2003-11-01,185.0
+Consumer Price Index,CPIAUCSL,2003-12-01,185.5
+Consumer Price Index,CPIAUCSL,2004-01-01,186.3
+Consumer Price Index,CPIAUCSL,2004-02-01,186.7
+Consumer Price Index,CPIAUCSL,2004-03-01,187.1
+Consumer Price Index,CPIAUCSL,2004-04-01,187.4
+Consumer Price Index,CPIAUCSL,2004-05-01,188.2
+Consumer Price Index,CPIAUCSL,2004-06-01,188.9
+Consumer Price Index,CPIAUCSL,2004-07-01,189.1
+Consumer Price Index,CPIAUCSL,2004-08-01,189.2
+Consumer Price Index,CPIAUCSL,2004-09-01,189.8
+Consumer Price Index,CPIAUCSL,2004-10-01,190.8
+Consumer Price Index,CPIAUCSL,2004-11-01,191.7
+Consumer Price Index,CPIAUCSL,2004-12-01,191.7
+Consumer Price Index,CPIAUCSL,2005-01-01,191.6
+Consumer Price Index,CPIAUCSL,2005-02-01,192.4
+Consumer Price Index,CPIAUCSL,2005-03-01,193.1
+Consumer Price Index,CPIAUCSL,2005-04-01,193.7
+Consumer Price Index,CPIAUCSL,2005-05-01,193.6
+Consumer Price Index,CPIAUCSL,2005-06-01,193.7
+Consumer Price Index,CPIAUCSL,2005-07-01,194.9
+Consumer Price Index,CPIAUCSL,2005-08-01,196.1
+Consumer Price Index,CPIAUCSL,2005-09-01,198.8
+Consumer Price Index,CPIAUCSL,2005-10-01,199.1
+Consumer Price Index,CPIAUCSL,2005-11-01,198.1
+Consumer Price Index,CPIAUCSL,2005-12-01,198.1
+Consumer Price Index,CPIAUCSL,2006-01-01,199.3
+Consumer Price Index,CPIAUCSL,2006-02-01,199.4
+Consumer Price Index,CPIAUCSL,2006-03-01,199.7
+Consumer Price Index,CPIAUCSL,2006-04-01,200.7
+Consumer Price Index,CPIAUCSL,2006-05-01,201.3
+Consumer Price Index,CPIAUCSL,2006-06-01,201.8
+Consumer Price Index,CPIAUCSL,2006-07-01,202.9
+Consumer Price Index,CPIAUCSL,2006-08-01,203.8
+Consumer Price Index,CPIAUCSL,2006-09-01,202.8
+Consumer Price Index,CPIAUCSL,2006-10-01,201.9
+Consumer Price Index,CPIAUCSL,2006-11-01,202.0
+Consumer Price Index,CPIAUCSL,2006-12-01,203.1
+Consumer Price Index,CPIAUCSL,2007-01-01,203.437
+Consumer Price Index,CPIAUCSL,2007-02-01,204.226
+Consumer Price Index,CPIAUCSL,2007-03-01,205.288
+Consumer Price Index,CPIAUCSL,2007-04-01,205.904
+Consumer Price Index,CPIAUCSL,2007-05-01,206.755
+Consumer Price Index,CPIAUCSL,2007-06-01,207.234
+Consumer Price Index,CPIAUCSL,2007-07-01,207.603
+Consumer Price Index,CPIAUCSL,2007-08-01,207.667
+Consumer Price Index,CPIAUCSL,2007-09-01,208.547
+Consumer Price Index,CPIAUCSL,2007-10-01,209.19
+Consumer Price Index,CPIAUCSL,2007-11-01,210.834
+Consumer Price Index,CPIAUCSL,2007-12-01,211.445
+Consumer Price Index,CPIAUCSL,2008-01-01,212.174
+Consumer Price Index,CPIAUCSL,2008-02-01,212.687
+Consumer Price Index,CPIAUCSL,2008-03-01,213.448
+Consumer Price Index,CPIAUCSL,2008-04-01,213.942
+Consumer Price Index,CPIAUCSL,2008-05-01,215.208
+Consumer Price Index,CPIAUCSL,2008-06-01,217.463
+Consumer Price Index,CPIAUCSL,2008-07-01,219.016
+Consumer Price Index,CPIAUCSL,2008-08-01,218.69
+Consumer Price Index,CPIAUCSL,2008-09-01,218.877
+Consumer Price Index,CPIAUCSL,2008-10-01,216.995
+Consumer Price Index,CPIAUCSL,2008-11-01,213.153
+Consumer Price Index,CPIAUCSL,2008-12-01,211.398
+Consumer Price Index,CPIAUCSL,2009-01-01,211.933
+Consumer Price Index,CPIAUCSL,2009-02-01,212.705
+Consumer Price Index,CPIAUCSL,2009-03-01,212.495
+Consumer Price Index,CPIAUCSL,2009-04-01,212.709
+Consumer Price Index,CPIAUCSL,2009-05-01,213.022
+Consumer Price Index,CPIAUCSL,2009-06-01,214.79
+Consumer Price Index,CPIAUCSL,2009-07-01,214.726
+Consumer Price Index,CPIAUCSL,2009-08-01,215.445
+Consumer Price Index,CPIAUCSL,2009-09-01,215.861
+Consumer Price Index,CPIAUCSL,2009-10-01,216.509
+Consumer Price Index,CPIAUCSL,2009-11-01,217.234
+Consumer Price Index,CPIAUCSL,2009-12-01,217.347
+Consumer Price Index,CPIAUCSL,2010-01-01,217.488
+Consumer Price Index,CPIAUCSL,2010-02-01,217.281
+Consumer Price Index,CPIAUCSL,2010-03-01,217.353
+Consumer Price Index,CPIAUCSL,2010-04-01,217.403
+Consumer Price Index,CPIAUCSL,2010-05-01,217.29
+Consumer Price Index,CPIAUCSL,2010-06-01,217.199
+Consumer Price Index,CPIAUCSL,2010-07-01,217.605
+Consumer Price Index,CPIAUCSL,2010-08-01,217.923
+Consumer Price Index,CPIAUCSL,2010-09-01,218.275
+Consumer Price Index,CPIAUCSL,2010-10-01,219.035
+Consumer Price Index,CPIAUCSL,2010-11-01,219.59
+Consumer Price Index,CPIAUCSL,2010-12-01,220.472
+Consumer Price Index,CPIAUCSL,2011-01-01,221.187
+Consumer Price Index,CPIAUCSL,2011-02-01,221.898
+Consumer Price Index,CPIAUCSL,2011-03-01,223.046
+Consumer Price Index,CPIAUCSL,2011-04-01,224.093
+Consumer Price Index,CPIAUCSL,2011-05-01,224.806
+Consumer Price Index,CPIAUCSL,2011-06-01,224.806
+Consumer Price Index,CPIAUCSL,2011-07-01,225.395
+Consumer Price Index,CPIAUCSL,2011-08-01,226.106
+Consumer Price Index,CPIAUCSL,2011-09-01,226.597
+Consumer Price Index,CPIAUCSL,2011-10-01,226.75
+Consumer Price Index,CPIAUCSL,2011-11-01,227.169
+Consumer Price Index,CPIAUCSL,2011-12-01,227.223
+Consumer Price Index,CPIAUCSL,2012-01-01,227.842
+Consumer Price Index,CPIAUCSL,2012-02-01,228.329
+Consumer Price Index,CPIAUCSL,2012-03-01,228.807
+Consumer Price Index,CPIAUCSL,2012-04-01,229.187
+Consumer Price Index,CPIAUCSL,2012-05-01,228.713
+Consumer Price Index,CPIAUCSL,2012-06-01,228.524
+Consumer Price Index,CPIAUCSL,2012-07-01,228.59
+Consumer Price Index,CPIAUCSL,2012-08-01,229.918
+Consumer Price Index,CPIAUCSL,2012-09-01,231.015
+Consumer Price Index,CPIAUCSL,2012-10-01,231.638
+Consumer Price Index,CPIAUCSL,2012-11-01,231.249
+Consumer Price Index,CPIAUCSL,2012-12-01,231.221
+Consumer Price Index,CPIAUCSL,2013-01-01,231.679
+Consumer Price Index,CPIAUCSL,2013-02-01,232.937
+Consumer Price Index,CPIAUCSL,2013-03-01,232.282
+Consumer Price Index,CPIAUCSL,2013-04-01,231.797
+Consumer Price Index,CPIAUCSL,2013-05-01,231.893
+Consumer Price Index,CPIAUCSL,2013-06-01,232.445
+Consumer Price Index,CPIAUCSL,2013-07-01,232.9
+Consumer Price Index,CPIAUCSL,2013-08-01,233.456
+Consumer Price Index,CPIAUCSL,2013-09-01,233.544
+Consumer Price Index,CPIAUCSL,2013-10-01,233.669
+Consumer Price Index,CPIAUCSL,2013-11-01,234.1
+Consumer Price Index,CPIAUCSL,2013-12-01,234.719
+Consumer Price Index,CPIAUCSL,2014-01-01,235.288
+Consumer Price Index,CPIAUCSL,2014-02-01,235.547
+Consumer Price Index,CPIAUCSL,2014-03-01,236.028
+Consumer Price Index,CPIAUCSL,2014-04-01,236.468
+Consumer Price Index,CPIAUCSL,2014-05-01,236.918
+Consumer Price Index,CPIAUCSL,2014-06-01,237.231
+Consumer Price Index,CPIAUCSL,2014-07-01,237.498
+Consumer Price Index,CPIAUCSL,2014-08-01,237.46
+Consumer Price Index,CPIAUCSL,2014-09-01,237.477
+Consumer Price Index,CPIAUCSL,2014-10-01,237.43
+Consumer Price Index,CPIAUCSL,2014-11-01,236.983
+Consumer Price Index,CPIAUCSL,2014-12-01,236.252
+Consumer Price Index,CPIAUCSL,2015-01-01,234.747
+Consumer Price Index,CPIAUCSL,2015-02-01,235.342
+Consumer Price Index,CPIAUCSL,2015-03-01,235.976
+Consumer Price Index,CPIAUCSL,2015-04-01,236.222
+Consumer Price Index,CPIAUCSL,2015-05-01,237.001
+Consumer Price Index,CPIAUCSL,2015-06-01,237.657
+Consumer Price Index,CPIAUCSL,2015-07-01,238.034
+Consumer Price Index,CPIAUCSL,2015-08-01,238.033
+Consumer Price Index,CPIAUCSL,2015-09-01,237.498
+Consumer Price Index,CPIAUCSL,2015-10-01,237.733
+Consumer Price Index,CPIAUCSL,2015-11-01,238.017
+Consumer Price Index,CPIAUCSL,2015-12-01,237.761
+Consumer Price Index,CPIAUCSL,2016-01-01,237.652
+Consumer Price Index,CPIAUCSL,2016-02-01,237.336
+Consumer Price Index,CPIAUCSL,2016-03-01,238.08
+Consumer Price Index,CPIAUCSL,2016-04-01,238.992
+Consumer Price Index,CPIAUCSL,2016-05-01,239.557
+Consumer Price Index,CPIAUCSL,2016-06-01,240.222
+Consumer Price Index,CPIAUCSL,2016-07-01,240.101
+Consumer Price Index,CPIAUCSL,2016-08-01,240.545
+Consumer Price Index,CPIAUCSL,2016-09-01,241.176
+Consumer Price Index,CPIAUCSL,2016-10-01,241.741
+Consumer Price Index,CPIAUCSL,2016-11-01,242.026
+Consumer Price Index,CPIAUCSL,2016-12-01,242.637
+Consumer Price Index,CPIAUCSL,2017-01-01,243.618
+Consumer Price Index,CPIAUCSL,2017-02-01,244.006
+Consumer Price Index,CPIAUCSL,2017-03-01,243.892
+Consumer Price Index,CPIAUCSL,2017-04-01,244.193
+Consumer Price Index,CPIAUCSL,2017-05-01,244.004
+Consumer Price Index,CPIAUCSL,2017-06-01,244.163
+Consumer Price Index,CPIAUCSL,2017-07-01,244.243
+Consumer Price Index,CPIAUCSL,2017-08-01,245.183
+Consumer Price Index,CPIAUCSL,2017-09-01,246.435
+Consumer Price Index,CPIAUCSL,2017-10-01,246.626
+Consumer Price Index,CPIAUCSL,2017-11-01,247.284
+Consumer Price Index,CPIAUCSL,2017-12-01,247.805
+Consumer Price Index,CPIAUCSL,2018-01-01,248.859
+Consumer Price Index,CPIAUCSL,2018-02-01,249.529
+Consumer Price Index,CPIAUCSL,2018-03-01,249.577
+Consumer Price Index,CPIAUCSL,2018-04-01,250.227
+Consumer Price Index,CPIAUCSL,2018-05-01,250.792
+Consumer Price Index,CPIAUCSL,2018-06-01,251.018
+Consumer Price Index,CPIAUCSL,2018-07-01,251.214
+Consumer Price Index,CPIAUCSL,2018-08-01,251.663
+Consumer Price Index,CPIAUCSL,2018-09-01,252.182
+Consumer Price Index,CPIAUCSL,2018-10-01,252.772
+Consumer Price Index,CPIAUCSL,2018-11-01,252.594
+Consumer Price Index,CPIAUCSL,2018-12-01,252.767
+Consumer Price Index,CPIAUCSL,2019-01-01,252.561
+Consumer Price Index,CPIAUCSL,2019-02-01,253.319
+Consumer Price Index,CPIAUCSL,2019-03-01,254.277
+Consumer Price Index,CPIAUCSL,2019-04-01,255.233
+Consumer Price Index,CPIAUCSL,2019-05-01,255.296
+Consumer Price Index,CPIAUCSL,2019-06-01,255.213
+Consumer Price Index,CPIAUCSL,2019-07-01,255.802
+Consumer Price Index,CPIAUCSL,2019-08-01,256.036
+Consumer Price Index,CPIAUCSL,2019-09-01,256.43
+Consumer Price Index,CPIAUCSL,2019-10-01,257.155
+Consumer Price Index,CPIAUCSL,2019-11-01,257.879
+Consumer Price Index,CPIAUCSL,2019-12-01,258.63
+Consumer Price Index,CPIAUCSL,2020-01-01,259.127
+Consumer Price Index,CPIAUCSL,2020-02-01,259.25
+Consumer Price Index,CPIAUCSL,2020-03-01,258.076
+Consumer Price Index,CPIAUCSL,2020-04-01,256.032
+Consumer Price Index,CPIAUCSL,2020-05-01,255.802
+Consumer Price Index,CPIAUCSL,2020-06-01,257.042
+Consumer Price Index,CPIAUCSL,2020-07-01,258.352
+Consumer Price Index,CPIAUCSL,2020-08-01,259.316
+Consumer Price Index,CPIAUCSL,2020-09-01,259.997
+Consumer Price Index,CPIAUCSL,2020-10-01,260.319
+Consumer Price Index,CPIAUCSL,2020-11-01,260.911
+Consumer Price Index,CPIAUCSL,2020-12-01,262.045
+Consumer Price Index,CPIAUCSL,2021-01-01,262.687
+Consumer Price Index,CPIAUCSL,2021-02-01,263.579
+Consumer Price Index,CPIAUCSL,2021-03-01,264.961
+Consumer Price Index,CPIAUCSL,2021-04-01,266.614
+Consumer Price Index,CPIAUCSL,2021-05-01,268.383
+Consumer Price Index,CPIAUCSL,2021-06-01,270.654
+Consumer Price Index,CPIAUCSL,2021-07-01,271.903
+Consumer Price Index,CPIAUCSL,2021-08-01,272.676
+Consumer Price Index,CPIAUCSL,2021-09-01,273.91
+Consumer Price Index,CPIAUCSL,2021-10-01,276.55
+Consumer Price Index,CPIAUCSL,2021-11-01,278.919
+Consumer Price Index,CPIAUCSL,2021-12-01,280.845
+Consumer Price Index,CPIAUCSL,2022-01-01,282.543
+Consumer Price Index,CPIAUCSL,2022-02-01,284.5
+Consumer Price Index,CPIAUCSL,2022-03-01,287.674
+Consumer Price Index,CPIAUCSL,2022-04-01,288.561
+Consumer Price Index,CPIAUCSL,2022-05-01,291.298
+Consumer Price Index,CPIAUCSL,2022-06-01,294.957
+Consumer Price Index,CPIAUCSL,2022-07-01,294.913
+Consumer Price Index,CPIAUCSL,2022-08-01,295.097
+Consumer Price Index,CPIAUCSL,2022-09-01,296.349
+Consumer Price Index,CPIAUCSL,2022-10-01,298.007
+Consumer Price Index,CPIAUCSL,2022-11-01,298.786
+Consumer Price Index,CPIAUCSL,2022-12-01,298.832
+Consumer Price Index,CPIAUCSL,2023-01-01,300.42
+Consumer Price Index,CPIAUCSL,2023-02-01,301.45
+Consumer Price Index,CPIAUCSL,2023-03-01,301.821
+Consumer Price Index,CPIAUCSL,2023-04-01,302.845
+Consumer Price Index,CPIAUCSL,2023-05-01,303.334
+Consumer Price Index,CPIAUCSL,2023-06-01,304.014
+Consumer Price Index,CPIAUCSL,2023-07-01,304.609
+Consumer Price Index,CPIAUCSL,2023-08-01,306.082
+Consumer Price Index,CPIAUCSL,2023-09-01,307.276
+Consumer Price Index,CPIAUCSL,2023-10-01,307.696
+Consumer Price Index,CPIAUCSL,2023-11-01,308.148
+Consumer Price Index,CPIAUCSL,2023-12-01,308.741
+Consumer Price Index,CPIAUCSL,2024-01-01,309.698
+Consumer Price Index,CPIAUCSL,2024-02-01,310.967
+Consumer Price Index,CPIAUCSL,2024-03-01,312.345
+Consumer Price Index,CPIAUCSL,2024-04-01,313.023
+Consumer Price Index,CPIAUCSL,2024-05-01,313.175
+Consumer Price Index,CPIAUCSL,2024-06-01,313.044
+Consumer Price Index,CPIAUCSL,2024-07-01,313.569
+Consumer Price Index,CPIAUCSL,2024-08-01,314.062
+Consumer Price Index,CPIAUCSL,2024-09-01,314.732
+Consumer Price Index,CPIAUCSL,2024-10-01,315.631
+Consumer Price Index,CPIAUCSL,2024-11-01,316.528
+Consumer Price Index,CPIAUCSL,2024-12-01,317.604
+Consumer Price Index,CPIAUCSL,2025-01-01,318.961
+Consumer Price Index,CPIAUCSL,2025-02-01,319.679
+Consumer Price Index,CPIAUCSL,2025-03-01,319.785
+Consumer Price Index,CPIAUCSL,2025-04-01,320.302
+Consumer Price Index,CPIAUCSL,2025-05-01,320.62
+Consumer Price Index,CPIAUCSL,2025-06-01,321.435
+Consumer Price Index,CPIAUCSL,2025-07-01,322.169
+Consumer Price Index,CPIAUCSL,2025-08-01,323.291
+Consumer Price Index,CPIAUCSL,2025-09-01,324.245
+Consumer Price Index,CPIAUCSL,2025-10-01,
+Consumer Price Index,CPIAUCSL,2025-11-01,325.063
+Consumer Price Index,CPIAUCSL,2025-12-01,326.031
+Consumer Price Index,CPIAUCSL,2026-01-01,326.588
+Consumer Price Index,CPIAUCSL,2026-02-01,327.46
+Consumer Price Index,CPIAUCSL,2026-03-01,330.293
+Consumer Price Index,CPIAUCSL,2026-04-01,332.407
+Consumer Price Index,CPIAUCSL,2026-05-01,333.979
+Gross Domestic Product,GDP,1946-01-01,
+Gross Domestic Product,GDP,1946-04-01,
+Gross Domestic Product,GDP,1946-07-01,
+Gross Domestic Product,GDP,1946-10-01,
+Gross Domestic Product,GDP,1947-01-01,243.164
+Gross Domestic Product,GDP,1947-04-01,245.968
+Gross Domestic Product,GDP,1947-07-01,249.585
+Gross Domestic Product,GDP,1947-10-01,259.745
+Gross Domestic Product,GDP,1948-01-01,265.742
+Gross Domestic Product,GDP,1948-04-01,272.567
+Gross Domestic Product,GDP,1948-07-01,279.196
+Gross Domestic Product,GDP,1948-10-01,280.366
+Gross Domestic Product,GDP,1949-01-01,275.034
+Gross Domestic Product,GDP,1949-04-01,271.351
+Gross Domestic Product,GDP,1949-07-01,272.889
+Gross Domestic Product,GDP,1949-10-01,270.627
+Gross Domestic Product,GDP,1950-01-01,280.828
+Gross Domestic Product,GDP,1950-04-01,290.383
+Gross Domestic Product,GDP,1950-07-01,308.153
+Gross Domestic Product,GDP,1950-10-01,319.945
+Gross Domestic Product,GDP,1951-01-01,336.0
+Gross Domestic Product,GDP,1951-04-01,344.09
+Gross Domestic Product,GDP,1951-07-01,351.385
+Gross Domestic Product,GDP,1951-10-01,356.178
+Gross Domestic Product,GDP,1952-01-01,359.82
+Gross Domestic Product,GDP,1952-04-01,361.03
+Gross Domestic Product,GDP,1952-07-01,367.701
+Gross Domestic Product,GDP,1952-10-01,380.812
+Gross Domestic Product,GDP,1953-01-01,387.98
+Gross Domestic Product,GDP,1953-04-01,391.749
+Gross Domestic Product,GDP,1953-07-01,391.171
+Gross Domestic Product,GDP,1953-10-01,385.97
+Gross Domestic Product,GDP,1954-01-01,385.345
+Gross Domestic Product,GDP,1954-04-01,386.121
+Gross Domestic Product,GDP,1954-07-01,390.996
+Gross Domestic Product,GDP,1954-10-01,399.734
+Gross Domestic Product,GDP,1955-01-01,413.073
+Gross Domestic Product,GDP,1955-04-01,421.532
+Gross Domestic Product,GDP,1955-07-01,430.221
+Gross Domestic Product,GDP,1955-10-01,437.092
+Gross Domestic Product,GDP,1956-01-01,439.746
+Gross Domestic Product,GDP,1956-04-01,446.01
+Gross Domestic Product,GDP,1956-07-01,451.191
+Gross Domestic Product,GDP,1956-10-01,460.463
+Gross Domestic Product,GDP,1957-01-01,469.779
+Gross Domestic Product,GDP,1957-04-01,472.025
+Gross Domestic Product,GDP,1957-07-01,479.49
+Gross Domestic Product,GDP,1957-10-01,474.864
+Gross Domestic Product,GDP,1958-01-01,467.54
+Gross Domestic Product,GDP,1958-04-01,471.978
+Gross Domestic Product,GDP,1958-07-01,485.841
+Gross Domestic Product,GDP,1958-10-01,499.555
+Gross Domestic Product,GDP,1959-01-01,510.33
+Gross Domestic Product,GDP,1959-04-01,522.653
+Gross Domestic Product,GDP,1959-07-01,525.034
+Gross Domestic Product,GDP,1959-10-01,528.6
+Gross Domestic Product,GDP,1960-01-01,542.648
+Gross Domestic Product,GDP,1960-04-01,541.08
+Gross Domestic Product,GDP,1960-07-01,545.604
+Gross Domestic Product,GDP,1960-10-01,540.197
+Gross Domestic Product,GDP,1961-01-01,545.018
+Gross Domestic Product,GDP,1961-04-01,555.545
+Gross Domestic Product,GDP,1961-07-01,567.664
+Gross Domestic Product,GDP,1961-10-01,580.612
+Gross Domestic Product,GDP,1962-01-01,594.013
+Gross Domestic Product,GDP,1962-04-01,600.366
+Gross Domestic Product,GDP,1962-07-01,609.027
+Gross Domestic Product,GDP,1962-10-01,612.28
+Gross Domestic Product,GDP,1963-01-01,621.672
+Gross Domestic Product,GDP,1963-04-01,629.752
+Gross Domestic Product,GDP,1963-07-01,644.444
+Gross Domestic Product,GDP,1963-10-01,653.938
+Gross Domestic Product,GDP,1964-01-01,669.822
+Gross Domestic Product,GDP,1964-04-01,678.674
+Gross Domestic Product,GDP,1964-07-01,692.031
+Gross Domestic Product,GDP,1964-10-01,697.319
+Gross Domestic Product,GDP,1965-01-01,717.79
+Gross Domestic Product,GDP,1965-04-01,730.191
+Gross Domestic Product,GDP,1965-07-01,749.323
+Gross Domestic Product,GDP,1965-10-01,771.857
+Gross Domestic Product,GDP,1966-01-01,795.734
+Gross Domestic Product,GDP,1966-04-01,804.981
+Gross Domestic Product,GDP,1966-07-01,819.638
+Gross Domestic Product,GDP,1966-10-01,833.302
+Gross Domestic Product,GDP,1967-01-01,844.17
+Gross Domestic Product,GDP,1967-04-01,848.983
+Gross Domestic Product,GDP,1967-07-01,865.233
+Gross Domestic Product,GDP,1967-10-01,881.439
+Gross Domestic Product,GDP,1968-01-01,909.387
+Gross Domestic Product,GDP,1968-04-01,934.344
+Gross Domestic Product,GDP,1968-07-01,950.825
+Gross Domestic Product,GDP,1968-10-01,968.03
+Gross Domestic Product,GDP,1969-01-01,993.337
+Gross Domestic Product,GDP,1969-04-01,1009.02
+Gross Domestic Product,GDP,1969-07-01,1029.956
+Gross Domestic Product,GDP,1969-10-01,1038.147
+Gross Domestic Product,GDP,1970-01-01,1051.2
+Gross Domestic Product,GDP,1970-04-01,1067.375
+Gross Domestic Product,GDP,1970-07-01,1086.059
+Gross Domestic Product,GDP,1970-10-01,1088.608
+Gross Domestic Product,GDP,1971-01-01,1135.156
+Gross Domestic Product,GDP,1971-04-01,1156.271
+Gross Domestic Product,GDP,1971-07-01,1177.675
+Gross Domestic Product,GDP,1971-10-01,1190.297
+Gross Domestic Product,GDP,1972-01-01,1230.609
+Gross Domestic Product,GDP,1972-04-01,1266.369
+Gross Domestic Product,GDP,1972-07-01,1290.566
+Gross Domestic Product,GDP,1972-10-01,1328.904
+Gross Domestic Product,GDP,1973-01-01,1377.49
+Gross Domestic Product,GDP,1973-04-01,1413.887
+Gross Domestic Product,GDP,1973-07-01,1433.838
+Gross Domestic Product,GDP,1973-10-01,1476.289
+Gross Domestic Product,GDP,1974-01-01,1491.209
+Gross Domestic Product,GDP,1974-04-01,1530.056
+Gross Domestic Product,GDP,1974-07-01,1560.026
+Gross Domestic Product,GDP,1974-10-01,1599.679
+Gross Domestic Product,GDP,1975-01-01,1616.116
+Gross Domestic Product,GDP,1975-04-01,1651.853
+Gross Domestic Product,GDP,1975-07-01,1709.82
+Gross Domestic Product,GDP,1975-10-01,1761.831
+Gross Domestic Product,GDP,1976-01-01,1820.487
+Gross Domestic Product,GDP,1976-04-01,1852.332
+Gross Domestic Product,GDP,1976-07-01,1886.558
+Gross Domestic Product,GDP,1976-10-01,1934.273
+Gross Domestic Product,GDP,1977-01-01,1988.648
+Gross Domestic Product,GDP,1977-04-01,2055.909
+Gross Domestic Product,GDP,1977-07-01,2118.473
+Gross Domestic Product,GDP,1977-10-01,2164.27
+Gross Domestic Product,GDP,1978-01-01,2202.76
+Gross Domestic Product,GDP,1978-04-01,2331.633
+Gross Domestic Product,GDP,1978-07-01,2395.053
+Gross Domestic Product,GDP,1978-10-01,2476.949
+Gross Domestic Product,GDP,1979-01-01,2526.61
+Gross Domestic Product,GDP,1979-04-01,2591.247
+Gross Domestic Product,GDP,1979-07-01,2667.565
+Gross Domestic Product,GDP,1979-10-01,2723.883
+Gross Domestic Product,GDP,1980-01-01,2789.842
+Gross Domestic Product,GDP,1980-04-01,2797.352
+Gross Domestic Product,GDP,1980-07-01,2856.483
+Gross Domestic Product,GDP,1980-10-01,2985.557
+Gross Domestic Product,GDP,1981-01-01,3124.206
+Gross Domestic Product,GDP,1981-04-01,3162.532
+Gross Domestic Product,GDP,1981-07-01,3260.609
+Gross Domestic Product,GDP,1981-10-01,3280.818
+Gross Domestic Product,GDP,1982-01-01,3274.302
+Gross Domestic Product,GDP,1982-04-01,3331.972
+Gross Domestic Product,GDP,1982-07-01,3366.322
+Gross Domestic Product,GDP,1982-10-01,3402.561
+Gross Domestic Product,GDP,1983-01-01,3473.413
+Gross Domestic Product,GDP,1983-04-01,3578.848
+Gross Domestic Product,GDP,1983-07-01,3689.179
+Gross Domestic Product,GDP,1983-10-01,3794.706
+Gross Domestic Product,GDP,1984-01-01,3908.054
+Gross Domestic Product,GDP,1984-04-01,4009.601
+Gross Domestic Product,GDP,1984-07-01,4084.25
+Gross Domestic Product,GDP,1984-10-01,4148.551
+Gross Domestic Product,GDP,1985-01-01,4230.168
+Gross Domestic Product,GDP,1985-04-01,4294.887
+Gross Domestic Product,GDP,1985-07-01,4386.773
+Gross Domestic Product,GDP,1985-10-01,4444.094
+Gross Domestic Product,GDP,1986-01-01,4507.894
+Gross Domestic Product,GDP,1986-04-01,4545.34
+Gross Domestic Product,GDP,1986-07-01,4607.669
+Gross Domestic Product,GDP,1986-10-01,4657.627
+Gross Domestic Product,GDP,1987-01-01,4722.156
+Gross Domestic Product,GDP,1987-04-01,4806.16
+Gross Domestic Product,GDP,1987-07-01,4884.555
+Gross Domestic Product,GDP,1987-10-01,5007.994
+Gross Domestic Product,GDP,1988-01-01,5073.372
+Gross Domestic Product,GDP,1988-04-01,5190.036
+Gross Domestic Product,GDP,1988-07-01,5282.835
+Gross Domestic Product,GDP,1988-10-01,5399.509
+Gross Domestic Product,GDP,1989-01-01,5511.253
+Gross Domestic Product,GDP,1989-04-01,5612.463
+Gross Domestic Product,GDP,1989-07-01,5695.365
+Gross Domestic Product,GDP,1989-10-01,5747.237
+Gross Domestic Product,GDP,1990-01-01,5872.701
+Gross Domestic Product,GDP,1990-04-01,5960.028
+Gross Domestic Product,GDP,1990-07-01,6015.116
+Gross Domestic Product,GDP,1990-10-01,6004.733
+Gross Domestic Product,GDP,1991-01-01,6035.178
+Gross Domestic Product,GDP,1991-04-01,6126.862
+Gross Domestic Product,GDP,1991-07-01,6205.937
+Gross Domestic Product,GDP,1991-10-01,6264.54
+Gross Domestic Product,GDP,1992-01-01,6363.102
+Gross Domestic Product,GDP,1992-04-01,6470.763
+Gross Domestic Product,GDP,1992-07-01,6566.641
+Gross Domestic Product,GDP,1992-10-01,6680.803
+Gross Domestic Product,GDP,1993-01-01,6729.459
+Gross Domestic Product,GDP,1993-04-01,6808.939
+Gross Domestic Product,GDP,1993-07-01,6882.098
+Gross Domestic Product,GDP,1993-10-01,7013.738
+Gross Domestic Product,GDP,1994-01-01,7115.652
+Gross Domestic Product,GDP,1994-04-01,7246.931
+Gross Domestic Product,GDP,1994-07-01,7331.075
+Gross Domestic Product,GDP,1994-10-01,7455.288
+Gross Domestic Product,GDP,1995-01-01,7522.289
+Gross Domestic Product,GDP,1995-04-01,7580.997
+Gross Domestic Product,GDP,1995-07-01,7683.125
+Gross Domestic Product,GDP,1995-10-01,7772.586
+Gross Domestic Product,GDP,1996-01-01,7868.468
+Gross Domestic Product,GDP,1996-04-01,8032.84
+Gross Domestic Product,GDP,1996-07-01,8131.408
+Gross Domestic Product,GDP,1996-10-01,8259.771
+Gross Domestic Product,GDP,1997-01-01,8362.655
+Gross Domestic Product,GDP,1997-04-01,8518.825
+Gross Domestic Product,GDP,1997-07-01,8662.823
+Gross Domestic Product,GDP,1997-10-01,8765.907
+Gross Domestic Product,GDP,1998-01-01,8866.48
+Gross Domestic Product,GDP,1998-04-01,8969.699
+Gross Domestic Product,GDP,1998-07-01,9121.097
+Gross Domestic Product,GDP,1998-10-01,9293.991
+Gross Domestic Product,GDP,1999-01-01,9411.682
+Gross Domestic Product,GDP,1999-04-01,9526.21
+Gross Domestic Product,GDP,1999-07-01,9686.626
+Gross Domestic Product,GDP,1999-10-01,9900.169
+Gross Domestic Product,GDP,2000-01-01,10002.179
+Gross Domestic Product,GDP,2000-04-01,10247.72
+Gross Domestic Product,GDP,2000-07-01,10318.165
+Gross Domestic Product,GDP,2000-10-01,10435.744
+Gross Domestic Product,GDP,2001-01-01,10470.231
+Gross Domestic Product,GDP,2001-04-01,10599.0
+Gross Domestic Product,GDP,2001-07-01,10598.02
+Gross Domestic Product,GDP,2001-10-01,10660.465
+Gross Domestic Product,GDP,2002-01-01,10783.5
+Gross Domestic Product,GDP,2002-04-01,10887.46
+Gross Domestic Product,GDP,2002-07-01,10984.04
+Gross Domestic Product,GDP,2002-10-01,11061.433
+Gross Domestic Product,GDP,2003-01-01,11174.129
+Gross Domestic Product,GDP,2003-04-01,11312.766
+Gross Domestic Product,GDP,2003-07-01,11566.669
+Gross Domestic Product,GDP,2003-10-01,11772.234
+Gross Domestic Product,GDP,2004-01-01,11923.447
+Gross Domestic Product,GDP,2004-04-01,12112.815
+Gross Domestic Product,GDP,2004-07-01,12305.307
+Gross Domestic Product,GDP,2004-10-01,12527.214
+Gross Domestic Product,GDP,2005-01-01,12767.286
+Gross Domestic Product,GDP,2005-04-01,12922.656
+Gross Domestic Product,GDP,2005-07-01,13142.642
+Gross Domestic Product,GDP,2005-10-01,13324.204
+Gross Domestic Product,GDP,2006-01-01,13599.16
+Gross Domestic Product,GDP,2006-04-01,13753.424
+Gross Domestic Product,GDP,2006-07-01,13870.188
+Gross Domestic Product,GDP,2006-10-01,14039.56
+Gross Domestic Product,GDP,2007-01-01,14215.651
+Gross Domestic Product,GDP,2007-04-01,14402.082
+Gross Domestic Product,GDP,2007-07-01,14564.117
+Gross Domestic Product,GDP,2007-10-01,14715.058
+Gross Domestic Product,GDP,2008-01-01,14706.538
+Gross Domestic Product,GDP,2008-04-01,14865.701
+Gross Domestic Product,GDP,2008-07-01,14898.999
+Gross Domestic Product,GDP,2008-10-01,14608.209
+Gross Domestic Product,GDP,2009-01-01,14430.902
+Gross Domestic Product,GDP,2009-04-01,14381.236
+Gross Domestic Product,GDP,2009-07-01,14448.882
+Gross Domestic Product,GDP,2009-10-01,14651.249
+Gross Domestic Product,GDP,2010-01-01,14764.61
+Gross Domestic Product,GDP,2010-04-01,14980.193
+Gross Domestic Product,GDP,2010-07-01,15141.607
+Gross Domestic Product,GDP,2010-10-01,15309.474
+Gross Domestic Product,GDP,2011-01-01,15351.448
+Gross Domestic Product,GDP,2011-04-01,15557.539
+Gross Domestic Product,GDP,2011-07-01,15647.68
+Gross Domestic Product,GDP,2011-10-01,15842.259
+Gross Domestic Product,GDP,2012-01-01,16068.805
+Gross Domestic Product,GDP,2012-04-01,16207.115
+Gross Domestic Product,GDP,2012-07-01,16319.541
+Gross Domestic Product,GDP,2012-10-01,16420.419
+Gross Domestic Product,GDP,2013-01-01,16648.189
+Gross Domestic Product,GDP,2013-04-01,16728.687
+Gross Domestic Product,GDP,2013-07-01,16953.838
+Gross Domestic Product,GDP,2013-10-01,17192.019
+Gross Domestic Product,GDP,2014-01-01,17197.738
+Gross Domestic Product,GDP,2014-04-01,17518.508
+Gross Domestic Product,GDP,2014-07-01,17804.228
+Gross Domestic Product,GDP,2014-10-01,17912.079
+Gross Domestic Product,GDP,2015-01-01,18063.529
+Gross Domestic Product,GDP,2015-04-01,18279.784
+Gross Domestic Product,GDP,2015-07-01,18401.626
+Gross Domestic Product,GDP,2015-10-01,18435.137
+Gross Domestic Product,GDP,2016-01-01,18525.933
+Gross Domestic Product,GDP,2016-04-01,18711.702
+Gross Domestic Product,GDP,2016-07-01,18892.639
+Gross Domestic Product,GDP,2016-10-01,19089.379
+Gross Domestic Product,GDP,2017-01-01,19280.084
+Gross Domestic Product,GDP,2017-04-01,19438.643
+Gross Domestic Product,GDP,2017-07-01,19692.595
+Gross Domestic Product,GDP,2017-10-01,20037.088
+Gross Domestic Product,GDP,2018-01-01,20328.553
+Gross Domestic Product,GDP,2018-04-01,20580.912
+Gross Domestic Product,GDP,2018-07-01,20798.73
+Gross Domestic Product,GDP,2018-10-01,20917.867
+Gross Domestic Product,GDP,2019-01-01,21111.6
+Gross Domestic Product,GDP,2019-04-01,21397.938
+Gross Domestic Product,GDP,2019-07-01,21717.171
+Gross Domestic Product,GDP,2019-10-01,21933.217
+Gross Domestic Product,GDP,2020-01-01,21751.238
+Gross Domestic Product,GDP,2020-04-01,19958.291
+Gross Domestic Product,GDP,2020-07-01,21704.437
+Gross Domestic Product,GDP,2020-10-01,22087.16
+Gross Domestic Product,GDP,2021-01-01,22680.693
+Gross Domestic Product,GDP,2021-04-01,23425.91
+Gross Domestic Product,GDP,2021-07-01,23982.379
+Gross Domestic Product,GDP,2021-10-01,24813.6
+Gross Domestic Product,GDP,2022-01-01,25250.347
+Gross Domestic Product,GDP,2022-04-01,25861.292
+Gross Domestic Product,GDP,2022-07-01,26336.304
+Gross Domestic Product,GDP,2022-10-01,26770.514
+Gross Domestic Product,GDP,2023-01-01,27216.445
+Gross Domestic Product,GDP,2023-04-01,27530.055
+Gross Domestic Product,GDP,2023-07-01,28074.846
+Gross Domestic Product,GDP,2023-10-01,28424.722
+Gross Domestic Product,GDP,2024-01-01,28708.161
+Gross Domestic Product,GDP,2024-04-01,29147.044
+Gross Domestic Product,GDP,2024-07-01,29511.664
+Gross Domestic Product,GDP,2024-10-01,29825.182
+Gross Domestic Product,GDP,2025-01-01,30042.113
+Gross Domestic Product,GDP,2025-04-01,30485.729
+Gross Domestic Product,GDP,2025-07-01,31098.027
+Gross Domestic Product,GDP,2025-10-01,31422.526
+Gross Domestic Product,GDP,2026-01-01,31819.464
+Federal Funds Rate,FEDFUNDS,1954-07-01,0.8
+Federal Funds Rate,FEDFUNDS,1954-08-01,1.22
+Federal Funds Rate,FEDFUNDS,1954-09-01,1.07
+Federal Funds Rate,FEDFUNDS,1954-10-01,0.85
+Federal Funds Rate,FEDFUNDS,1954-11-01,0.83
+Federal Funds Rate,FEDFUNDS,1954-12-01,1.28
+Federal Funds Rate,FEDFUNDS,1955-01-01,1.39
+Federal Funds Rate,FEDFUNDS,1955-02-01,1.29
+Federal Funds Rate,FEDFUNDS,1955-03-01,1.35
+Federal Funds Rate,FEDFUNDS,1955-04-01,1.43
+Federal Funds Rate,FEDFUNDS,1955-05-01,1.43
+Federal Funds Rate,FEDFUNDS,1955-06-01,1.64
+Federal Funds Rate,FEDFUNDS,1955-07-01,1.68
+Federal Funds Rate,FEDFUNDS,1955-08-01,1.96
+Federal Funds Rate,FEDFUNDS,1955-09-01,2.18
+Federal Funds Rate,FEDFUNDS,1955-10-01,2.24
+Federal Funds Rate,FEDFUNDS,1955-11-01,2.35
+Federal Funds Rate,FEDFUNDS,1955-12-01,2.48
+Federal Funds Rate,FEDFUNDS,1956-01-01,2.45
+Federal Funds Rate,FEDFUNDS,1956-02-01,2.5
+Federal Funds Rate,FEDFUNDS,1956-03-01,2.5
+Federal Funds Rate,FEDFUNDS,1956-04-01,2.62
+Federal Funds Rate,FEDFUNDS,1956-05-01,2.75
+Federal Funds Rate,FEDFUNDS,1956-06-01,2.71
+Federal Funds Rate,FEDFUNDS,1956-07-01,2.75
+Federal Funds Rate,FEDFUNDS,1956-08-01,2.73
+Federal Funds Rate,FEDFUNDS,1956-09-01,2.95
+Federal Funds Rate,FEDFUNDS,1956-10-01,2.96
+Federal Funds Rate,FEDFUNDS,1956-11-01,2.88
+Federal Funds Rate,FEDFUNDS,1956-12-01,2.94
+Federal Funds Rate,FEDFUNDS,1957-01-01,2.84
+Federal Funds Rate,FEDFUNDS,1957-02-01,3.0
+Federal Funds Rate,FEDFUNDS,1957-03-01,2.96
+Federal Funds Rate,FEDFUNDS,1957-04-01,3.0
+Federal Funds Rate,FEDFUNDS,1957-05-01,3.0
+Federal Funds Rate,FEDFUNDS,1957-06-01,3.0
+Federal Funds Rate,FEDFUNDS,1957-07-01,2.99
+Federal Funds Rate,FEDFUNDS,1957-08-01,3.24
+Federal Funds Rate,FEDFUNDS,1957-09-01,3.47
+Federal Funds Rate,FEDFUNDS,1957-10-01,3.5
+Federal Funds Rate,FEDFUNDS,1957-11-01,3.28
+Federal Funds Rate,FEDFUNDS,1957-12-01,2.98
+Federal Funds Rate,FEDFUNDS,1958-01-01,2.72
+Federal Funds Rate,FEDFUNDS,1958-02-01,1.67
+Federal Funds Rate,FEDFUNDS,1958-03-01,1.2
+Federal Funds Rate,FEDFUNDS,1958-04-01,1.26
+Federal Funds Rate,FEDFUNDS,1958-05-01,0.63
+Federal Funds Rate,FEDFUNDS,1958-06-01,0.93
+Federal Funds Rate,FEDFUNDS,1958-07-01,0.68
+Federal Funds Rate,FEDFUNDS,1958-08-01,1.53
+Federal Funds Rate,FEDFUNDS,1958-09-01,1.76
+Federal Funds Rate,FEDFUNDS,1958-10-01,1.8
+Federal Funds Rate,FEDFUNDS,1958-11-01,2.27
+Federal Funds Rate,FEDFUNDS,1958-12-01,2.42
+Federal Funds Rate,FEDFUNDS,1959-01-01,2.48
+Federal Funds Rate,FEDFUNDS,1959-02-01,2.43
+Federal Funds Rate,FEDFUNDS,1959-03-01,2.8
+Federal Funds Rate,FEDFUNDS,1959-04-01,2.96
+Federal Funds Rate,FEDFUNDS,1959-05-01,2.9
+Federal Funds Rate,FEDFUNDS,1959-06-01,3.39
+Federal Funds Rate,FEDFUNDS,1959-07-01,3.47
+Federal Funds Rate,FEDFUNDS,1959-08-01,3.5
+Federal Funds Rate,FEDFUNDS,1959-09-01,3.76
+Federal Funds Rate,FEDFUNDS,1959-10-01,3.98
+Federal Funds Rate,FEDFUNDS,1959-11-01,4.0
+Federal Funds Rate,FEDFUNDS,1959-12-01,3.99
+Federal Funds Rate,FEDFUNDS,1960-01-01,3.99
+Federal Funds Rate,FEDFUNDS,1960-02-01,3.97
+Federal Funds Rate,FEDFUNDS,1960-03-01,3.84
+Federal Funds Rate,FEDFUNDS,1960-04-01,3.92
+Federal Funds Rate,FEDFUNDS,1960-05-01,3.85
+Federal Funds Rate,FEDFUNDS,1960-06-01,3.32
+Federal Funds Rate,FEDFUNDS,1960-07-01,3.23
+Federal Funds Rate,FEDFUNDS,1960-08-01,2.98
+Federal Funds Rate,FEDFUNDS,1960-09-01,2.6
+Federal Funds Rate,FEDFUNDS,1960-10-01,2.47
+Federal Funds Rate,FEDFUNDS,1960-11-01,2.44
+Federal Funds Rate,FEDFUNDS,1960-12-01,1.98
+Federal Funds Rate,FEDFUNDS,1961-01-01,1.45
+Federal Funds Rate,FEDFUNDS,1961-02-01,2.54
+Federal Funds Rate,FEDFUNDS,1961-03-01,2.02
+Federal Funds Rate,FEDFUNDS,1961-04-01,1.49
+Federal Funds Rate,FEDFUNDS,1961-05-01,1.98
+Federal Funds Rate,FEDFUNDS,1961-06-01,1.73
+Federal Funds Rate,FEDFUNDS,1961-07-01,1.17
+Federal Funds Rate,FEDFUNDS,1961-08-01,2.0
+Federal Funds Rate,FEDFUNDS,1961-09-01,1.88
+Federal Funds Rate,FEDFUNDS,1961-10-01,2.26
+Federal Funds Rate,FEDFUNDS,1961-11-01,2.61
+Federal Funds Rate,FEDFUNDS,1961-12-01,2.33
+Federal Funds Rate,FEDFUNDS,1962-01-01,2.15
+Federal Funds Rate,FEDFUNDS,1962-02-01,2.37
+Federal Funds Rate,FEDFUNDS,1962-03-01,2.85
+Federal Funds Rate,FEDFUNDS,1962-04-01,2.78
+Federal Funds Rate,FEDFUNDS,1962-05-01,2.36
+Federal Funds Rate,FEDFUNDS,1962-06-01,2.68
+Federal Funds Rate,FEDFUNDS,1962-07-01,2.71
+Federal Funds Rate,FEDFUNDS,1962-08-01,2.93
+Federal Funds Rate,FEDFUNDS,1962-09-01,2.9
+Federal Funds Rate,FEDFUNDS,1962-10-01,2.9
+Federal Funds Rate,FEDFUNDS,1962-11-01,2.94
+Federal Funds Rate,FEDFUNDS,1962-12-01,2.93
+Federal Funds Rate,FEDFUNDS,1963-01-01,2.92
+Federal Funds Rate,FEDFUNDS,1963-02-01,3.0
+Federal Funds Rate,FEDFUNDS,1963-03-01,2.98
+Federal Funds Rate,FEDFUNDS,1963-04-01,2.9
+Federal Funds Rate,FEDFUNDS,1963-05-01,3.0
+Federal Funds Rate,FEDFUNDS,1963-06-01,2.99
+Federal Funds Rate,FEDFUNDS,1963-07-01,3.02
+Federal Funds Rate,FEDFUNDS,1963-08-01,3.49
+Federal Funds Rate,FEDFUNDS,1963-09-01,3.48
+Federal Funds Rate,FEDFUNDS,1963-10-01,3.5
+Federal Funds Rate,FEDFUNDS,1963-11-01,3.48
+Federal Funds Rate,FEDFUNDS,1963-12-01,3.38
+Federal Funds Rate,FEDFUNDS,1964-01-01,3.48
+Federal Funds Rate,FEDFUNDS,1964-02-01,3.48
+Federal Funds Rate,FEDFUNDS,1964-03-01,3.43
+Federal Funds Rate,FEDFUNDS,1964-04-01,3.47
+Federal Funds Rate,FEDFUNDS,1964-05-01,3.5
+Federal Funds Rate,FEDFUNDS,1964-06-01,3.5
+Federal Funds Rate,FEDFUNDS,1964-07-01,3.42
+Federal Funds Rate,FEDFUNDS,1964-08-01,3.5
+Federal Funds Rate,FEDFUNDS,1964-09-01,3.45
+Federal Funds Rate,FEDFUNDS,1964-10-01,3.36
+Federal Funds Rate,FEDFUNDS,1964-11-01,3.52
+Federal Funds Rate,FEDFUNDS,1964-12-01,3.85
+Federal Funds Rate,FEDFUNDS,1965-01-01,3.9
+Federal Funds Rate,FEDFUNDS,1965-02-01,3.98
+Federal Funds Rate,FEDFUNDS,1965-03-01,4.05
+Federal Funds Rate,FEDFUNDS,1965-04-01,4.09
+Federal Funds Rate,FEDFUNDS,1965-05-01,4.1
+Federal Funds Rate,FEDFUNDS,1965-06-01,4.05
+Federal Funds Rate,FEDFUNDS,1965-07-01,4.09
+Federal Funds Rate,FEDFUNDS,1965-08-01,4.12
+Federal Funds Rate,FEDFUNDS,1965-09-01,4.02
+Federal Funds Rate,FEDFUNDS,1965-10-01,4.08
+Federal Funds Rate,FEDFUNDS,1965-11-01,4.1
+Federal Funds Rate,FEDFUNDS,1965-12-01,4.32
+Federal Funds Rate,FEDFUNDS,1966-01-01,4.42
+Federal Funds Rate,FEDFUNDS,1966-02-01,4.6
+Federal Funds Rate,FEDFUNDS,1966-03-01,4.66
+Federal Funds Rate,FEDFUNDS,1966-04-01,4.67
+Federal Funds Rate,FEDFUNDS,1966-05-01,4.9
+Federal Funds Rate,FEDFUNDS,1966-06-01,5.17
+Federal Funds Rate,FEDFUNDS,1966-07-01,5.3
+Federal Funds Rate,FEDFUNDS,1966-08-01,5.53
+Federal Funds Rate,FEDFUNDS,1966-09-01,5.4
+Federal Funds Rate,FEDFUNDS,1966-10-01,5.53
+Federal Funds Rate,FEDFUNDS,1966-11-01,5.76
+Federal Funds Rate,FEDFUNDS,1966-12-01,5.4
+Federal Funds Rate,FEDFUNDS,1967-01-01,4.94
+Federal Funds Rate,FEDFUNDS,1967-02-01,5.0
+Federal Funds Rate,FEDFUNDS,1967-03-01,4.53
+Federal Funds Rate,FEDFUNDS,1967-04-01,4.05
+Federal Funds Rate,FEDFUNDS,1967-05-01,3.94
+Federal Funds Rate,FEDFUNDS,1967-06-01,3.98
+Federal Funds Rate,FEDFUNDS,1967-07-01,3.79
+Federal Funds Rate,FEDFUNDS,1967-08-01,3.9
+Federal Funds Rate,FEDFUNDS,1967-09-01,3.99
+Federal Funds Rate,FEDFUNDS,1967-10-01,3.88
+Federal Funds Rate,FEDFUNDS,1967-11-01,4.13
+Federal Funds Rate,FEDFUNDS,1967-12-01,4.51
+Federal Funds Rate,FEDFUNDS,1968-01-01,4.61
+Federal Funds Rate,FEDFUNDS,1968-02-01,4.71
+Federal Funds Rate,FEDFUNDS,1968-03-01,5.05
+Federal Funds Rate,FEDFUNDS,1968-04-01,5.76
+Federal Funds Rate,FEDFUNDS,1968-05-01,6.12
+Federal Funds Rate,FEDFUNDS,1968-06-01,6.07
+Federal Funds Rate,FEDFUNDS,1968-07-01,6.03
+Federal Funds Rate,FEDFUNDS,1968-08-01,6.03
+Federal Funds Rate,FEDFUNDS,1968-09-01,5.78
+Federal Funds Rate,FEDFUNDS,1968-10-01,5.91
+Federal Funds Rate,FEDFUNDS,1968-11-01,5.82
+Federal Funds Rate,FEDFUNDS,1968-12-01,6.02
+Federal Funds Rate,FEDFUNDS,1969-01-01,6.3
+Federal Funds Rate,FEDFUNDS,1969-02-01,6.61
+Federal Funds Rate,FEDFUNDS,1969-03-01,6.79
+Federal Funds Rate,FEDFUNDS,1969-04-01,7.41
+Federal Funds Rate,FEDFUNDS,1969-05-01,8.67
+Federal Funds Rate,FEDFUNDS,1969-06-01,8.9
+Federal Funds Rate,FEDFUNDS,1969-07-01,8.61
+Federal Funds Rate,FEDFUNDS,1969-08-01,9.19
+Federal Funds Rate,FEDFUNDS,1969-09-01,9.15
+Federal Funds Rate,FEDFUNDS,1969-10-01,9.0
+Federal Funds Rate,FEDFUNDS,1969-11-01,8.85
+Federal Funds Rate,FEDFUNDS,1969-12-01,8.97
+Federal Funds Rate,FEDFUNDS,1970-01-01,8.98
+Federal Funds Rate,FEDFUNDS,1970-02-01,8.98
+Federal Funds Rate,FEDFUNDS,1970-03-01,7.76
+Federal Funds Rate,FEDFUNDS,1970-04-01,8.1
+Federal Funds Rate,FEDFUNDS,1970-05-01,7.95
+Federal Funds Rate,FEDFUNDS,1970-06-01,7.61
+Federal Funds Rate,FEDFUNDS,1970-07-01,7.21
+Federal Funds Rate,FEDFUNDS,1970-08-01,6.62
+Federal Funds Rate,FEDFUNDS,1970-09-01,6.29
+Federal Funds Rate,FEDFUNDS,1970-10-01,6.2
+Federal Funds Rate,FEDFUNDS,1970-11-01,5.6
+Federal Funds Rate,FEDFUNDS,1970-12-01,4.9
+Federal Funds Rate,FEDFUNDS,1971-01-01,4.14
+Federal Funds Rate,FEDFUNDS,1971-02-01,3.72
+Federal Funds Rate,FEDFUNDS,1971-03-01,3.71
+Federal Funds Rate,FEDFUNDS,1971-04-01,4.16
+Federal Funds Rate,FEDFUNDS,1971-05-01,4.63
+Federal Funds Rate,FEDFUNDS,1971-06-01,4.91
+Federal Funds Rate,FEDFUNDS,1971-07-01,5.31
+Federal Funds Rate,FEDFUNDS,1971-08-01,5.57
+Federal Funds Rate,FEDFUNDS,1971-09-01,5.55
+Federal Funds Rate,FEDFUNDS,1971-10-01,5.2
+Federal Funds Rate,FEDFUNDS,1971-11-01,4.91
+Federal Funds Rate,FEDFUNDS,1971-12-01,4.14
+Federal Funds Rate,FEDFUNDS,1972-01-01,3.51
+Federal Funds Rate,FEDFUNDS,1972-02-01,3.3
+Federal Funds Rate,FEDFUNDS,1972-03-01,3.83
+Federal Funds Rate,FEDFUNDS,1972-04-01,4.17
+Federal Funds Rate,FEDFUNDS,1972-05-01,4.27
+Federal Funds Rate,FEDFUNDS,1972-06-01,4.46
+Federal Funds Rate,FEDFUNDS,1972-07-01,4.55
+Federal Funds Rate,FEDFUNDS,1972-08-01,4.81
+Federal Funds Rate,FEDFUNDS,1972-09-01,4.87
+Federal Funds Rate,FEDFUNDS,1972-10-01,5.05
+Federal Funds Rate,FEDFUNDS,1972-11-01,5.06
+Federal Funds Rate,FEDFUNDS,1972-12-01,5.33
+Federal Funds Rate,FEDFUNDS,1973-01-01,5.94
+Federal Funds Rate,FEDFUNDS,1973-02-01,6.58
+Federal Funds Rate,FEDFUNDS,1973-03-01,7.09
+Federal Funds Rate,FEDFUNDS,1973-04-01,7.12
+Federal Funds Rate,FEDFUNDS,1973-05-01,7.84
+Federal Funds Rate,FEDFUNDS,1973-06-01,8.49
+Federal Funds Rate,FEDFUNDS,1973-07-01,10.4
+Federal Funds Rate,FEDFUNDS,1973-08-01,10.5
+Federal Funds Rate,FEDFUNDS,1973-09-01,10.78
+Federal Funds Rate,FEDFUNDS,1973-10-01,10.01
+Federal Funds Rate,FEDFUNDS,1973-11-01,10.03
+Federal Funds Rate,FEDFUNDS,1973-12-01,9.95
+Federal Funds Rate,FEDFUNDS,1974-01-01,9.65
+Federal Funds Rate,FEDFUNDS,1974-02-01,8.97
+Federal Funds Rate,FEDFUNDS,1974-03-01,9.35
+Federal Funds Rate,FEDFUNDS,1974-04-01,10.51
+Federal Funds Rate,FEDFUNDS,1974-05-01,11.31
+Federal Funds Rate,FEDFUNDS,1974-06-01,11.93
+Federal Funds Rate,FEDFUNDS,1974-07-01,12.92
+Federal Funds Rate,FEDFUNDS,1974-08-01,12.01
+Federal Funds Rate,FEDFUNDS,1974-09-01,11.34
+Federal Funds Rate,FEDFUNDS,1974-10-01,10.06
+Federal Funds Rate,FEDFUNDS,1974-11-01,9.45
+Federal Funds Rate,FEDFUNDS,1974-12-01,8.53
+Federal Funds Rate,FEDFUNDS,1975-01-01,7.13
+Federal Funds Rate,FEDFUNDS,1975-02-01,6.24
+Federal Funds Rate,FEDFUNDS,1975-03-01,5.54
+Federal Funds Rate,FEDFUNDS,1975-04-01,5.49
+Federal Funds Rate,FEDFUNDS,1975-05-01,5.22
+Federal Funds Rate,FEDFUNDS,1975-06-01,5.55
+Federal Funds Rate,FEDFUNDS,1975-07-01,6.1
+Federal Funds Rate,FEDFUNDS,1975-08-01,6.14
+Federal Funds Rate,FEDFUNDS,1975-09-01,6.24
+Federal Funds Rate,FEDFUNDS,1975-10-01,5.82
+Federal Funds Rate,FEDFUNDS,1975-11-01,5.22
+Federal Funds Rate,FEDFUNDS,1975-12-01,5.2
+Federal Funds Rate,FEDFUNDS,1976-01-01,4.87
+Federal Funds Rate,FEDFUNDS,1976-02-01,4.77
+Federal Funds Rate,FEDFUNDS,1976-03-01,4.84
+Federal Funds Rate,FEDFUNDS,1976-04-01,4.82
+Federal Funds Rate,FEDFUNDS,1976-05-01,5.29
+Federal Funds Rate,FEDFUNDS,1976-06-01,5.48
+Federal Funds Rate,FEDFUNDS,1976-07-01,5.31
+Federal Funds Rate,FEDFUNDS,1976-08-01,5.29
+Federal Funds Rate,FEDFUNDS,1976-09-01,5.25
+Federal Funds Rate,FEDFUNDS,1976-10-01,5.02
+Federal Funds Rate,FEDFUNDS,1976-11-01,4.95
+Federal Funds Rate,FEDFUNDS,1976-12-01,4.65
+Federal Funds Rate,FEDFUNDS,1977-01-01,4.61
+Federal Funds Rate,FEDFUNDS,1977-02-01,4.68
+Federal Funds Rate,FEDFUNDS,1977-03-01,4.69
+Federal Funds Rate,FEDFUNDS,1977-04-01,4.73
+Federal Funds Rate,FEDFUNDS,1977-05-01,5.35
+Federal Funds Rate,FEDFUNDS,1977-06-01,5.39
+Federal Funds Rate,FEDFUNDS,1977-07-01,5.42
+Federal Funds Rate,FEDFUNDS,1977-08-01,5.9
+Federal Funds Rate,FEDFUNDS,1977-09-01,6.14
+Federal Funds Rate,FEDFUNDS,1977-10-01,6.47
+Federal Funds Rate,FEDFUNDS,1977-11-01,6.51
+Federal Funds Rate,FEDFUNDS,1977-12-01,6.56
+Federal Funds Rate,FEDFUNDS,1978-01-01,6.7
+Federal Funds Rate,FEDFUNDS,1978-02-01,6.78
+Federal Funds Rate,FEDFUNDS,1978-03-01,6.79
+Federal Funds Rate,FEDFUNDS,1978-04-01,6.89
+Federal Funds Rate,FEDFUNDS,1978-05-01,7.36
+Federal Funds Rate,FEDFUNDS,1978-06-01,7.6
+Federal Funds Rate,FEDFUNDS,1978-07-01,7.81
+Federal Funds Rate,FEDFUNDS,1978-08-01,8.04
+Federal Funds Rate,FEDFUNDS,1978-09-01,8.45
+Federal Funds Rate,FEDFUNDS,1978-10-01,8.96
+Federal Funds Rate,FEDFUNDS,1978-11-01,9.76
+Federal Funds Rate,FEDFUNDS,1978-12-01,10.03
+Federal Funds Rate,FEDFUNDS,1979-01-01,10.07
+Federal Funds Rate,FEDFUNDS,1979-02-01,10.06
+Federal Funds Rate,FEDFUNDS,1979-03-01,10.09
+Federal Funds Rate,FEDFUNDS,1979-04-01,10.01
+Federal Funds Rate,FEDFUNDS,1979-05-01,10.24
+Federal Funds Rate,FEDFUNDS,1979-06-01,10.29
+Federal Funds Rate,FEDFUNDS,1979-07-01,10.47
+Federal Funds Rate,FEDFUNDS,1979-08-01,10.94
+Federal Funds Rate,FEDFUNDS,1979-09-01,11.43
+Federal Funds Rate,FEDFUNDS,1979-10-01,13.77
+Federal Funds Rate,FEDFUNDS,1979-11-01,13.18
+Federal Funds Rate,FEDFUNDS,1979-12-01,13.78
+Federal Funds Rate,FEDFUNDS,1980-01-01,13.82
+Federal Funds Rate,FEDFUNDS,1980-02-01,14.13
+Federal Funds Rate,FEDFUNDS,1980-03-01,17.19
+Federal Funds Rate,FEDFUNDS,1980-04-01,17.61
+Federal Funds Rate,FEDFUNDS,1980-05-01,10.98
+Federal Funds Rate,FEDFUNDS,1980-06-01,9.47
+Federal Funds Rate,FEDFUNDS,1980-07-01,9.03
+Federal Funds Rate,FEDFUNDS,1980-08-01,9.61
+Federal Funds Rate,FEDFUNDS,1980-09-01,10.87
+Federal Funds Rate,FEDFUNDS,1980-10-01,12.81
+Federal Funds Rate,FEDFUNDS,1980-11-01,15.85
+Federal Funds Rate,FEDFUNDS,1980-12-01,18.9
+Federal Funds Rate,FEDFUNDS,1981-01-01,19.08
+Federal Funds Rate,FEDFUNDS,1981-02-01,15.93
+Federal Funds Rate,FEDFUNDS,1981-03-01,14.7
+Federal Funds Rate,FEDFUNDS,1981-04-01,15.72
+Federal Funds Rate,FEDFUNDS,1981-05-01,18.52
+Federal Funds Rate,FEDFUNDS,1981-06-01,19.1
+Federal Funds Rate,FEDFUNDS,1981-07-01,19.04
+Federal Funds Rate,FEDFUNDS,1981-08-01,17.82
+Federal Funds Rate,FEDFUNDS,1981-09-01,15.87
+Federal Funds Rate,FEDFUNDS,1981-10-01,15.08
+Federal Funds Rate,FEDFUNDS,1981-11-01,13.31
+Federal Funds Rate,FEDFUNDS,1981-12-01,12.37
+Federal Funds Rate,FEDFUNDS,1982-01-01,13.22
+Federal Funds Rate,FEDFUNDS,1982-02-01,14.78
+Federal Funds Rate,FEDFUNDS,1982-03-01,14.68
+Federal Funds Rate,FEDFUNDS,1982-04-01,14.94
+Federal Funds Rate,FEDFUNDS,1982-05-01,14.45
+Federal Funds Rate,FEDFUNDS,1982-06-01,14.15
+Federal Funds Rate,FEDFUNDS,1982-07-01,12.59
+Federal Funds Rate,FEDFUNDS,1982-08-01,10.12
+Federal Funds Rate,FEDFUNDS,1982-09-01,10.31
+Federal Funds Rate,FEDFUNDS,1982-10-01,9.71
+Federal Funds Rate,FEDFUNDS,1982-11-01,9.2
+Federal Funds Rate,FEDFUNDS,1982-12-01,8.95
+Federal Funds Rate,FEDFUNDS,1983-01-01,8.68
+Federal Funds Rate,FEDFUNDS,1983-02-01,8.51
+Federal Funds Rate,FEDFUNDS,1983-03-01,8.77
+Federal Funds Rate,FEDFUNDS,1983-04-01,8.8
+Federal Funds Rate,FEDFUNDS,1983-05-01,8.63
+Federal Funds Rate,FEDFUNDS,1983-06-01,8.98
+Federal Funds Rate,FEDFUNDS,1983-07-01,9.37
+Federal Funds Rate,FEDFUNDS,1983-08-01,9.56
+Federal Funds Rate,FEDFUNDS,1983-09-01,9.45
+Federal Funds Rate,FEDFUNDS,1983-10-01,9.48
+Federal Funds Rate,FEDFUNDS,1983-11-01,9.34
+Federal Funds Rate,FEDFUNDS,1983-12-01,9.47
+Federal Funds Rate,FEDFUNDS,1984-01-01,9.56
+Federal Funds Rate,FEDFUNDS,1984-02-01,9.59
+Federal Funds Rate,FEDFUNDS,1984-03-01,9.91
+Federal Funds Rate,FEDFUNDS,1984-04-01,10.29
+Federal Funds Rate,FEDFUNDS,1984-05-01,10.32
+Federal Funds Rate,FEDFUNDS,1984-06-01,11.06
+Federal Funds Rate,FEDFUNDS,1984-07-01,11.23
+Federal Funds Rate,FEDFUNDS,1984-08-01,11.64
+Federal Funds Rate,FEDFUNDS,1984-09-01,11.3
+Federal Funds Rate,FEDFUNDS,1984-10-01,9.99
+Federal Funds Rate,FEDFUNDS,1984-11-01,9.43
+Federal Funds Rate,FEDFUNDS,1984-12-01,8.38
+Federal Funds Rate,FEDFUNDS,1985-01-01,8.35
+Federal Funds Rate,FEDFUNDS,1985-02-01,8.5
+Federal Funds Rate,FEDFUNDS,1985-03-01,8.58
+Federal Funds Rate,FEDFUNDS,1985-04-01,8.27
+Federal Funds Rate,FEDFUNDS,1985-05-01,7.97
+Federal Funds Rate,FEDFUNDS,1985-06-01,7.53
+Federal Funds Rate,FEDFUNDS,1985-07-01,7.88
+Federal Funds Rate,FEDFUNDS,1985-08-01,7.9
+Federal Funds Rate,FEDFUNDS,1985-09-01,7.92
+Federal Funds Rate,FEDFUNDS,1985-10-01,7.99
+Federal Funds Rate,FEDFUNDS,1985-11-01,8.05
+Federal Funds Rate,FEDFUNDS,1985-12-01,8.27
+Federal Funds Rate,FEDFUNDS,1986-01-01,8.14
+Federal Funds Rate,FEDFUNDS,1986-02-01,7.86
+Federal Funds Rate,FEDFUNDS,1986-03-01,7.48
+Federal Funds Rate,FEDFUNDS,1986-04-01,6.99
+Federal Funds Rate,FEDFUNDS,1986-05-01,6.85
+Federal Funds Rate,FEDFUNDS,1986-06-01,6.92
+Federal Funds Rate,FEDFUNDS,1986-07-01,6.56
+Federal Funds Rate,FEDFUNDS,1986-08-01,6.17
+Federal Funds Rate,FEDFUNDS,1986-09-01,5.89
+Federal Funds Rate,FEDFUNDS,1986-10-01,5.85
+Federal Funds Rate,FEDFUNDS,1986-11-01,6.04
+Federal Funds Rate,FEDFUNDS,1986-12-01,6.91
+Federal Funds Rate,FEDFUNDS,1987-01-01,6.43
+Federal Funds Rate,FEDFUNDS,1987-02-01,6.1
+Federal Funds Rate,FEDFUNDS,1987-03-01,6.13
+Federal Funds Rate,FEDFUNDS,1987-04-01,6.37
+Federal Funds Rate,FEDFUNDS,1987-05-01,6.85
+Federal Funds Rate,FEDFUNDS,1987-06-01,6.73
+Federal Funds Rate,FEDFUNDS,1987-07-01,6.58
+Federal Funds Rate,FEDFUNDS,1987-08-01,6.73
+Federal Funds Rate,FEDFUNDS,1987-09-01,7.22
+Federal Funds Rate,FEDFUNDS,1987-10-01,7.29
+Federal Funds Rate,FEDFUNDS,1987-11-01,6.69
+Federal Funds Rate,FEDFUNDS,1987-12-01,6.77
+Federal Funds Rate,FEDFUNDS,1988-01-01,6.83
+Federal Funds Rate,FEDFUNDS,1988-02-01,6.58
+Federal Funds Rate,FEDFUNDS,1988-03-01,6.58
+Federal Funds Rate,FEDFUNDS,1988-04-01,6.87
+Federal Funds Rate,FEDFUNDS,1988-05-01,7.09
+Federal Funds Rate,FEDFUNDS,1988-06-01,7.51
+Federal Funds Rate,FEDFUNDS,1988-07-01,7.75
+Federal Funds Rate,FEDFUNDS,1988-08-01,8.01
+Federal Funds Rate,FEDFUNDS,1988-09-01,8.19
+Federal Funds Rate,FEDFUNDS,1988-10-01,8.3
+Federal Funds Rate,FEDFUNDS,1988-11-01,8.35
+Federal Funds Rate,FEDFUNDS,1988-12-01,8.76
+Federal Funds Rate,FEDFUNDS,1989-01-01,9.12
+Federal Funds Rate,FEDFUNDS,1989-02-01,9.36
+Federal Funds Rate,FEDFUNDS,1989-03-01,9.85
+Federal Funds Rate,FEDFUNDS,1989-04-01,9.84
+Federal Funds Rate,FEDFUNDS,1989-05-01,9.81
+Federal Funds Rate,FEDFUNDS,1989-06-01,9.53
+Federal Funds Rate,FEDFUNDS,1989-07-01,9.24
+Federal Funds Rate,FEDFUNDS,1989-08-01,8.99
+Federal Funds Rate,FEDFUNDS,1989-09-01,9.02
+Federal Funds Rate,FEDFUNDS,1989-10-01,8.84
+Federal Funds Rate,FEDFUNDS,1989-11-01,8.55
+Federal Funds Rate,FEDFUNDS,1989-12-01,8.45
+Federal Funds Rate,FEDFUNDS,1990-01-01,8.23
+Federal Funds Rate,FEDFUNDS,1990-02-01,8.24
+Federal Funds Rate,FEDFUNDS,1990-03-01,8.28
+Federal Funds Rate,FEDFUNDS,1990-04-01,8.26
+Federal Funds Rate,FEDFUNDS,1990-05-01,8.18
+Federal Funds Rate,FEDFUNDS,1990-06-01,8.29
+Federal Funds Rate,FEDFUNDS,1990-07-01,8.15
+Federal Funds Rate,FEDFUNDS,1990-08-01,8.13
+Federal Funds Rate,FEDFUNDS,1990-09-01,8.2
+Federal Funds Rate,FEDFUNDS,1990-10-01,8.11
+Federal Funds Rate,FEDFUNDS,1990-11-01,7.81
+Federal Funds Rate,FEDFUNDS,1990-12-01,7.31
+Federal Funds Rate,FEDFUNDS,1991-01-01,6.91
+Federal Funds Rate,FEDFUNDS,1991-02-01,6.25
+Federal Funds Rate,FEDFUNDS,1991-03-01,6.12
+Federal Funds Rate,FEDFUNDS,1991-04-01,5.91
+Federal Funds Rate,FEDFUNDS,1991-05-01,5.78
+Federal Funds Rate,FEDFUNDS,1991-06-01,5.9
+Federal Funds Rate,FEDFUNDS,1991-07-01,5.82
+Federal Funds Rate,FEDFUNDS,1991-08-01,5.66
+Federal Funds Rate,FEDFUNDS,1991-09-01,5.45
+Federal Funds Rate,FEDFUNDS,1991-10-01,5.21
+Federal Funds Rate,FEDFUNDS,1991-11-01,4.81
+Federal Funds Rate,FEDFUNDS,1991-12-01,4.43
+Federal Funds Rate,FEDFUNDS,1992-01-01,4.03
+Federal Funds Rate,FEDFUNDS,1992-02-01,4.06
+Federal Funds Rate,FEDFUNDS,1992-03-01,3.98
+Federal Funds Rate,FEDFUNDS,1992-04-01,3.73
+Federal Funds Rate,FEDFUNDS,1992-05-01,3.82
+Federal Funds Rate,FEDFUNDS,1992-06-01,3.76
+Federal Funds Rate,FEDFUNDS,1992-07-01,3.25
+Federal Funds Rate,FEDFUNDS,1992-08-01,3.3
+Federal Funds Rate,FEDFUNDS,1992-09-01,3.22
+Federal Funds Rate,FEDFUNDS,1992-10-01,3.1
+Federal Funds Rate,FEDFUNDS,1992-11-01,3.09
+Federal Funds Rate,FEDFUNDS,1992-12-01,2.92
+Federal Funds Rate,FEDFUNDS,1993-01-01,3.02
+Federal Funds Rate,FEDFUNDS,1993-02-01,3.03
+Federal Funds Rate,FEDFUNDS,1993-03-01,3.07
+Federal Funds Rate,FEDFUNDS,1993-04-01,2.96
+Federal Funds Rate,FEDFUNDS,1993-05-01,3.0
+Federal Funds Rate,FEDFUNDS,1993-06-01,3.04
+Federal Funds Rate,FEDFUNDS,1993-07-01,3.06
+Federal Funds Rate,FEDFUNDS,1993-08-01,3.03
+Federal Funds Rate,FEDFUNDS,1993-09-01,3.09
+Federal Funds Rate,FEDFUNDS,1993-10-01,2.99
+Federal Funds Rate,FEDFUNDS,1993-11-01,3.02
+Federal Funds Rate,FEDFUNDS,1993-12-01,2.96
+Federal Funds Rate,FEDFUNDS,1994-01-01,3.05
+Federal Funds Rate,FEDFUNDS,1994-02-01,3.25
+Federal Funds Rate,FEDFUNDS,1994-03-01,3.34
+Federal Funds Rate,FEDFUNDS,1994-04-01,3.56
+Federal Funds Rate,FEDFUNDS,1994-05-01,4.01
+Federal Funds Rate,FEDFUNDS,1994-06-01,4.25
+Federal Funds Rate,FEDFUNDS,1994-07-01,4.26
+Federal Funds Rate,FEDFUNDS,1994-08-01,4.47
+Federal Funds Rate,FEDFUNDS,1994-09-01,4.73
+Federal Funds Rate,FEDFUNDS,1994-10-01,4.76
+Federal Funds Rate,FEDFUNDS,1994-11-01,5.29
+Federal Funds Rate,FEDFUNDS,1994-12-01,5.45
+Federal Funds Rate,FEDFUNDS,1995-01-01,5.53
+Federal Funds Rate,FEDFUNDS,1995-02-01,5.92
+Federal Funds Rate,FEDFUNDS,1995-03-01,5.98
+Federal Funds Rate,FEDFUNDS,1995-04-01,6.05
+Federal Funds Rate,FEDFUNDS,1995-05-01,6.01
+Federal Funds Rate,FEDFUNDS,1995-06-01,6.0
+Federal Funds Rate,FEDFUNDS,1995-07-01,5.85
+Federal Funds Rate,FEDFUNDS,1995-08-01,5.74
+Federal Funds Rate,FEDFUNDS,1995-09-01,5.8
+Federal Funds Rate,FEDFUNDS,1995-10-01,5.76
+Federal Funds Rate,FEDFUNDS,1995-11-01,5.8
+Federal Funds Rate,FEDFUNDS,1995-12-01,5.6
+Federal Funds Rate,FEDFUNDS,1996-01-01,5.56
+Federal Funds Rate,FEDFUNDS,1996-02-01,5.22
+Federal Funds Rate,FEDFUNDS,1996-03-01,5.31
+Federal Funds Rate,FEDFUNDS,1996-04-01,5.22
+Federal Funds Rate,FEDFUNDS,1996-05-01,5.24
+Federal Funds Rate,FEDFUNDS,1996-06-01,5.27
+Federal Funds Rate,FEDFUNDS,1996-07-01,5.4
+Federal Funds Rate,FEDFUNDS,1996-08-01,5.22
+Federal Funds Rate,FEDFUNDS,1996-09-01,5.3
+Federal Funds Rate,FEDFUNDS,1996-10-01,5.24
+Federal Funds Rate,FEDFUNDS,1996-11-01,5.31
+Federal Funds Rate,FEDFUNDS,1996-12-01,5.29
+Federal Funds Rate,FEDFUNDS,1997-01-01,5.25
+Federal Funds Rate,FEDFUNDS,1997-02-01,5.19
+Federal Funds Rate,FEDFUNDS,1997-03-01,5.39
+Federal Funds Rate,FEDFUNDS,1997-04-01,5.51
+Federal Funds Rate,FEDFUNDS,1997-05-01,5.5
+Federal Funds Rate,FEDFUNDS,1997-06-01,5.56
+Federal Funds Rate,FEDFUNDS,1997-07-01,5.52
+Federal Funds Rate,FEDFUNDS,1997-08-01,5.54
+Federal Funds Rate,FEDFUNDS,1997-09-01,5.54
+Federal Funds Rate,FEDFUNDS,1997-10-01,5.5
+Federal Funds Rate,FEDFUNDS,1997-11-01,5.52
+Federal Funds Rate,FEDFUNDS,1997-12-01,5.5
+Federal Funds Rate,FEDFUNDS,1998-01-01,5.56
+Federal Funds Rate,FEDFUNDS,1998-02-01,5.51
+Federal Funds Rate,FEDFUNDS,1998-03-01,5.49
+Federal Funds Rate,FEDFUNDS,1998-04-01,5.45
+Federal Funds Rate,FEDFUNDS,1998-05-01,5.49
+Federal Funds Rate,FEDFUNDS,1998-06-01,5.56
+Federal Funds Rate,FEDFUNDS,1998-07-01,5.54
+Federal Funds Rate,FEDFUNDS,1998-08-01,5.55
+Federal Funds Rate,FEDFUNDS,1998-09-01,5.51
+Federal Funds Rate,FEDFUNDS,1998-10-01,5.07
+Federal Funds Rate,FEDFUNDS,1998-11-01,4.83
+Federal Funds Rate,FEDFUNDS,1998-12-01,4.68
+Federal Funds Rate,FEDFUNDS,1999-01-01,4.63
+Federal Funds Rate,FEDFUNDS,1999-02-01,4.76
+Federal Funds Rate,FEDFUNDS,1999-03-01,4.81
+Federal Funds Rate,FEDFUNDS,1999-04-01,4.74
+Federal Funds Rate,FEDFUNDS,1999-05-01,4.74
+Federal Funds Rate,FEDFUNDS,1999-06-01,4.76
+Federal Funds Rate,FEDFUNDS,1999-07-01,4.99
+Federal Funds Rate,FEDFUNDS,1999-08-01,5.07
+Federal Funds Rate,FEDFUNDS,1999-09-01,5.22
+Federal Funds Rate,FEDFUNDS,1999-10-01,5.2
+Federal Funds Rate,FEDFUNDS,1999-11-01,5.42
+Federal Funds Rate,FEDFUNDS,1999-12-01,5.3
+Federal Funds Rate,FEDFUNDS,2000-01-01,5.45
+Federal Funds Rate,FEDFUNDS,2000-02-01,5.73
+Federal Funds Rate,FEDFUNDS,2000-03-01,5.85
+Federal Funds Rate,FEDFUNDS,2000-04-01,6.02
+Federal Funds Rate,FEDFUNDS,2000-05-01,6.27
+Federal Funds Rate,FEDFUNDS,2000-06-01,6.53
+Federal Funds Rate,FEDFUNDS,2000-07-01,6.54
+Federal Funds Rate,FEDFUNDS,2000-08-01,6.5
+Federal Funds Rate,FEDFUNDS,2000-09-01,6.52
+Federal Funds Rate,FEDFUNDS,2000-10-01,6.51
+Federal Funds Rate,FEDFUNDS,2000-11-01,6.51
+Federal Funds Rate,FEDFUNDS,2000-12-01,6.4
+Federal Funds Rate,FEDFUNDS,2001-01-01,5.98
+Federal Funds Rate,FEDFUNDS,2001-02-01,5.49
+Federal Funds Rate,FEDFUNDS,2001-03-01,5.31
+Federal Funds Rate,FEDFUNDS,2001-04-01,4.8
+Federal Funds Rate,FEDFUNDS,2001-05-01,4.21
+Federal Funds Rate,FEDFUNDS,2001-06-01,3.97
+Federal Funds Rate,FEDFUNDS,2001-07-01,3.77
+Federal Funds Rate,FEDFUNDS,2001-08-01,3.65
+Federal Funds Rate,FEDFUNDS,2001-09-01,3.07
+Federal Funds Rate,FEDFUNDS,2001-10-01,2.49
+Federal Funds Rate,FEDFUNDS,2001-11-01,2.09
+Federal Funds Rate,FEDFUNDS,2001-12-01,1.82
+Federal Funds Rate,FEDFUNDS,2002-01-01,1.73
+Federal Funds Rate,FEDFUNDS,2002-02-01,1.74
+Federal Funds Rate,FEDFUNDS,2002-03-01,1.73
+Federal Funds Rate,FEDFUNDS,2002-04-01,1.75
+Federal Funds Rate,FEDFUNDS,2002-05-01,1.75
+Federal Funds Rate,FEDFUNDS,2002-06-01,1.75
+Federal Funds Rate,FEDFUNDS,2002-07-01,1.73
+Federal Funds Rate,FEDFUNDS,2002-08-01,1.74
+Federal Funds Rate,FEDFUNDS,2002-09-01,1.75
+Federal Funds Rate,FEDFUNDS,2002-10-01,1.75
+Federal Funds Rate,FEDFUNDS,2002-11-01,1.34
+Federal Funds Rate,FEDFUNDS,2002-12-01,1.24
+Federal Funds Rate,FEDFUNDS,2003-01-01,1.24
+Federal Funds Rate,FEDFUNDS,2003-02-01,1.26
+Federal Funds Rate,FEDFUNDS,2003-03-01,1.25
+Federal Funds Rate,FEDFUNDS,2003-04-01,1.26
+Federal Funds Rate,FEDFUNDS,2003-05-01,1.26
+Federal Funds Rate,FEDFUNDS,2003-06-01,1.22
+Federal Funds Rate,FEDFUNDS,2003-07-01,1.01
+Federal Funds Rate,FEDFUNDS,2003-08-01,1.03
+Federal Funds Rate,FEDFUNDS,2003-09-01,1.01
+Federal Funds Rate,FEDFUNDS,2003-10-01,1.01
+Federal Funds Rate,FEDFUNDS,2003-11-01,1.0
+Federal Funds Rate,FEDFUNDS,2003-12-01,0.98
+Federal Funds Rate,FEDFUNDS,2004-01-01,1.0
+Federal Funds Rate,FEDFUNDS,2004-02-01,1.01
+Federal Funds Rate,FEDFUNDS,2004-03-01,1.0
+Federal Funds Rate,FEDFUNDS,2004-04-01,1.0
+Federal Funds Rate,FEDFUNDS,2004-05-01,1.0
+Federal Funds Rate,FEDFUNDS,2004-06-01,1.03
+Federal Funds Rate,FEDFUNDS,2004-07-01,1.26
+Federal Funds Rate,FEDFUNDS,2004-08-01,1.43
+Federal Funds Rate,FEDFUNDS,2004-09-01,1.61
+Federal Funds Rate,FEDFUNDS,2004-10-01,1.76
+Federal Funds Rate,FEDFUNDS,2004-11-01,1.93
+Federal Funds Rate,FEDFUNDS,2004-12-01,2.16
+Federal Funds Rate,FEDFUNDS,2005-01-01,2.28
+Federal Funds Rate,FEDFUNDS,2005-02-01,2.5
+Federal Funds Rate,FEDFUNDS,2005-03-01,2.63
+Federal Funds Rate,FEDFUNDS,2005-04-01,2.79
+Federal Funds Rate,FEDFUNDS,2005-05-01,3.0
+Federal Funds Rate,FEDFUNDS,2005-06-01,3.04
+Federal Funds Rate,FEDFUNDS,2005-07-01,3.26
+Federal Funds Rate,FEDFUNDS,2005-08-01,3.5
+Federal Funds Rate,FEDFUNDS,2005-09-01,3.62
+Federal Funds Rate,FEDFUNDS,2005-10-01,3.78
+Federal Funds Rate,FEDFUNDS,2005-11-01,4.0
+Federal Funds Rate,FEDFUNDS,2005-12-01,4.16
+Federal Funds Rate,FEDFUNDS,2006-01-01,4.29
+Federal Funds Rate,FEDFUNDS,2006-02-01,4.49
+Federal Funds Rate,FEDFUNDS,2006-03-01,4.59
+Federal Funds Rate,FEDFUNDS,2006-04-01,4.79
+Federal Funds Rate,FEDFUNDS,2006-05-01,4.94
+Federal Funds Rate,FEDFUNDS,2006-06-01,4.99
+Federal Funds Rate,FEDFUNDS,2006-07-01,5.24
+Federal Funds Rate,FEDFUNDS,2006-08-01,5.25
+Federal Funds Rate,FEDFUNDS,2006-09-01,5.25
+Federal Funds Rate,FEDFUNDS,2006-10-01,5.25
+Federal Funds Rate,FEDFUNDS,2006-11-01,5.25
+Federal Funds Rate,FEDFUNDS,2006-12-01,5.24
+Federal Funds Rate,FEDFUNDS,2007-01-01,5.25
+Federal Funds Rate,FEDFUNDS,2007-02-01,5.26
+Federal Funds Rate,FEDFUNDS,2007-03-01,5.26
+Federal Funds Rate,FEDFUNDS,2007-04-01,5.25
+Federal Funds Rate,FEDFUNDS,2007-05-01,5.25
+Federal Funds Rate,FEDFUNDS,2007-06-01,5.25
+Federal Funds Rate,FEDFUNDS,2007-07-01,5.26
+Federal Funds Rate,FEDFUNDS,2007-08-01,5.02
+Federal Funds Rate,FEDFUNDS,2007-09-01,4.94
+Federal Funds Rate,FEDFUNDS,2007-10-01,4.76
+Federal Funds Rate,FEDFUNDS,2007-11-01,4.49
+Federal Funds Rate,FEDFUNDS,2007-12-01,4.24
+Federal Funds Rate,FEDFUNDS,2008-01-01,3.94
+Federal Funds Rate,FEDFUNDS,2008-02-01,2.98
+Federal Funds Rate,FEDFUNDS,2008-03-01,2.61
+Federal Funds Rate,FEDFUNDS,2008-04-01,2.28
+Federal Funds Rate,FEDFUNDS,2008-05-01,1.98
+Federal Funds Rate,FEDFUNDS,2008-06-01,2.0
+Federal Funds Rate,FEDFUNDS,2008-07-01,2.01
+Federal Funds Rate,FEDFUNDS,2008-08-01,2.0
+Federal Funds Rate,FEDFUNDS,2008-09-01,1.81
+Federal Funds Rate,FEDFUNDS,2008-10-01,0.97
+Federal Funds Rate,FEDFUNDS,2008-11-01,0.39
+Federal Funds Rate,FEDFUNDS,2008-12-01,0.16
+Federal Funds Rate,FEDFUNDS,2009-01-01,0.15
+Federal Funds Rate,FEDFUNDS,2009-02-01,0.22
+Federal Funds Rate,FEDFUNDS,2009-03-01,0.18
+Federal Funds Rate,FEDFUNDS,2009-04-01,0.15
+Federal Funds Rate,FEDFUNDS,2009-05-01,0.18
+Federal Funds Rate,FEDFUNDS,2009-06-01,0.21
+Federal Funds Rate,FEDFUNDS,2009-07-01,0.16
+Federal Funds Rate,FEDFUNDS,2009-08-01,0.16
+Federal Funds Rate,FEDFUNDS,2009-09-01,0.15
+Federal Funds Rate,FEDFUNDS,2009-10-01,0.12
+Federal Funds Rate,FEDFUNDS,2009-11-01,0.12
+Federal Funds Rate,FEDFUNDS,2009-12-01,0.12
+Federal Funds Rate,FEDFUNDS,2010-01-01,0.11
+Federal Funds Rate,FEDFUNDS,2010-02-01,0.13
+Federal Funds Rate,FEDFUNDS,2010-03-01,0.16
+Federal Funds Rate,FEDFUNDS,2010-04-01,0.2
+Federal Funds Rate,FEDFUNDS,2010-05-01,0.2
+Federal Funds Rate,FEDFUNDS,2010-06-01,0.18
+Federal Funds Rate,FEDFUNDS,2010-07-01,0.18
+Federal Funds Rate,FEDFUNDS,2010-08-01,0.19
+Federal Funds Rate,FEDFUNDS,2010-09-01,0.19
+Federal Funds Rate,FEDFUNDS,2010-10-01,0.19
+Federal Funds Rate,FEDFUNDS,2010-11-01,0.19
+Federal Funds Rate,FEDFUNDS,2010-12-01,0.18
+Federal Funds Rate,FEDFUNDS,2011-01-01,0.17
+Federal Funds Rate,FEDFUNDS,2011-02-01,0.16
+Federal Funds Rate,FEDFUNDS,2011-03-01,0.14
+Federal Funds Rate,FEDFUNDS,2011-04-01,0.1
+Federal Funds Rate,FEDFUNDS,2011-05-01,0.09
+Federal Funds Rate,FEDFUNDS,2011-06-01,0.09
+Federal Funds Rate,FEDFUNDS,2011-07-01,0.07
+Federal Funds Rate,FEDFUNDS,2011-08-01,0.1
+Federal Funds Rate,FEDFUNDS,2011-09-01,0.08
+Federal Funds Rate,FEDFUNDS,2011-10-01,0.07
+Federal Funds Rate,FEDFUNDS,2011-11-01,0.08
+Federal Funds Rate,FEDFUNDS,2011-12-01,0.07
+Federal Funds Rate,FEDFUNDS,2012-01-01,0.08
+Federal Funds Rate,FEDFUNDS,2012-02-01,0.1
+Federal Funds Rate,FEDFUNDS,2012-03-01,0.13
+Federal Funds Rate,FEDFUNDS,2012-04-01,0.14
+Federal Funds Rate,FEDFUNDS,2012-05-01,0.16
+Federal Funds Rate,FEDFUNDS,2012-06-01,0.16
+Federal Funds Rate,FEDFUNDS,2012-07-01,0.16
+Federal Funds Rate,FEDFUNDS,2012-08-01,0.13
+Federal Funds Rate,FEDFUNDS,2012-09-01,0.14
+Federal Funds Rate,FEDFUNDS,2012-10-01,0.16
+Federal Funds Rate,FEDFUNDS,2012-11-01,0.16
+Federal Funds Rate,FEDFUNDS,2012-12-01,0.16
+Federal Funds Rate,FEDFUNDS,2013-01-01,0.14
+Federal Funds Rate,FEDFUNDS,2013-02-01,0.15
+Federal Funds Rate,FEDFUNDS,2013-03-01,0.14
+Federal Funds Rate,FEDFUNDS,2013-04-01,0.15
+Federal Funds Rate,FEDFUNDS,2013-05-01,0.11
+Federal Funds Rate,FEDFUNDS,2013-06-01,0.09
+Federal Funds Rate,FEDFUNDS,2013-07-01,0.09
+Federal Funds Rate,FEDFUNDS,2013-08-01,0.08
+Federal Funds Rate,FEDFUNDS,2013-09-01,0.08
+Federal Funds Rate,FEDFUNDS,2013-10-01,0.09
+Federal Funds Rate,FEDFUNDS,2013-11-01,0.08
+Federal Funds Rate,FEDFUNDS,2013-12-01,0.09
+Federal Funds Rate,FEDFUNDS,2014-01-01,0.07
+Federal Funds Rate,FEDFUNDS,2014-02-01,0.07
+Federal Funds Rate,FEDFUNDS,2014-03-01,0.08
+Federal Funds Rate,FEDFUNDS,2014-04-01,0.09
+Federal Funds Rate,FEDFUNDS,2014-05-01,0.09
+Federal Funds Rate,FEDFUNDS,2014-06-01,0.1
+Federal Funds Rate,FEDFUNDS,2014-07-01,0.09
+Federal Funds Rate,FEDFUNDS,2014-08-01,0.09
+Federal Funds Rate,FEDFUNDS,2014-09-01,0.09
+Federal Funds Rate,FEDFUNDS,2014-10-01,0.09
+Federal Funds Rate,FEDFUNDS,2014-11-01,0.09
+Federal Funds Rate,FEDFUNDS,2014-12-01,0.12
+Federal Funds Rate,FEDFUNDS,2015-01-01,0.11
+Federal Funds Rate,FEDFUNDS,2015-02-01,0.11
+Federal Funds Rate,FEDFUNDS,2015-03-01,0.11
+Federal Funds Rate,FEDFUNDS,2015-04-01,0.12
+Federal Funds Rate,FEDFUNDS,2015-05-01,0.12
+Federal Funds Rate,FEDFUNDS,2015-06-01,0.13
+Federal Funds Rate,FEDFUNDS,2015-07-01,0.13
+Federal Funds Rate,FEDFUNDS,2015-08-01,0.14
+Federal Funds Rate,FEDFUNDS,2015-09-01,0.14
+Federal Funds Rate,FEDFUNDS,2015-10-01,0.12
+Federal Funds Rate,FEDFUNDS,2015-11-01,0.12
+Federal Funds Rate,FEDFUNDS,2015-12-01,0.24
+Federal Funds Rate,FEDFUNDS,2016-01-01,0.34
+Federal Funds Rate,FEDFUNDS,2016-02-01,0.38
+Federal Funds Rate,FEDFUNDS,2016-03-01,0.36
+Federal Funds Rate,FEDFUNDS,2016-04-01,0.37
+Federal Funds Rate,FEDFUNDS,2016-05-01,0.37
+Federal Funds Rate,FEDFUNDS,2016-06-01,0.38
+Federal Funds Rate,FEDFUNDS,2016-07-01,0.39
+Federal Funds Rate,FEDFUNDS,2016-08-01,0.4
+Federal Funds Rate,FEDFUNDS,2016-09-01,0.4
+Federal Funds Rate,FEDFUNDS,2016-10-01,0.4
+Federal Funds Rate,FEDFUNDS,2016-11-01,0.41
+Federal Funds Rate,FEDFUNDS,2016-12-01,0.54
+Federal Funds Rate,FEDFUNDS,2017-01-01,0.65
+Federal Funds Rate,FEDFUNDS,2017-02-01,0.66
+Federal Funds Rate,FEDFUNDS,2017-03-01,0.79
+Federal Funds Rate,FEDFUNDS,2017-04-01,0.9
+Federal Funds Rate,FEDFUNDS,2017-05-01,0.91
+Federal Funds Rate,FEDFUNDS,2017-06-01,1.04
+Federal Funds Rate,FEDFUNDS,2017-07-01,1.15
+Federal Funds Rate,FEDFUNDS,2017-08-01,1.16
+Federal Funds Rate,FEDFUNDS,2017-09-01,1.15
+Federal Funds Rate,FEDFUNDS,2017-10-01,1.15
+Federal Funds Rate,FEDFUNDS,2017-11-01,1.16
+Federal Funds Rate,FEDFUNDS,2017-12-01,1.3
+Federal Funds Rate,FEDFUNDS,2018-01-01,1.41
+Federal Funds Rate,FEDFUNDS,2018-02-01,1.42
+Federal Funds Rate,FEDFUNDS,2018-03-01,1.51
+Federal Funds Rate,FEDFUNDS,2018-04-01,1.69
+Federal Funds Rate,FEDFUNDS,2018-05-01,1.7
+Federal Funds Rate,FEDFUNDS,2018-06-01,1.82
+Federal Funds Rate,FEDFUNDS,2018-07-01,1.91
+Federal Funds Rate,FEDFUNDS,2018-08-01,1.91
+Federal Funds Rate,FEDFUNDS,2018-09-01,1.95
+Federal Funds Rate,FEDFUNDS,2018-10-01,2.19
+Federal Funds Rate,FEDFUNDS,2018-11-01,2.2
+Federal Funds Rate,FEDFUNDS,2018-12-01,2.27
+Federal Funds Rate,FEDFUNDS,2019-01-01,2.4
+Federal Funds Rate,FEDFUNDS,2019-02-01,2.4
+Federal Funds Rate,FEDFUNDS,2019-03-01,2.41
+Federal Funds Rate,FEDFUNDS,2019-04-01,2.42
+Federal Funds Rate,FEDFUNDS,2019-05-01,2.39
+Federal Funds Rate,FEDFUNDS,2019-06-01,2.38
+Federal Funds Rate,FEDFUNDS,2019-07-01,2.4
+Federal Funds Rate,FEDFUNDS,2019-08-01,2.13
+Federal Funds Rate,FEDFUNDS,2019-09-01,2.04
+Federal Funds Rate,FEDFUNDS,2019-10-01,1.83
+Federal Funds Rate,FEDFUNDS,2019-11-01,1.55
+Federal Funds Rate,FEDFUNDS,2019-12-01,1.55
+Federal Funds Rate,FEDFUNDS,2020-01-01,1.55
+Federal Funds Rate,FEDFUNDS,2020-02-01,1.58
+Federal Funds Rate,FEDFUNDS,2020-03-01,0.65
+Federal Funds Rate,FEDFUNDS,2020-04-01,0.05
+Federal Funds Rate,FEDFUNDS,2020-05-01,0.05
+Federal Funds Rate,FEDFUNDS,2020-06-01,0.08
+Federal Funds Rate,FEDFUNDS,2020-07-01,0.09
+Federal Funds Rate,FEDFUNDS,2020-08-01,0.1
+Federal Funds Rate,FEDFUNDS,2020-09-01,0.09
+Federal Funds Rate,FEDFUNDS,2020-10-01,0.09
+Federal Funds Rate,FEDFUNDS,2020-11-01,0.09
+Federal Funds Rate,FEDFUNDS,2020-12-01,0.09
+Federal Funds Rate,FEDFUNDS,2021-01-01,0.09
+Federal Funds Rate,FEDFUNDS,2021-02-01,0.08
+Federal Funds Rate,FEDFUNDS,2021-03-01,0.07
+Federal Funds Rate,FEDFUNDS,2021-04-01,0.07
+Federal Funds Rate,FEDFUNDS,2021-05-01,0.06
+Federal Funds Rate,FEDFUNDS,2021-06-01,0.08
+Federal Funds Rate,FEDFUNDS,2021-07-01,0.1
+Federal Funds Rate,FEDFUNDS,2021-08-01,0.09
+Federal Funds Rate,FEDFUNDS,2021-09-01,0.08
+Federal Funds Rate,FEDFUNDS,2021-10-01,0.08
+Federal Funds Rate,FEDFUNDS,2021-11-01,0.08
+Federal Funds Rate,FEDFUNDS,2021-12-01,0.08
+Federal Funds Rate,FEDFUNDS,2022-01-01,0.08
+Federal Funds Rate,FEDFUNDS,2022-02-01,0.08
+Federal Funds Rate,FEDFUNDS,2022-03-01,0.2
+Federal Funds Rate,FEDFUNDS,2022-04-01,0.33
+Federal Funds Rate,FEDFUNDS,2022-05-01,0.77
+Federal Funds Rate,FEDFUNDS,2022-06-01,1.21
+Federal Funds Rate,FEDFUNDS,2022-07-01,1.68
+Federal Funds Rate,FEDFUNDS,2022-08-01,2.33
+Federal Funds Rate,FEDFUNDS,2022-09-01,2.56
+Federal Funds Rate,FEDFUNDS,2022-10-01,3.08
+Federal Funds Rate,FEDFUNDS,2022-11-01,3.78
+Federal Funds Rate,FEDFUNDS,2022-12-01,4.1
+Federal Funds Rate,FEDFUNDS,2023-01-01,4.33
+Federal Funds Rate,FEDFUNDS,2023-02-01,4.57
+Federal Funds Rate,FEDFUNDS,2023-03-01,4.65
+Federal Funds Rate,FEDFUNDS,2023-04-01,4.83
+Federal Funds Rate,FEDFUNDS,2023-05-01,5.06
+Federal Funds Rate,FEDFUNDS,2023-06-01,5.08
+Federal Funds Rate,FEDFUNDS,2023-07-01,5.12
+Federal Funds Rate,FEDFUNDS,2023-08-01,5.33
+Federal Funds Rate,FEDFUNDS,2023-09-01,5.33
+Federal Funds Rate,FEDFUNDS,2023-10-01,5.33
+Federal Funds Rate,FEDFUNDS,2023-11-01,5.33
+Federal Funds Rate,FEDFUNDS,2023-12-01,5.33
+Federal Funds Rate,FEDFUNDS,2024-01-01,5.33
+Federal Funds Rate,FEDFUNDS,2024-02-01,5.33
+Federal Funds Rate,FEDFUNDS,2024-03-01,5.33
+Federal Funds Rate,FEDFUNDS,2024-04-01,5.33
+Federal Funds Rate,FEDFUNDS,2024-05-01,5.33
+Federal Funds Rate,FEDFUNDS,2024-06-01,5.33
+Federal Funds Rate,FEDFUNDS,2024-07-01,5.33
+Federal Funds Rate,FEDFUNDS,2024-08-01,5.33
+Federal Funds Rate,FEDFUNDS,2024-09-01,5.13
+Federal Funds Rate,FEDFUNDS,2024-10-01,4.83
+Federal Funds Rate,FEDFUNDS,2024-11-01,4.64
+Federal Funds Rate,FEDFUNDS,2024-12-01,4.48
+Federal Funds Rate,FEDFUNDS,2025-01-01,4.33
+Federal Funds Rate,FEDFUNDS,2025-02-01,4.33
+Federal Funds Rate,FEDFUNDS,2025-03-01,4.33
+Federal Funds Rate,FEDFUNDS,2025-04-01,4.33
+Federal Funds Rate,FEDFUNDS,2025-05-01,4.33
+Federal Funds Rate,FEDFUNDS,2025-06-01,4.33
+Federal Funds Rate,FEDFUNDS,2025-07-01,4.33
+Federal Funds Rate,FEDFUNDS,2025-08-01,4.33
+Federal Funds Rate,FEDFUNDS,2025-09-01,4.22
+Federal Funds Rate,FEDFUNDS,2025-10-01,4.09
+Federal Funds Rate,FEDFUNDS,2025-11-01,3.88
+Federal Funds Rate,FEDFUNDS,2025-12-01,3.72
+Federal Funds Rate,FEDFUNDS,2026-01-01,3.64
+Federal Funds Rate,FEDFUNDS,2026-02-01,3.64
+Federal Funds Rate,FEDFUNDS,2026-03-01,3.64
+Federal Funds Rate,FEDFUNDS,2026-04-01,3.64
+Federal Funds Rate,FEDFUNDS,2026-05-01,3.63
+Unemployment Rate,UNRATE,1948-01-01,3.4
+Unemployment Rate,UNRATE,1948-02-01,3.8
+Unemployment Rate,UNRATE,1948-03-01,4.0
+Unemployment Rate,UNRATE,1948-04-01,3.9
+Unemployment Rate,UNRATE,1948-05-01,3.5
+Unemployment Rate,UNRATE,1948-06-01,3.6
+Unemployment Rate,UNRATE,1948-07-01,3.6
+Unemployment Rate,UNRATE,1948-08-01,3.9
+Unemployment Rate,UNRATE,1948-09-01,3.8
+Unemployment Rate,UNRATE,1948-10-01,3.7
+Unemployment Rate,UNRATE,1948-11-01,3.8
+Unemployment Rate,UNRATE,1948-12-01,4.0
+Unemployment Rate,UNRATE,1949-01-01,4.3
+Unemployment Rate,UNRATE,1949-02-01,4.7
+Unemployment Rate,UNRATE,1949-03-01,5.0
+Unemployment Rate,UNRATE,1949-04-01,5.3
+Unemployment Rate,UNRATE,1949-05-01,6.1
+Unemployment Rate,UNRATE,1949-06-01,6.2
+Unemployment Rate,UNRATE,1949-07-01,6.7
+Unemployment Rate,UNRATE,1949-08-01,6.8
+Unemployment Rate,UNRATE,1949-09-01,6.6
+Unemployment Rate,UNRATE,1949-10-01,7.9
+Unemployment Rate,UNRATE,1949-11-01,6.4
+Unemployment Rate,UNRATE,1949-12-01,6.6
+Unemployment Rate,UNRATE,1950-01-01,6.5
+Unemployment Rate,UNRATE,1950-02-01,6.4
+Unemployment Rate,UNRATE,1950-03-01,6.3
+Unemployment Rate,UNRATE,1950-04-01,5.8
+Unemployment Rate,UNRATE,1950-05-01,5.5
+Unemployment Rate,UNRATE,1950-06-01,5.4
+Unemployment Rate,UNRATE,1950-07-01,5.0
+Unemployment Rate,UNRATE,1950-08-01,4.5
+Unemployment Rate,UNRATE,1950-09-01,4.4
+Unemployment Rate,UNRATE,1950-10-01,4.2
+Unemployment Rate,UNRATE,1950-11-01,4.2
+Unemployment Rate,UNRATE,1950-12-01,4.3
+Unemployment Rate,UNRATE,1951-01-01,3.7
+Unemployment Rate,UNRATE,1951-02-01,3.4
+Unemployment Rate,UNRATE,1951-03-01,3.4
+Unemployment Rate,UNRATE,1951-04-01,3.1
+Unemployment Rate,UNRATE,1951-05-01,3.0
+Unemployment Rate,UNRATE,1951-06-01,3.2
+Unemployment Rate,UNRATE,1951-07-01,3.1
+Unemployment Rate,UNRATE,1951-08-01,3.1
+Unemployment Rate,UNRATE,1951-09-01,3.3
+Unemployment Rate,UNRATE,1951-10-01,3.5
+Unemployment Rate,UNRATE,1951-11-01,3.5
+Unemployment Rate,UNRATE,1951-12-01,3.1
+Unemployment Rate,UNRATE,1952-01-01,3.2
+Unemployment Rate,UNRATE,1952-02-01,3.1
+Unemployment Rate,UNRATE,1952-03-01,2.9
+Unemployment Rate,UNRATE,1952-04-01,2.9
+Unemployment Rate,UNRATE,1952-05-01,3.0
+Unemployment Rate,UNRATE,1952-06-01,3.0
+Unemployment Rate,UNRATE,1952-07-01,3.2
+Unemployment Rate,UNRATE,1952-08-01,3.4
+Unemployment Rate,UNRATE,1952-09-01,3.1
+Unemployment Rate,UNRATE,1952-10-01,3.0
+Unemployment Rate,UNRATE,1952-11-01,2.8
+Unemployment Rate,UNRATE,1952-12-01,2.7
+Unemployment Rate,UNRATE,1953-01-01,2.9
+Unemployment Rate,UNRATE,1953-02-01,2.6
+Unemployment Rate,UNRATE,1953-03-01,2.6
+Unemployment Rate,UNRATE,1953-04-01,2.7
+Unemployment Rate,UNRATE,1953-05-01,2.5
+Unemployment Rate,UNRATE,1953-06-01,2.5
+Unemployment Rate,UNRATE,1953-07-01,2.6
+Unemployment Rate,UNRATE,1953-08-01,2.7
+Unemployment Rate,UNRATE,1953-09-01,2.9
+Unemployment Rate,UNRATE,1953-10-01,3.1
+Unemployment Rate,UNRATE,1953-11-01,3.5
+Unemployment Rate,UNRATE,1953-12-01,4.5
+Unemployment Rate,UNRATE,1954-01-01,4.9
+Unemployment Rate,UNRATE,1954-02-01,5.2
+Unemployment Rate,UNRATE,1954-03-01,5.7
+Unemployment Rate,UNRATE,1954-04-01,5.9
+Unemployment Rate,UNRATE,1954-05-01,5.9
+Unemployment Rate,UNRATE,1954-06-01,5.6
+Unemployment Rate,UNRATE,1954-07-01,5.8
+Unemployment Rate,UNRATE,1954-08-01,6.0
+Unemployment Rate,UNRATE,1954-09-01,6.1
+Unemployment Rate,UNRATE,1954-10-01,5.7
+Unemployment Rate,UNRATE,1954-11-01,5.3
+Unemployment Rate,UNRATE,1954-12-01,5.0
+Unemployment Rate,UNRATE,1955-01-01,4.9
+Unemployment Rate,UNRATE,1955-02-01,4.7
+Unemployment Rate,UNRATE,1955-03-01,4.6
+Unemployment Rate,UNRATE,1955-04-01,4.7
+Unemployment Rate,UNRATE,1955-05-01,4.3
+Unemployment Rate,UNRATE,1955-06-01,4.2
+Unemployment Rate,UNRATE,1955-07-01,4.0
+Unemployment Rate,UNRATE,1955-08-01,4.2
+Unemployment Rate,UNRATE,1955-09-01,4.1
+Unemployment Rate,UNRATE,1955-10-01,4.3
+Unemployment Rate,UNRATE,1955-11-01,4.2
+Unemployment Rate,UNRATE,1955-12-01,4.2
+Unemployment Rate,UNRATE,1956-01-01,4.0
+Unemployment Rate,UNRATE,1956-02-01,3.9
+Unemployment Rate,UNRATE,1956-03-01,4.2
+Unemployment Rate,UNRATE,1956-04-01,4.0
+Unemployment Rate,UNRATE,1956-05-01,4.3
+Unemployment Rate,UNRATE,1956-06-01,4.3
+Unemployment Rate,UNRATE,1956-07-01,4.4
+Unemployment Rate,UNRATE,1956-08-01,4.1
+Unemployment Rate,UNRATE,1956-09-01,3.9
+Unemployment Rate,UNRATE,1956-10-01,3.9
+Unemployment Rate,UNRATE,1956-11-01,4.3
+Unemployment Rate,UNRATE,1956-12-01,4.2
+Unemployment Rate,UNRATE,1957-01-01,4.2
+Unemployment Rate,UNRATE,1957-02-01,3.9
+Unemployment Rate,UNRATE,1957-03-01,3.7
+Unemployment Rate,UNRATE,1957-04-01,3.9
+Unemployment Rate,UNRATE,1957-05-01,4.1
+Unemployment Rate,UNRATE,1957-06-01,4.3
+Unemployment Rate,UNRATE,1957-07-01,4.2
+Unemployment Rate,UNRATE,1957-08-01,4.1
+Unemployment Rate,UNRATE,1957-09-01,4.4
+Unemployment Rate,UNRATE,1957-10-01,4.5
+Unemployment Rate,UNRATE,1957-11-01,5.1
+Unemployment Rate,UNRATE,1957-12-01,5.2
+Unemployment Rate,UNRATE,1958-01-01,5.8
+Unemployment Rate,UNRATE,1958-02-01,6.4
+Unemployment Rate,UNRATE,1958-03-01,6.7
+Unemployment Rate,UNRATE,1958-04-01,7.4
+Unemployment Rate,UNRATE,1958-05-01,7.4
+Unemployment Rate,UNRATE,1958-06-01,7.3
+Unemployment Rate,UNRATE,1958-07-01,7.5
+Unemployment Rate,UNRATE,1958-08-01,7.4
+Unemployment Rate,UNRATE,1958-09-01,7.1
+Unemployment Rate,UNRATE,1958-10-01,6.7
+Unemployment Rate,UNRATE,1958-11-01,6.2
+Unemployment Rate,UNRATE,1958-12-01,6.2
+Unemployment Rate,UNRATE,1959-01-01,6.0
+Unemployment Rate,UNRATE,1959-02-01,5.9
+Unemployment Rate,UNRATE,1959-03-01,5.6
+Unemployment Rate,UNRATE,1959-04-01,5.2
+Unemployment Rate,UNRATE,1959-05-01,5.1
+Unemployment Rate,UNRATE,1959-06-01,5.0
+Unemployment Rate,UNRATE,1959-07-01,5.1
+Unemployment Rate,UNRATE,1959-08-01,5.2
+Unemployment Rate,UNRATE,1959-09-01,5.5
+Unemployment Rate,UNRATE,1959-10-01,5.7
+Unemployment Rate,UNRATE,1959-11-01,5.8
+Unemployment Rate,UNRATE,1959-12-01,5.3
+Unemployment Rate,UNRATE,1960-01-01,5.2
+Unemployment Rate,UNRATE,1960-02-01,4.8
+Unemployment Rate,UNRATE,1960-03-01,5.4
+Unemployment Rate,UNRATE,1960-04-01,5.2
+Unemployment Rate,UNRATE,1960-05-01,5.1
+Unemployment Rate,UNRATE,1960-06-01,5.4
+Unemployment Rate,UNRATE,1960-07-01,5.5
+Unemployment Rate,UNRATE,1960-08-01,5.6
+Unemployment Rate,UNRATE,1960-09-01,5.5
+Unemployment Rate,UNRATE,1960-10-01,6.1
+Unemployment Rate,UNRATE,1960-11-01,6.1
+Unemployment Rate,UNRATE,1960-12-01,6.6
+Unemployment Rate,UNRATE,1961-01-01,6.6
+Unemployment Rate,UNRATE,1961-02-01,6.9
+Unemployment Rate,UNRATE,1961-03-01,6.9
+Unemployment Rate,UNRATE,1961-04-01,7.0
+Unemployment Rate,UNRATE,1961-05-01,7.1
+Unemployment Rate,UNRATE,1961-06-01,6.9
+Unemployment Rate,UNRATE,1961-07-01,7.0
+Unemployment Rate,UNRATE,1961-08-01,6.6
+Unemployment Rate,UNRATE,1961-09-01,6.7
+Unemployment Rate,UNRATE,1961-10-01,6.5
+Unemployment Rate,UNRATE,1961-11-01,6.1
+Unemployment Rate,UNRATE,1961-12-01,6.0
+Unemployment Rate,UNRATE,1962-01-01,5.8
+Unemployment Rate,UNRATE,1962-02-01,5.5
+Unemployment Rate,UNRATE,1962-03-01,5.6
+Unemployment Rate,UNRATE,1962-04-01,5.6
+Unemployment Rate,UNRATE,1962-05-01,5.5
+Unemployment Rate,UNRATE,1962-06-01,5.5
+Unemployment Rate,UNRATE,1962-07-01,5.4
+Unemployment Rate,UNRATE,1962-08-01,5.7
+Unemployment Rate,UNRATE,1962-09-01,5.6
+Unemployment Rate,UNRATE,1962-10-01,5.4
+Unemployment Rate,UNRATE,1962-11-01,5.7
+Unemployment Rate,UNRATE,1962-12-01,5.5
+Unemployment Rate,UNRATE,1963-01-01,5.7
+Unemployment Rate,UNRATE,1963-02-01,5.9
+Unemployment Rate,UNRATE,1963-03-01,5.7
+Unemployment Rate,UNRATE,1963-04-01,5.7
+Unemployment Rate,UNRATE,1963-05-01,5.9
+Unemployment Rate,UNRATE,1963-06-01,5.6
+Unemployment Rate,UNRATE,1963-07-01,5.6
+Unemployment Rate,UNRATE,1963-08-01,5.4
+Unemployment Rate,UNRATE,1963-09-01,5.5
+Unemployment Rate,UNRATE,1963-10-01,5.5
+Unemployment Rate,UNRATE,1963-11-01,5.7
+Unemployment Rate,UNRATE,1963-12-01,5.5
+Unemployment Rate,UNRATE,1964-01-01,5.6
+Unemployment Rate,UNRATE,1964-02-01,5.4
+Unemployment Rate,UNRATE,1964-03-01,5.4
+Unemployment Rate,UNRATE,1964-04-01,5.3
+Unemployment Rate,UNRATE,1964-05-01,5.1
+Unemployment Rate,UNRATE,1964-06-01,5.2
+Unemployment Rate,UNRATE,1964-07-01,4.9
+Unemployment Rate,UNRATE,1964-08-01,5.0
+Unemployment Rate,UNRATE,1964-09-01,5.1
+Unemployment Rate,UNRATE,1964-10-01,5.1
+Unemployment Rate,UNRATE,1964-11-01,4.8
+Unemployment Rate,UNRATE,1964-12-01,5.0
+Unemployment Rate,UNRATE,1965-01-01,4.9
+Unemployment Rate,UNRATE,1965-02-01,5.1
+Unemployment Rate,UNRATE,1965-03-01,4.7
+Unemployment Rate,UNRATE,1965-04-01,4.8
+Unemployment Rate,UNRATE,1965-05-01,4.6
+Unemployment Rate,UNRATE,1965-06-01,4.6
+Unemployment Rate,UNRATE,1965-07-01,4.4
+Unemployment Rate,UNRATE,1965-08-01,4.4
+Unemployment Rate,UNRATE,1965-09-01,4.3
+Unemployment Rate,UNRATE,1965-10-01,4.2
+Unemployment Rate,UNRATE,1965-11-01,4.1
+Unemployment Rate,UNRATE,1965-12-01,4.0
+Unemployment Rate,UNRATE,1966-01-01,4.0
+Unemployment Rate,UNRATE,1966-02-01,3.8
+Unemployment Rate,UNRATE,1966-03-01,3.8
+Unemployment Rate,UNRATE,1966-04-01,3.8
+Unemployment Rate,UNRATE,1966-05-01,3.9
+Unemployment Rate,UNRATE,1966-06-01,3.8
+Unemployment Rate,UNRATE,1966-07-01,3.8
+Unemployment Rate,UNRATE,1966-08-01,3.8
+Unemployment Rate,UNRATE,1966-09-01,3.7
+Unemployment Rate,UNRATE,1966-10-01,3.7
+Unemployment Rate,UNRATE,1966-11-01,3.6
+Unemployment Rate,UNRATE,1966-12-01,3.8
+Unemployment Rate,UNRATE,1967-01-01,3.9
+Unemployment Rate,UNRATE,1967-02-01,3.8
+Unemployment Rate,UNRATE,1967-03-01,3.8
+Unemployment Rate,UNRATE,1967-04-01,3.8
+Unemployment Rate,UNRATE,1967-05-01,3.8
+Unemployment Rate,UNRATE,1967-06-01,3.9
+Unemployment Rate,UNRATE,1967-07-01,3.8
+Unemployment Rate,UNRATE,1967-08-01,3.8
+Unemployment Rate,UNRATE,1967-09-01,3.8
+Unemployment Rate,UNRATE,1967-10-01,4.0
+Unemployment Rate,UNRATE,1967-11-01,3.9
+Unemployment Rate,UNRATE,1967-12-01,3.8
+Unemployment Rate,UNRATE,1968-01-01,3.7
+Unemployment Rate,UNRATE,1968-02-01,3.8
+Unemployment Rate,UNRATE,1968-03-01,3.7
+Unemployment Rate,UNRATE,1968-04-01,3.5
+Unemployment Rate,UNRATE,1968-05-01,3.5
+Unemployment Rate,UNRATE,1968-06-01,3.7
+Unemployment Rate,UNRATE,1968-07-01,3.7
+Unemployment Rate,UNRATE,1968-08-01,3.5
+Unemployment Rate,UNRATE,1968-09-01,3.4
+Unemployment Rate,UNRATE,1968-10-01,3.4
+Unemployment Rate,UNRATE,1968-11-01,3.4
+Unemployment Rate,UNRATE,1968-12-01,3.4
+Unemployment Rate,UNRATE,1969-01-01,3.4
+Unemployment Rate,UNRATE,1969-02-01,3.4
+Unemployment Rate,UNRATE,1969-03-01,3.4
+Unemployment Rate,UNRATE,1969-04-01,3.4
+Unemployment Rate,UNRATE,1969-05-01,3.4
+Unemployment Rate,UNRATE,1969-06-01,3.5
+Unemployment Rate,UNRATE,1969-07-01,3.5
+Unemployment Rate,UNRATE,1969-08-01,3.5
+Unemployment Rate,UNRATE,1969-09-01,3.7
+Unemployment Rate,UNRATE,1969-10-01,3.7
+Unemployment Rate,UNRATE,1969-11-01,3.5
+Unemployment Rate,UNRATE,1969-12-01,3.5
+Unemployment Rate,UNRATE,1970-01-01,3.9
+Unemployment Rate,UNRATE,1970-02-01,4.2
+Unemployment Rate,UNRATE,1970-03-01,4.4
+Unemployment Rate,UNRATE,1970-04-01,4.6
+Unemployment Rate,UNRATE,1970-05-01,4.8
+Unemployment Rate,UNRATE,1970-06-01,4.9
+Unemployment Rate,UNRATE,1970-07-01,5.0
+Unemployment Rate,UNRATE,1970-08-01,5.1
+Unemployment Rate,UNRATE,1970-09-01,5.4
+Unemployment Rate,UNRATE,1970-10-01,5.5
+Unemployment Rate,UNRATE,1970-11-01,5.9
+Unemployment Rate,UNRATE,1970-12-01,6.1
+Unemployment Rate,UNRATE,1971-01-01,5.9
+Unemployment Rate,UNRATE,1971-02-01,5.9
+Unemployment Rate,UNRATE,1971-03-01,6.0
+Unemployment Rate,UNRATE,1971-04-01,5.9
+Unemployment Rate,UNRATE,1971-05-01,5.9
+Unemployment Rate,UNRATE,1971-06-01,5.9
+Unemployment Rate,UNRATE,1971-07-01,6.0
+Unemployment Rate,UNRATE,1971-08-01,6.1
+Unemployment Rate,UNRATE,1971-09-01,6.0
+Unemployment Rate,UNRATE,1971-10-01,5.8
+Unemployment Rate,UNRATE,1971-11-01,6.0
+Unemployment Rate,UNRATE,1971-12-01,6.0
+Unemployment Rate,UNRATE,1972-01-01,5.8
+Unemployment Rate,UNRATE,1972-02-01,5.7
+Unemployment Rate,UNRATE,1972-03-01,5.8
+Unemployment Rate,UNRATE,1972-04-01,5.7
+Unemployment Rate,UNRATE,1972-05-01,5.7
+Unemployment Rate,UNRATE,1972-06-01,5.7
+Unemployment Rate,UNRATE,1972-07-01,5.6
+Unemployment Rate,UNRATE,1972-08-01,5.6
+Unemployment Rate,UNRATE,1972-09-01,5.5
+Unemployment Rate,UNRATE,1972-10-01,5.6
+Unemployment Rate,UNRATE,1972-11-01,5.3
+Unemployment Rate,UNRATE,1972-12-01,5.2
+Unemployment Rate,UNRATE,1973-01-01,4.9
+Unemployment Rate,UNRATE,1973-02-01,5.0
+Unemployment Rate,UNRATE,1973-03-01,4.9
+Unemployment Rate,UNRATE,1973-04-01,5.0
+Unemployment Rate,UNRATE,1973-05-01,4.9
+Unemployment Rate,UNRATE,1973-06-01,4.9
+Unemployment Rate,UNRATE,1973-07-01,4.8
+Unemployment Rate,UNRATE,1973-08-01,4.8
+Unemployment Rate,UNRATE,1973-09-01,4.8
+Unemployment Rate,UNRATE,1973-10-01,4.6
+Unemployment Rate,UNRATE,1973-11-01,4.8
+Unemployment Rate,UNRATE,1973-12-01,4.9
+Unemployment Rate,UNRATE,1974-01-01,5.1
+Unemployment Rate,UNRATE,1974-02-01,5.2
+Unemployment Rate,UNRATE,1974-03-01,5.1
+Unemployment Rate,UNRATE,1974-04-01,5.1
+Unemployment Rate,UNRATE,1974-05-01,5.1
+Unemployment Rate,UNRATE,1974-06-01,5.4
+Unemployment Rate,UNRATE,1974-07-01,5.5
+Unemployment Rate,UNRATE,1974-08-01,5.5
+Unemployment Rate,UNRATE,1974-09-01,5.9
+Unemployment Rate,UNRATE,1974-10-01,6.0
+Unemployment Rate,UNRATE,1974-11-01,6.6
+Unemployment Rate,UNRATE,1974-12-01,7.2
+Unemployment Rate,UNRATE,1975-01-01,8.1
+Unemployment Rate,UNRATE,1975-02-01,8.1
+Unemployment Rate,UNRATE,1975-03-01,8.6
+Unemployment Rate,UNRATE,1975-04-01,8.8
+Unemployment Rate,UNRATE,1975-05-01,9.0
+Unemployment Rate,UNRATE,1975-06-01,8.8
+Unemployment Rate,UNRATE,1975-07-01,8.6
+Unemployment Rate,UNRATE,1975-08-01,8.4
+Unemployment Rate,UNRATE,1975-09-01,8.4
+Unemployment Rate,UNRATE,1975-10-01,8.4
+Unemployment Rate,UNRATE,1975-11-01,8.3
+Unemployment Rate,UNRATE,1975-12-01,8.2
+Unemployment Rate,UNRATE,1976-01-01,7.9
+Unemployment Rate,UNRATE,1976-02-01,7.7
+Unemployment Rate,UNRATE,1976-03-01,7.6
+Unemployment Rate,UNRATE,1976-04-01,7.7
+Unemployment Rate,UNRATE,1976-05-01,7.4
+Unemployment Rate,UNRATE,1976-06-01,7.6
+Unemployment Rate,UNRATE,1976-07-01,7.8
+Unemployment Rate,UNRATE,1976-08-01,7.8
+Unemployment Rate,UNRATE,1976-09-01,7.6
+Unemployment Rate,UNRATE,1976-10-01,7.7
+Unemployment Rate,UNRATE,1976-11-01,7.8
+Unemployment Rate,UNRATE,1976-12-01,7.8
+Unemployment Rate,UNRATE,1977-01-01,7.5
+Unemployment Rate,UNRATE,1977-02-01,7.6
+Unemployment Rate,UNRATE,1977-03-01,7.4
+Unemployment Rate,UNRATE,1977-04-01,7.2
+Unemployment Rate,UNRATE,1977-05-01,7.0
+Unemployment Rate,UNRATE,1977-06-01,7.2
+Unemployment Rate,UNRATE,1977-07-01,6.9
+Unemployment Rate,UNRATE,1977-08-01,7.0
+Unemployment Rate,UNRATE,1977-09-01,6.8
+Unemployment Rate,UNRATE,1977-10-01,6.8
+Unemployment Rate,UNRATE,1977-11-01,6.8
+Unemployment Rate,UNRATE,1977-12-01,6.4
+Unemployment Rate,UNRATE,1978-01-01,6.4
+Unemployment Rate,UNRATE,1978-02-01,6.3
+Unemployment Rate,UNRATE,1978-03-01,6.3
+Unemployment Rate,UNRATE,1978-04-01,6.1
+Unemployment Rate,UNRATE,1978-05-01,6.0
+Unemployment Rate,UNRATE,1978-06-01,5.9
+Unemployment Rate,UNRATE,1978-07-01,6.2
+Unemployment Rate,UNRATE,1978-08-01,5.9
+Unemployment Rate,UNRATE,1978-09-01,6.0
+Unemployment Rate,UNRATE,1978-10-01,5.8
+Unemployment Rate,UNRATE,1978-11-01,5.9
+Unemployment Rate,UNRATE,1978-12-01,6.0
+Unemployment Rate,UNRATE,1979-01-01,5.9
+Unemployment Rate,UNRATE,1979-02-01,5.9
+Unemployment Rate,UNRATE,1979-03-01,5.8
+Unemployment Rate,UNRATE,1979-04-01,5.8
+Unemployment Rate,UNRATE,1979-05-01,5.6
+Unemployment Rate,UNRATE,1979-06-01,5.7
+Unemployment Rate,UNRATE,1979-07-01,5.7
+Unemployment Rate,UNRATE,1979-08-01,6.0
+Unemployment Rate,UNRATE,1979-09-01,5.9
+Unemployment Rate,UNRATE,1979-10-01,6.0
+Unemployment Rate,UNRATE,1979-11-01,5.9
+Unemployment Rate,UNRATE,1979-12-01,6.0
+Unemployment Rate,UNRATE,1980-01-01,6.3
+Unemployment Rate,UNRATE,1980-02-01,6.3
+Unemployment Rate,UNRATE,1980-03-01,6.3
+Unemployment Rate,UNRATE,1980-04-01,6.9
+Unemployment Rate,UNRATE,1980-05-01,7.5
+Unemployment Rate,UNRATE,1980-06-01,7.6
+Unemployment Rate,UNRATE,1980-07-01,7.8
+Unemployment Rate,UNRATE,1980-08-01,7.7
+Unemployment Rate,UNRATE,1980-09-01,7.5
+Unemployment Rate,UNRATE,1980-10-01,7.5
+Unemployment Rate,UNRATE,1980-11-01,7.5
+Unemployment Rate,UNRATE,1980-12-01,7.2
+Unemployment Rate,UNRATE,1981-01-01,7.5
+Unemployment Rate,UNRATE,1981-02-01,7.4
+Unemployment Rate,UNRATE,1981-03-01,7.4
+Unemployment Rate,UNRATE,1981-04-01,7.2
+Unemployment Rate,UNRATE,1981-05-01,7.5
+Unemployment Rate,UNRATE,1981-06-01,7.5
+Unemployment Rate,UNRATE,1981-07-01,7.2
+Unemployment Rate,UNRATE,1981-08-01,7.4
+Unemployment Rate,UNRATE,1981-09-01,7.6
+Unemployment Rate,UNRATE,1981-10-01,7.9
+Unemployment Rate,UNRATE,1981-11-01,8.3
+Unemployment Rate,UNRATE,1981-12-01,8.5
+Unemployment Rate,UNRATE,1982-01-01,8.6
+Unemployment Rate,UNRATE,1982-02-01,8.9
+Unemployment Rate,UNRATE,1982-03-01,9.0
+Unemployment Rate,UNRATE,1982-04-01,9.3
+Unemployment Rate,UNRATE,1982-05-01,9.4
+Unemployment Rate,UNRATE,1982-06-01,9.6
+Unemployment Rate,UNRATE,1982-07-01,9.8
+Unemployment Rate,UNRATE,1982-08-01,9.8
+Unemployment Rate,UNRATE,1982-09-01,10.1
+Unemployment Rate,UNRATE,1982-10-01,10.4
+Unemployment Rate,UNRATE,1982-11-01,10.8
+Unemployment Rate,UNRATE,1982-12-01,10.8
+Unemployment Rate,UNRATE,1983-01-01,10.4
+Unemployment Rate,UNRATE,1983-02-01,10.4
+Unemployment Rate,UNRATE,1983-03-01,10.3
+Unemployment Rate,UNRATE,1983-04-01,10.2
+Unemployment Rate,UNRATE,1983-05-01,10.1
+Unemployment Rate,UNRATE,1983-06-01,10.1
+Unemployment Rate,UNRATE,1983-07-01,9.4
+Unemployment Rate,UNRATE,1983-08-01,9.5
+Unemployment Rate,UNRATE,1983-09-01,9.2
+Unemployment Rate,UNRATE,1983-10-01,8.8
+Unemployment Rate,UNRATE,1983-11-01,8.5
+Unemployment Rate,UNRATE,1983-12-01,8.3
+Unemployment Rate,UNRATE,1984-01-01,8.0
+Unemployment Rate,UNRATE,1984-02-01,7.8
+Unemployment Rate,UNRATE,1984-03-01,7.8
+Unemployment Rate,UNRATE,1984-04-01,7.7
+Unemployment Rate,UNRATE,1984-05-01,7.4
+Unemployment Rate,UNRATE,1984-06-01,7.2
+Unemployment Rate,UNRATE,1984-07-01,7.5
+Unemployment Rate,UNRATE,1984-08-01,7.5
+Unemployment Rate,UNRATE,1984-09-01,7.3
+Unemployment Rate,UNRATE,1984-10-01,7.4
+Unemployment Rate,UNRATE,1984-11-01,7.2
+Unemployment Rate,UNRATE,1984-12-01,7.3
+Unemployment Rate,UNRATE,1985-01-01,7.3
+Unemployment Rate,UNRATE,1985-02-01,7.2
+Unemployment Rate,UNRATE,1985-03-01,7.2
+Unemployment Rate,UNRATE,1985-04-01,7.3
+Unemployment Rate,UNRATE,1985-05-01,7.2
+Unemployment Rate,UNRATE,1985-06-01,7.4
+Unemployment Rate,UNRATE,1985-07-01,7.4
+Unemployment Rate,UNRATE,1985-08-01,7.1
+Unemployment Rate,UNRATE,1985-09-01,7.1
+Unemployment Rate,UNRATE,1985-10-01,7.1
+Unemployment Rate,UNRATE,1985-11-01,7.0
+Unemployment Rate,UNRATE,1985-12-01,7.0
+Unemployment Rate,UNRATE,1986-01-01,6.7
+Unemployment Rate,UNRATE,1986-02-01,7.2
+Unemployment Rate,UNRATE,1986-03-01,7.2
+Unemployment Rate,UNRATE,1986-04-01,7.1
+Unemployment Rate,UNRATE,1986-05-01,7.2
+Unemployment Rate,UNRATE,1986-06-01,7.2
+Unemployment Rate,UNRATE,1986-07-01,7.0
+Unemployment Rate,UNRATE,1986-08-01,6.9
+Unemployment Rate,UNRATE,1986-09-01,7.0
+Unemployment Rate,UNRATE,1986-10-01,7.0
+Unemployment Rate,UNRATE,1986-11-01,6.9
+Unemployment Rate,UNRATE,1986-12-01,6.6
+Unemployment Rate,UNRATE,1987-01-01,6.6
+Unemployment Rate,UNRATE,1987-02-01,6.6
+Unemployment Rate,UNRATE,1987-03-01,6.6
+Unemployment Rate,UNRATE,1987-04-01,6.3
+Unemployment Rate,UNRATE,1987-05-01,6.3
+Unemployment Rate,UNRATE,1987-06-01,6.2
+Unemployment Rate,UNRATE,1987-07-01,6.1
+Unemployment Rate,UNRATE,1987-08-01,6.0
+Unemployment Rate,UNRATE,1987-09-01,5.9
+Unemployment Rate,UNRATE,1987-10-01,6.0
+Unemployment Rate,UNRATE,1987-11-01,5.8
+Unemployment Rate,UNRATE,1987-12-01,5.7
+Unemployment Rate,UNRATE,1988-01-01,5.7
+Unemployment Rate,UNRATE,1988-02-01,5.7
+Unemployment Rate,UNRATE,1988-03-01,5.7
+Unemployment Rate,UNRATE,1988-04-01,5.4
+Unemployment Rate,UNRATE,1988-05-01,5.6
+Unemployment Rate,UNRATE,1988-06-01,5.4
+Unemployment Rate,UNRATE,1988-07-01,5.4
+Unemployment Rate,UNRATE,1988-08-01,5.6
+Unemployment Rate,UNRATE,1988-09-01,5.4
+Unemployment Rate,UNRATE,1988-10-01,5.4
+Unemployment Rate,UNRATE,1988-11-01,5.3
+Unemployment Rate,UNRATE,1988-12-01,5.3
+Unemployment Rate,UNRATE,1989-01-01,5.4
+Unemployment Rate,UNRATE,1989-02-01,5.2
+Unemployment Rate,UNRATE,1989-03-01,5.0
+Unemployment Rate,UNRATE,1989-04-01,5.2
+Unemployment Rate,UNRATE,1989-05-01,5.2
+Unemployment Rate,UNRATE,1989-06-01,5.3
+Unemployment Rate,UNRATE,1989-07-01,5.2
+Unemployment Rate,UNRATE,1989-08-01,5.2
+Unemployment Rate,UNRATE,1989-09-01,5.3
+Unemployment Rate,UNRATE,1989-10-01,5.3
+Unemployment Rate,UNRATE,1989-11-01,5.4
+Unemployment Rate,UNRATE,1989-12-01,5.4
+Unemployment Rate,UNRATE,1990-01-01,5.4
+Unemployment Rate,UNRATE,1990-02-01,5.3
+Unemployment Rate,UNRATE,1990-03-01,5.2
+Unemployment Rate,UNRATE,1990-04-01,5.4
+Unemployment Rate,UNRATE,1990-05-01,5.4
+Unemployment Rate,UNRATE,1990-06-01,5.2
+Unemployment Rate,UNRATE,1990-07-01,5.5
+Unemployment Rate,UNRATE,1990-08-01,5.7
+Unemployment Rate,UNRATE,1990-09-01,5.9
+Unemployment Rate,UNRATE,1990-10-01,5.9
+Unemployment Rate,UNRATE,1990-11-01,6.2
+Unemployment Rate,UNRATE,1990-12-01,6.3
+Unemployment Rate,UNRATE,1991-01-01,6.4
+Unemployment Rate,UNRATE,1991-02-01,6.6
+Unemployment Rate,UNRATE,1991-03-01,6.8
+Unemployment Rate,UNRATE,1991-04-01,6.7
+Unemployment Rate,UNRATE,1991-05-01,6.9
+Unemployment Rate,UNRATE,1991-06-01,6.9
+Unemployment Rate,UNRATE,1991-07-01,6.8
+Unemployment Rate,UNRATE,1991-08-01,6.9
+Unemployment Rate,UNRATE,1991-09-01,6.9
+Unemployment Rate,UNRATE,1991-10-01,7.0
+Unemployment Rate,UNRATE,1991-11-01,7.0
+Unemployment Rate,UNRATE,1991-12-01,7.3
+Unemployment Rate,UNRATE,1992-01-01,7.3
+Unemployment Rate,UNRATE,1992-02-01,7.4
+Unemployment Rate,UNRATE,1992-03-01,7.4
+Unemployment Rate,UNRATE,1992-04-01,7.4
+Unemployment Rate,UNRATE,1992-05-01,7.6
+Unemployment Rate,UNRATE,1992-06-01,7.8
+Unemployment Rate,UNRATE,1992-07-01,7.7
+Unemployment Rate,UNRATE,1992-08-01,7.6
+Unemployment Rate,UNRATE,1992-09-01,7.6
+Unemployment Rate,UNRATE,1992-10-01,7.3
+Unemployment Rate,UNRATE,1992-11-01,7.4
+Unemployment Rate,UNRATE,1992-12-01,7.4
+Unemployment Rate,UNRATE,1993-01-01,7.3
+Unemployment Rate,UNRATE,1993-02-01,7.1
+Unemployment Rate,UNRATE,1993-03-01,7.0
+Unemployment Rate,UNRATE,1993-04-01,7.1
+Unemployment Rate,UNRATE,1993-05-01,7.1
+Unemployment Rate,UNRATE,1993-06-01,7.0
+Unemployment Rate,UNRATE,1993-07-01,6.9
+Unemployment Rate,UNRATE,1993-08-01,6.8
+Unemployment Rate,UNRATE,1993-09-01,6.7
+Unemployment Rate,UNRATE,1993-10-01,6.8
+Unemployment Rate,UNRATE,1993-11-01,6.6
+Unemployment Rate,UNRATE,1993-12-01,6.5
+Unemployment Rate,UNRATE,1994-01-01,6.6
+Unemployment Rate,UNRATE,1994-02-01,6.6
+Unemployment Rate,UNRATE,1994-03-01,6.5
+Unemployment Rate,UNRATE,1994-04-01,6.4
+Unemployment Rate,UNRATE,1994-05-01,6.1
+Unemployment Rate,UNRATE,1994-06-01,6.1
+Unemployment Rate,UNRATE,1994-07-01,6.1
+Unemployment Rate,UNRATE,1994-08-01,6.0
+Unemployment Rate,UNRATE,1994-09-01,5.9
+Unemployment Rate,UNRATE,1994-10-01,5.8
+Unemployment Rate,UNRATE,1994-11-01,5.6
+Unemployment Rate,UNRATE,1994-12-01,5.5
+Unemployment Rate,UNRATE,1995-01-01,5.6
+Unemployment Rate,UNRATE,1995-02-01,5.4
+Unemployment Rate,UNRATE,1995-03-01,5.4
+Unemployment Rate,UNRATE,1995-04-01,5.8
+Unemployment Rate,UNRATE,1995-05-01,5.6
+Unemployment Rate,UNRATE,1995-06-01,5.6
+Unemployment Rate,UNRATE,1995-07-01,5.7
+Unemployment Rate,UNRATE,1995-08-01,5.7
+Unemployment Rate,UNRATE,1995-09-01,5.6
+Unemployment Rate,UNRATE,1995-10-01,5.5
+Unemployment Rate,UNRATE,1995-11-01,5.6
+Unemployment Rate,UNRATE,1995-12-01,5.6
+Unemployment Rate,UNRATE,1996-01-01,5.6
+Unemployment Rate,UNRATE,1996-02-01,5.5
+Unemployment Rate,UNRATE,1996-03-01,5.5
+Unemployment Rate,UNRATE,1996-04-01,5.6
+Unemployment Rate,UNRATE,1996-05-01,5.6
+Unemployment Rate,UNRATE,1996-06-01,5.3
+Unemployment Rate,UNRATE,1996-07-01,5.5
+Unemployment Rate,UNRATE,1996-08-01,5.1
+Unemployment Rate,UNRATE,1996-09-01,5.2
+Unemployment Rate,UNRATE,1996-10-01,5.2
+Unemployment Rate,UNRATE,1996-11-01,5.4
+Unemployment Rate,UNRATE,1996-12-01,5.4
+Unemployment Rate,UNRATE,1997-01-01,5.3
+Unemployment Rate,UNRATE,1997-02-01,5.2
+Unemployment Rate,UNRATE,1997-03-01,5.2
+Unemployment Rate,UNRATE,1997-04-01,5.1
+Unemployment Rate,UNRATE,1997-05-01,4.9
+Unemployment Rate,UNRATE,1997-06-01,5.0
+Unemployment Rate,UNRATE,1997-07-01,4.9
+Unemployment Rate,UNRATE,1997-08-01,4.8
+Unemployment Rate,UNRATE,1997-09-01,4.9
+Unemployment Rate,UNRATE,1997-10-01,4.7
+Unemployment Rate,UNRATE,1997-11-01,4.6
+Unemployment Rate,UNRATE,1997-12-01,4.7
+Unemployment Rate,UNRATE,1998-01-01,4.6
+Unemployment Rate,UNRATE,1998-02-01,4.6
+Unemployment Rate,UNRATE,1998-03-01,4.7
+Unemployment Rate,UNRATE,1998-04-01,4.3
+Unemployment Rate,UNRATE,1998-05-01,4.4
+Unemployment Rate,UNRATE,1998-06-01,4.5
+Unemployment Rate,UNRATE,1998-07-01,4.5
+Unemployment Rate,UNRATE,1998-08-01,4.5
+Unemployment Rate,UNRATE,1998-09-01,4.6
+Unemployment Rate,UNRATE,1998-10-01,4.5
+Unemployment Rate,UNRATE,1998-11-01,4.4
+Unemployment Rate,UNRATE,1998-12-01,4.4
+Unemployment Rate,UNRATE,1999-01-01,4.3
+Unemployment Rate,UNRATE,1999-02-01,4.4
+Unemployment Rate,UNRATE,1999-03-01,4.2
+Unemployment Rate,UNRATE,1999-04-01,4.3
+Unemployment Rate,UNRATE,1999-05-01,4.2
+Unemployment Rate,UNRATE,1999-06-01,4.3
+Unemployment Rate,UNRATE,1999-07-01,4.3
+Unemployment Rate,UNRATE,1999-08-01,4.2
+Unemployment Rate,UNRATE,1999-09-01,4.2
+Unemployment Rate,UNRATE,1999-10-01,4.1
+Unemployment Rate,UNRATE,1999-11-01,4.1
+Unemployment Rate,UNRATE,1999-12-01,4.0
+Unemployment Rate,UNRATE,2000-01-01,4.0
+Unemployment Rate,UNRATE,2000-02-01,4.1
+Unemployment Rate,UNRATE,2000-03-01,4.0
+Unemployment Rate,UNRATE,2000-04-01,3.8
+Unemployment Rate,UNRATE,2000-05-01,4.0
+Unemployment Rate,UNRATE,2000-06-01,4.0
+Unemployment Rate,UNRATE,2000-07-01,4.0
+Unemployment Rate,UNRATE,2000-08-01,4.1
+Unemployment Rate,UNRATE,2000-09-01,3.9
+Unemployment Rate,UNRATE,2000-10-01,3.9
+Unemployment Rate,UNRATE,2000-11-01,3.9
+Unemployment Rate,UNRATE,2000-12-01,3.9
+Unemployment Rate,UNRATE,2001-01-01,4.2
+Unemployment Rate,UNRATE,2001-02-01,4.2
+Unemployment Rate,UNRATE,2001-03-01,4.3
+Unemployment Rate,UNRATE,2001-04-01,4.4
+Unemployment Rate,UNRATE,2001-05-01,4.3
+Unemployment Rate,UNRATE,2001-06-01,4.5
+Unemployment Rate,UNRATE,2001-07-01,4.6
+Unemployment Rate,UNRATE,2001-08-01,4.9
+Unemployment Rate,UNRATE,2001-09-01,5.0
+Unemployment Rate,UNRATE,2001-10-01,5.3
+Unemployment Rate,UNRATE,2001-11-01,5.5
+Unemployment Rate,UNRATE,2001-12-01,5.7
+Unemployment Rate,UNRATE,2002-01-01,5.7
+Unemployment Rate,UNRATE,2002-02-01,5.7
+Unemployment Rate,UNRATE,2002-03-01,5.7
+Unemployment Rate,UNRATE,2002-04-01,5.9
+Unemployment Rate,UNRATE,2002-05-01,5.8
+Unemployment Rate,UNRATE,2002-06-01,5.8
+Unemployment Rate,UNRATE,2002-07-01,5.8
+Unemployment Rate,UNRATE,2002-08-01,5.7
+Unemployment Rate,UNRATE,2002-09-01,5.7
+Unemployment Rate,UNRATE,2002-10-01,5.7
+Unemployment Rate,UNRATE,2002-11-01,5.9
+Unemployment Rate,UNRATE,2002-12-01,6.0
+Unemployment Rate,UNRATE,2003-01-01,5.8
+Unemployment Rate,UNRATE,2003-02-01,5.9
+Unemployment Rate,UNRATE,2003-03-01,5.9
+Unemployment Rate,UNRATE,2003-04-01,6.0
+Unemployment Rate,UNRATE,2003-05-01,6.1
+Unemployment Rate,UNRATE,2003-06-01,6.3
+Unemployment Rate,UNRATE,2003-07-01,6.2
+Unemployment Rate,UNRATE,2003-08-01,6.1
+Unemployment Rate,UNRATE,2003-09-01,6.1
+Unemployment Rate,UNRATE,2003-10-01,6.0
+Unemployment Rate,UNRATE,2003-11-01,5.8
+Unemployment Rate,UNRATE,2003-12-01,5.7
+Unemployment Rate,UNRATE,2004-01-01,5.7
+Unemployment Rate,UNRATE,2004-02-01,5.6
+Unemployment Rate,UNRATE,2004-03-01,5.8
+Unemployment Rate,UNRATE,2004-04-01,5.6
+Unemployment Rate,UNRATE,2004-05-01,5.6
+Unemployment Rate,UNRATE,2004-06-01,5.6
+Unemployment Rate,UNRATE,2004-07-01,5.5
+Unemployment Rate,UNRATE,2004-08-01,5.4
+Unemployment Rate,UNRATE,2004-09-01,5.4
+Unemployment Rate,UNRATE,2004-10-01,5.5
+Unemployment Rate,UNRATE,2004-11-01,5.4
+Unemployment Rate,UNRATE,2004-12-01,5.4
+Unemployment Rate,UNRATE,2005-01-01,5.3
+Unemployment Rate,UNRATE,2005-02-01,5.4
+Unemployment Rate,UNRATE,2005-03-01,5.2
+Unemployment Rate,UNRATE,2005-04-01,5.2
+Unemployment Rate,UNRATE,2005-05-01,5.1
+Unemployment Rate,UNRATE,2005-06-01,5.0
+Unemployment Rate,UNRATE,2005-07-01,5.0
+Unemployment Rate,UNRATE,2005-08-01,4.9
+Unemployment Rate,UNRATE,2005-09-01,5.0
+Unemployment Rate,UNRATE,2005-10-01,5.0
+Unemployment Rate,UNRATE,2005-11-01,5.0
+Unemployment Rate,UNRATE,2005-12-01,4.9
+Unemployment Rate,UNRATE,2006-01-01,4.7
+Unemployment Rate,UNRATE,2006-02-01,4.8
+Unemployment Rate,UNRATE,2006-03-01,4.7
+Unemployment Rate,UNRATE,2006-04-01,4.7
+Unemployment Rate,UNRATE,2006-05-01,4.6
+Unemployment Rate,UNRATE,2006-06-01,4.6
+Unemployment Rate,UNRATE,2006-07-01,4.7
+Unemployment Rate,UNRATE,2006-08-01,4.7
+Unemployment Rate,UNRATE,2006-09-01,4.5
+Unemployment Rate,UNRATE,2006-10-01,4.4
+Unemployment Rate,UNRATE,2006-11-01,4.5
+Unemployment Rate,UNRATE,2006-12-01,4.4
+Unemployment Rate,UNRATE,2007-01-01,4.6
+Unemployment Rate,UNRATE,2007-02-01,4.5
+Unemployment Rate,UNRATE,2007-03-01,4.4
+Unemployment Rate,UNRATE,2007-04-01,4.5
+Unemployment Rate,UNRATE,2007-05-01,4.4
+Unemployment Rate,UNRATE,2007-06-01,4.6
+Unemployment Rate,UNRATE,2007-07-01,4.7
+Unemployment Rate,UNRATE,2007-08-01,4.6
+Unemployment Rate,UNRATE,2007-09-01,4.7
+Unemployment Rate,UNRATE,2007-10-01,4.7
+Unemployment Rate,UNRATE,2007-11-01,4.7
+Unemployment Rate,UNRATE,2007-12-01,5.0
+Unemployment Rate,UNRATE,2008-01-01,5.0
+Unemployment Rate,UNRATE,2008-02-01,4.9
+Unemployment Rate,UNRATE,2008-03-01,5.1
+Unemployment Rate,UNRATE,2008-04-01,5.0
+Unemployment Rate,UNRATE,2008-05-01,5.4
+Unemployment Rate,UNRATE,2008-06-01,5.6
+Unemployment Rate,UNRATE,2008-07-01,5.8
+Unemployment Rate,UNRATE,2008-08-01,6.1
+Unemployment Rate,UNRATE,2008-09-01,6.1
+Unemployment Rate,UNRATE,2008-10-01,6.5
+Unemployment Rate,UNRATE,2008-11-01,6.8
+Unemployment Rate,UNRATE,2008-12-01,7.3
+Unemployment Rate,UNRATE,2009-01-01,7.8
+Unemployment Rate,UNRATE,2009-02-01,8.3
+Unemployment Rate,UNRATE,2009-03-01,8.7
+Unemployment Rate,UNRATE,2009-04-01,9.0
+Unemployment Rate,UNRATE,2009-05-01,9.4
+Unemployment Rate,UNRATE,2009-06-01,9.5
+Unemployment Rate,UNRATE,2009-07-01,9.5
+Unemployment Rate,UNRATE,2009-08-01,9.6
+Unemployment Rate,UNRATE,2009-09-01,9.8
+Unemployment Rate,UNRATE,2009-10-01,10.0
+Unemployment Rate,UNRATE,2009-11-01,9.9
+Unemployment Rate,UNRATE,2009-12-01,9.9
+Unemployment Rate,UNRATE,2010-01-01,9.8
+Unemployment Rate,UNRATE,2010-02-01,9.8
+Unemployment Rate,UNRATE,2010-03-01,9.9
+Unemployment Rate,UNRATE,2010-04-01,9.9
+Unemployment Rate,UNRATE,2010-05-01,9.6
+Unemployment Rate,UNRATE,2010-06-01,9.4
+Unemployment Rate,UNRATE,2010-07-01,9.4
+Unemployment Rate,UNRATE,2010-08-01,9.5
+Unemployment Rate,UNRATE,2010-09-01,9.5
+Unemployment Rate,UNRATE,2010-10-01,9.4
+Unemployment Rate,UNRATE,2010-11-01,9.8
+Unemployment Rate,UNRATE,2010-12-01,9.3
+Unemployment Rate,UNRATE,2011-01-01,9.1
+Unemployment Rate,UNRATE,2011-02-01,9.0
+Unemployment Rate,UNRATE,2011-03-01,9.0
+Unemployment Rate,UNRATE,2011-04-01,9.1
+Unemployment Rate,UNRATE,2011-05-01,9.0
+Unemployment Rate,UNRATE,2011-06-01,9.1
+Unemployment Rate,UNRATE,2011-07-01,9.0
+Unemployment Rate,UNRATE,2011-08-01,9.0
+Unemployment Rate,UNRATE,2011-09-01,9.0
+Unemployment Rate,UNRATE,2011-10-01,8.8
+Unemployment Rate,UNRATE,2011-11-01,8.6
+Unemployment Rate,UNRATE,2011-12-01,8.5
+Unemployment Rate,UNRATE,2012-01-01,8.3
+Unemployment Rate,UNRATE,2012-02-01,8.3
+Unemployment Rate,UNRATE,2012-03-01,8.2
+Unemployment Rate,UNRATE,2012-04-01,8.2
+Unemployment Rate,UNRATE,2012-05-01,8.2
+Unemployment Rate,UNRATE,2012-06-01,8.2
+Unemployment Rate,UNRATE,2012-07-01,8.2
+Unemployment Rate,UNRATE,2012-08-01,8.1
+Unemployment Rate,UNRATE,2012-09-01,7.8
+Unemployment Rate,UNRATE,2012-10-01,7.8
+Unemployment Rate,UNRATE,2012-11-01,7.7
+Unemployment Rate,UNRATE,2012-12-01,7.9
+Unemployment Rate,UNRATE,2013-01-01,8.0
+Unemployment Rate,UNRATE,2013-02-01,7.7
+Unemployment Rate,UNRATE,2013-03-01,7.5
+Unemployment Rate,UNRATE,2013-04-01,7.6
+Unemployment Rate,UNRATE,2013-05-01,7.5
+Unemployment Rate,UNRATE,2013-06-01,7.5
+Unemployment Rate,UNRATE,2013-07-01,7.3
+Unemployment Rate,UNRATE,2013-08-01,7.2
+Unemployment Rate,UNRATE,2013-09-01,7.2
+Unemployment Rate,UNRATE,2013-10-01,7.2
+Unemployment Rate,UNRATE,2013-11-01,6.9
+Unemployment Rate,UNRATE,2013-12-01,6.7
+Unemployment Rate,UNRATE,2014-01-01,6.6
+Unemployment Rate,UNRATE,2014-02-01,6.7
+Unemployment Rate,UNRATE,2014-03-01,6.7
+Unemployment Rate,UNRATE,2014-04-01,6.2
+Unemployment Rate,UNRATE,2014-05-01,6.3
+Unemployment Rate,UNRATE,2014-06-01,6.1
+Unemployment Rate,UNRATE,2014-07-01,6.2
+Unemployment Rate,UNRATE,2014-08-01,6.1
+Unemployment Rate,UNRATE,2014-09-01,5.9
+Unemployment Rate,UNRATE,2014-10-01,5.7
+Unemployment Rate,UNRATE,2014-11-01,5.8
+Unemployment Rate,UNRATE,2014-12-01,5.6
+Unemployment Rate,UNRATE,2015-01-01,5.7
+Unemployment Rate,UNRATE,2015-02-01,5.5
+Unemployment Rate,UNRATE,2015-03-01,5.4
+Unemployment Rate,UNRATE,2015-04-01,5.4
+Unemployment Rate,UNRATE,2015-05-01,5.6
+Unemployment Rate,UNRATE,2015-06-01,5.3
+Unemployment Rate,UNRATE,2015-07-01,5.2
+Unemployment Rate,UNRATE,2015-08-01,5.1
+Unemployment Rate,UNRATE,2015-09-01,5.0
+Unemployment Rate,UNRATE,2015-10-01,5.0
+Unemployment Rate,UNRATE,2015-11-01,5.1
+Unemployment Rate,UNRATE,2015-12-01,5.0
+Unemployment Rate,UNRATE,2016-01-01,4.8
+Unemployment Rate,UNRATE,2016-02-01,4.9
+Unemployment Rate,UNRATE,2016-03-01,5.0
+Unemployment Rate,UNRATE,2016-04-01,5.1
+Unemployment Rate,UNRATE,2016-05-01,4.8
+Unemployment Rate,UNRATE,2016-06-01,4.9
+Unemployment Rate,UNRATE,2016-07-01,4.8
+Unemployment Rate,UNRATE,2016-08-01,4.9
+Unemployment Rate,UNRATE,2016-09-01,5.0
+Unemployment Rate,UNRATE,2016-10-01,4.9
+Unemployment Rate,UNRATE,2016-11-01,4.7
+Unemployment Rate,UNRATE,2016-12-01,4.7
+Unemployment Rate,UNRATE,2017-01-01,4.7
+Unemployment Rate,UNRATE,2017-02-01,4.6
+Unemployment Rate,UNRATE,2017-03-01,4.4
+Unemployment Rate,UNRATE,2017-04-01,4.4
+Unemployment Rate,UNRATE,2017-05-01,4.4
+Unemployment Rate,UNRATE,2017-06-01,4.3
+Unemployment Rate,UNRATE,2017-07-01,4.3
+Unemployment Rate,UNRATE,2017-08-01,4.4
+Unemployment Rate,UNRATE,2017-09-01,4.3
+Unemployment Rate,UNRATE,2017-10-01,4.2
+Unemployment Rate,UNRATE,2017-11-01,4.2
+Unemployment Rate,UNRATE,2017-12-01,4.1
+Unemployment Rate,UNRATE,2018-01-01,4.0
+Unemployment Rate,UNRATE,2018-02-01,4.1
+Unemployment Rate,UNRATE,2018-03-01,4.0
+Unemployment Rate,UNRATE,2018-04-01,4.0
+Unemployment Rate,UNRATE,2018-05-01,3.8
+Unemployment Rate,UNRATE,2018-06-01,4.0
+Unemployment Rate,UNRATE,2018-07-01,3.8
+Unemployment Rate,UNRATE,2018-08-01,3.8
+Unemployment Rate,UNRATE,2018-09-01,3.7
+Unemployment Rate,UNRATE,2018-10-01,3.8
+Unemployment Rate,UNRATE,2018-11-01,3.8
+Unemployment Rate,UNRATE,2018-12-01,3.9
+Unemployment Rate,UNRATE,2019-01-01,4.0
+Unemployment Rate,UNRATE,2019-02-01,3.8
+Unemployment Rate,UNRATE,2019-03-01,3.8
+Unemployment Rate,UNRATE,2019-04-01,3.7
+Unemployment Rate,UNRATE,2019-05-01,3.6
+Unemployment Rate,UNRATE,2019-06-01,3.6
+Unemployment Rate,UNRATE,2019-07-01,3.7
+Unemployment Rate,UNRATE,2019-08-01,3.6
+Unemployment Rate,UNRATE,2019-09-01,3.5
+Unemployment Rate,UNRATE,2019-10-01,3.6
+Unemployment Rate,UNRATE,2019-11-01,3.6
+Unemployment Rate,UNRATE,2019-12-01,3.6
+Unemployment Rate,UNRATE,2020-01-01,3.6
+Unemployment Rate,UNRATE,2020-02-01,3.5
+Unemployment Rate,UNRATE,2020-03-01,4.4
+Unemployment Rate,UNRATE,2020-04-01,14.8
+Unemployment Rate,UNRATE,2020-05-01,13.2
+Unemployment Rate,UNRATE,2020-06-01,11.0
+Unemployment Rate,UNRATE,2020-07-01,10.2
+Unemployment Rate,UNRATE,2020-08-01,8.4
+Unemployment Rate,UNRATE,2020-09-01,7.8
+Unemployment Rate,UNRATE,2020-10-01,6.9
+Unemployment Rate,UNRATE,2020-11-01,6.7
+Unemployment Rate,UNRATE,2020-12-01,6.7
+Unemployment Rate,UNRATE,2021-01-01,6.4
+Unemployment Rate,UNRATE,2021-02-01,6.2
+Unemployment Rate,UNRATE,2021-03-01,6.1
+Unemployment Rate,UNRATE,2021-04-01,6.1
+Unemployment Rate,UNRATE,2021-05-01,5.8
+Unemployment Rate,UNRATE,2021-06-01,5.9
+Unemployment Rate,UNRATE,2021-07-01,5.4
+Unemployment Rate,UNRATE,2021-08-01,5.1
+Unemployment Rate,UNRATE,2021-09-01,4.7
+Unemployment Rate,UNRATE,2021-10-01,4.5
+Unemployment Rate,UNRATE,2021-11-01,4.1
+Unemployment Rate,UNRATE,2021-12-01,3.9
+Unemployment Rate,UNRATE,2022-01-01,4.0
+Unemployment Rate,UNRATE,2022-02-01,3.9
+Unemployment Rate,UNRATE,2022-03-01,3.7
+Unemployment Rate,UNRATE,2022-04-01,3.7
+Unemployment Rate,UNRATE,2022-05-01,3.6
+Unemployment Rate,UNRATE,2022-06-01,3.6
+Unemployment Rate,UNRATE,2022-07-01,3.5
+Unemployment Rate,UNRATE,2022-08-01,3.6
+Unemployment Rate,UNRATE,2022-09-01,3.5
+Unemployment Rate,UNRATE,2022-10-01,3.6
+Unemployment Rate,UNRATE,2022-11-01,3.6
+Unemployment Rate,UNRATE,2022-12-01,3.5
+Unemployment Rate,UNRATE,2023-01-01,3.5
+Unemployment Rate,UNRATE,2023-02-01,3.6
+Unemployment Rate,UNRATE,2023-03-01,3.5
+Unemployment Rate,UNRATE,2023-04-01,3.4
+Unemployment Rate,UNRATE,2023-05-01,3.6
+Unemployment Rate,UNRATE,2023-06-01,3.6
+Unemployment Rate,UNRATE,2023-07-01,3.5
+Unemployment Rate,UNRATE,2023-08-01,3.7
+Unemployment Rate,UNRATE,2023-09-01,3.7
+Unemployment Rate,UNRATE,2023-10-01,3.9
+Unemployment Rate,UNRATE,2023-11-01,3.7
+Unemployment Rate,UNRATE,2023-12-01,3.8
+Unemployment Rate,UNRATE,2024-01-01,3.7
+Unemployment Rate,UNRATE,2024-02-01,3.9
+Unemployment Rate,UNRATE,2024-03-01,3.9
+Unemployment Rate,UNRATE,2024-04-01,3.9
+Unemployment Rate,UNRATE,2024-05-01,3.9
+Unemployment Rate,UNRATE,2024-06-01,4.1
+Unemployment Rate,UNRATE,2024-07-01,4.2
+Unemployment Rate,UNRATE,2024-08-01,4.2
+Unemployment Rate,UNRATE,2024-09-01,4.1
+Unemployment Rate,UNRATE,2024-10-01,4.1
+Unemployment Rate,UNRATE,2024-11-01,4.2
+Unemployment Rate,UNRATE,2024-12-01,4.1
+Unemployment Rate,UNRATE,2025-01-01,4.0
+Unemployment Rate,UNRATE,2025-02-01,4.2
+Unemployment Rate,UNRATE,2025-03-01,4.2
+Unemployment Rate,UNRATE,2025-04-01,4.2
+Unemployment Rate,UNRATE,2025-05-01,4.3
+Unemployment Rate,UNRATE,2025-06-01,4.1
+Unemployment Rate,UNRATE,2025-07-01,4.3
+Unemployment Rate,UNRATE,2025-08-01,4.3
+Unemployment Rate,UNRATE,2025-09-01,4.4
+Unemployment Rate,UNRATE,2025-10-01,
+Unemployment Rate,UNRATE,2025-11-01,4.5
+Unemployment Rate,UNRATE,2025-12-01,4.4
+Unemployment Rate,UNRATE,2026-01-01,4.3
+Unemployment Rate,UNRATE,2026-02-01,4.4
+Unemployment Rate,UNRATE,2026-03-01,4.3
+Unemployment Rate,UNRATE,2026-04-01,4.3
+Unemployment Rate,UNRATE,2026-05-01,4.3

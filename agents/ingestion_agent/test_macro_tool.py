@@ -8,10 +8,17 @@ from agents.ingestion_agent.tools.macro_tool import (
     get_latest_macro_indicator
 )
 
-result = get_latest_macro_indicator.invoke(
-    {
-        "indicator_code": "CPIAUCSL"
-    }
-)
-
-print(result)
+for indicator in [
+    "cpi",
+    "gdp",
+    "interest rates",
+    "unemployment"
+]:
+    print("\n--------------------------------")
+    print(
+        get_latest_macro_indicator.invoke(
+            {
+                "indicator_name": indicator
+            }
+        )
+    )

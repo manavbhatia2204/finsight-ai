@@ -5,19 +5,36 @@ from api.models.macro_indicator import MacroIndicator
 
 
 @tool
-def get_latest_macro_indicator(indicator_code: str) -> str:
+def get_latest_macro_indicator(indicator_name: str) -> str:
     """
-Get the latest value for a macroeconomic indicator.
+    Get the latest value of a macroeconomic indicator.
 
-Supported indicators:
+    Supported indicators:
+    - inflation
+    - cpi
+    - gdp
+    - interest rates
+    - federal funds rate
+    - unemployment
+    - unemployment rate
+    """
 
-CPIAUCSL = Consumer Price Index (CPI)
-GDP = Gross Domestic Product
-FEDFUNDS = Federal Funds Rate
+    indicator_name = indicator_name.lower().strip()
 
-Use CPIAUCSL when the user asks about inflation or CPI.
-Use FEDFUNDS when the user asks about interest rates.
-"""
+    mapping = {
+        "inflation": "CPIAUCSL",
+        "cpi": "CPIAUCSL",
+        "gdp": "GDP",
+        "interest rates": "FEDFUNDS",
+        "federal funds rate": "FEDFUNDS",
+        "unemployment": "UNRATE",
+        "unemployment rate": "UNRATE"
+    }
+
+    indicator_code = mapping.get(indicator_name)
+
+    if not indicator_code:
+        return f"Unsupported indicator: {indicator_name}"
 
     db = SessionLocal()
 

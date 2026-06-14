@@ -6,12 +6,14 @@ sys.path.append(str(project_root))
 
 from agents.ingestion_agent.agent import agent
 
+question = input("Ask FinSight AI: ")
+
 response = agent.invoke(
     {
         "messages": [
             {
                 "role": "user",
-                "content": "What is Apple's latest stock price and what is the latest CPI value?"
+                "content": question
             }
         ]
     }

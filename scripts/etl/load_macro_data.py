@@ -12,7 +12,8 @@ from api.models.macro_indicator import MacroIndicator
 db = SessionLocal()
 
 try:
-    df = pd.read_csv("data/raw/cpi_data.csv")
+    # Read the new multi-indicator dataset
+    df = pd.read_csv("data/raw/macro_data.csv")
 
     inserted_rows = 0
 

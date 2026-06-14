@@ -1,49 +1,69 @@
-import os
-from pathlib import Path
-
 import pandas as pd
-from dotenv import load_dotenv
 from fredapi import Fred
+from dotenv import load_dotenv
+import os
 
-# Load .env from project root
-BASE_DIR = Path(__file__).resolve().parent.parent
-load_dotenv(BASE_DIR / ".env")
+# Load environment variables
+load_dotenv()
 
-fred = Fred(api_key=os.getenv("FRED_API_KEY"))
+# Get FRED API Key
+FRED_API_KEY = os.getenv("FRED_API_KEY")
 
-# CPI = Consumer Price Index
-series_id = "CPIAUCSL"
+# Initialize FRED client
+fred = Fred(api_key=FRED_API_KEY)
 
-print(f"Downloading {series_id} data...")
+# Indicators to download
+INDICATORS = {
+    "CPIAUCSL": "Consumer Price Index",
+    "GDP": "Gross Domestic Product",
+    "FEDFUNDS": "Federal Funds Rate",
+    "UNRATE": "Unemployment Rate"
+}
 
-data = fred.get_series(series_id)
+all_data = []
 
-df = pd.DataFrame({
-    "date": data.index,
-    "value": data.values
-})
+# Download each indicator
+for series_id, indicator_name in INDICATORS.items():
 
-df["indicator_name"] = "Consumer Price Index"
-df["indicator_code"] = series_id
+    print(f"\nDownloading {indicator_name} ({series_id})...")
 
-# Reorder columns
-df = df[
-    [
-        "indicator_name",
-        "indicator_code",
-        "date",
-        "value"
+    data = fred.get_series(series_id)
+
+    df = pd.DataFrame({
+        "date": data.index,
+        "value": data.values
+    })
+
+    df["indicator_name"] = indicator_name
+    df["indicator_code"] = series_id
+
+    # Reorder columns
+    df = df[
+        [
+            "indicator_name",
+            "indicator_code",
+            "date",
+            "value"
+        ]
     ]
-]
+
+    all_data.append(df)
+
+# Combine all indicators
+final_df = pd.concat(all_data, ignore_index=True)
 
 print("\nPreview:")
-print(df.head())
+print(final_df.head())
 
 print("\nShape:")
-print(df.shape)
+print(final_df.shape)
 
-output_path = "data/raw/cpi_data.csv"
+# Create directory if it doesn't exist
+os.makedirs("data/raw", exist_ok=True)
 
-df.to_csv(output_path, index=False)
+# Save CSV
+output_path = "data/raw/macro_data.csv"
+
+final_df.to_csv(output_path, index=False)
 
 print(f"\n✅ Saved to {output_path}")
