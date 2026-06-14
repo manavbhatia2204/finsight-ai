@@ -11,7 +11,7 @@ response = agent.invoke(
         "messages": [
             {
                 "role": "user",
-                "content": "How many stocks are currently stored in the database?"
+                "content": "What is Apple's latest stock price and what is the latest CPI value?"
             }
         ]
     }

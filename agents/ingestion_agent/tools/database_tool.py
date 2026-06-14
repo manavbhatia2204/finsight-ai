@@ -5,9 +5,9 @@ from api.models.stock import Stock
 
 
 @tool
-def get_stock_count() -> str:
+def get_stock_count(request: str) -> str:
     """
-    Get the number of stocks stored in the database.
+    Return the number of stocks stored in the database.
     """
 
     db = SessionLocal()
