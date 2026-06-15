@@ -5,11 +5,28 @@ from api.models.macro_indicator import MacroIndicator
 
 
 @tool
-def get_market_summary(summary_type: str) -> str:
+def get_market_summary(query: str) -> str:
     """
-Generate a summary of current macroeconomic conditions.
+Get a complete market summary.
 
-Use summary_type="market" for a general market summary.
+Use this tool whenever the user asks:
+
+- Give me a market summary
+- Market summary
+- Economic summary
+- Economy overview
+- How is the economy doing?
+
+This tool already includes:
+
+- GDP
+- Inflation (CPI)
+- Federal Funds Rate
+- Unemployment Rate
+
+Do NOT call additional macroeconomic indicator tools after using this tool.
+
+Pass the user's request as the query parameter.
 """
 
     db = SessionLocal()

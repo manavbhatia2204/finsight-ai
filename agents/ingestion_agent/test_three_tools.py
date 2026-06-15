@@ -1,0 +1,43 @@
+import sys
+from pathlib import Path
+
+project_root = Path(__file__).resolve().parent.parent.parent
+sys.path.append(str(project_root))
+
+from langchain.agents import create_agent
+
+from agents.ingestion_agent.llm import llm
+
+from agents.ingestion_agent.tools.stock_tool import (
+    get_stock_price
+)
+
+from agents.ingestion_agent.tools.macro_tool import (
+    get_latest_macro_indicator
+)
+
+from agents.ingestion_agent.tools.database_tool import (
+    get_stock_count
+)
+
+agent = create_agent(
+    model=llm,
+    tools=[
+        get_stock_price,
+        get_latest_macro_indicator,
+        get_stock_count
+    ]
+)
+
+response = agent.invoke(
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "What is the current unemployment rate?"
+            }
+        ]
+    }
+)
+
+print(response)

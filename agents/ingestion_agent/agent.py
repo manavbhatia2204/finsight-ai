@@ -16,6 +16,6 @@ agent = create_agent(
         get_stock_price,
         get_stock_count,
         get_latest_macro_indicator,
-        #get_market_summary
+        get_market_summary
     ]
 )
