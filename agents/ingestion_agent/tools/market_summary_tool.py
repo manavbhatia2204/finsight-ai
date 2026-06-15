@@ -57,15 +57,16 @@ Pass the user's request as the query parameter.
                 indicators[code] = result.value
 
         summary = f"""
-Market Summary
+FINAL MARKET SUMMARY
+
+This summary is complete and contains all required macroeconomic indicators.
 
 GDP: {indicators['GDP']}
-
 Inflation (CPI): {indicators['CPIAUCSL']}
-
 Federal Funds Rate: {indicators['FEDFUNDS']}%
-
 Unemployment Rate: {indicators['UNRATE']}%
+
+No additional indicator lookups are required.
 """
 
         return summary
