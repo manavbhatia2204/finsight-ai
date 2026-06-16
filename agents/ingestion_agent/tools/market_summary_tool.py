@@ -5,33 +5,41 @@ from api.models.macro_indicator import MacroIndicator
 
 
 @tool
-def get_market_summary(query: str) -> str:
+def get_market_summary() -> str:
     """
-Get a complete market summary.
+    Get a complete market summary.
 
-Use this tool whenever the user asks:
+    Use whenever the user asks:
 
-- Give me a market summary
-- Market summary
-- Economic summary
-- Economy overview
-- How is the economy doing?
+    - Give me a market summary
+    - Market summary
+    - Economic summary
+    - Economy overview
+    - How is the economy doing?
 
-This tool already includes:
+    This tool already includes:
 
-- GDP
-- Inflation (CPI)
-- Federal Funds Rate
-- Unemployment Rate
+    - GDP
+    - Inflation (CPI)
+    - Federal Funds Rate
+    - Unemployment Rate
 
-Do NOT call additional macroeconomic indicator tools after using this tool.
+    IMPORTANT:
 
-Pass the user's request as the query parameter.
-"""
+    This tool returns the COMPLETE market summary.
+
+    After receiving the output from this tool,
+    provide the answer directly to the user.
+
+    Do NOT call get_market_summary again.
+
+    Do NOT call any additional macroeconomic tools.
+    """
 
     db = SessionLocal()
 
     try:
+        #print("Running market summary tool...")
 
         indicators = {
             "GDP": None,
@@ -41,6 +49,7 @@ Pass the user's request as the query parameter.
         }
 
         for code in indicators.keys():
+            #print(f"Fetching {code}")
 
             result = (
                 db.query(MacroIndicator)
@@ -56,20 +65,18 @@ Pass the user's request as the query parameter.
             if result:
                 indicators[code] = result.value
 
-        summary = f"""
-FINAL MARKET SUMMARY
-
-This summary is complete and contains all required macroeconomic indicators.
+        return f"""
+MARKET SUMMARY COMPLETE
 
 GDP: {indicators['GDP']}
 Inflation (CPI): {indicators['CPIAUCSL']}
 Federal Funds Rate: {indicators['FEDFUNDS']}%
 Unemployment Rate: {indicators['UNRATE']}%
 
-No additional indicator lookups are required.
+THIS IS THE FINAL MARKET SUMMARY.
+NO FURTHER TOOL CALLS ARE REQUIRED.
+RETURN THIS INFORMATION DIRECTLY TO THE USER.
 """
-
-        return summary
 
     finally:
         db.close()

@@ -6,18 +6,28 @@ sys.path.append(str(project_root))
 
 from agents.ingestion_agent.agent import agent
 
-question = input("Ask FinSight AI: ")
+while True:
 
-response = agent.invoke(
-    {
-        "messages": [
-            {
-                "role": "user",
-                "content": question
-            }
-        ]
-    }
-)
+    question = input("\nYou: ")
 
-print("\nFULL RESPONSE:\n")
-print(response)
+    if question.lower() in ["exit", "quit"]:
+        break
+
+    response = agent.invoke(
+        {
+            "messages": [
+                {
+                    "role": "user",
+                    "content": question
+                }
+            ]
+        }
+    )
+
+    print(
+        "\nFinSight AI:\n"
+    )
+
+    print(
+        response["messages"][-1].content
+    )
