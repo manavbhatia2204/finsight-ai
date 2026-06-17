@@ -42,6 +42,8 @@ indicator="CPIAUCSL"
 
     try:
 
+        print("Running check_last_updated tool...")
+
         # STOCK CHECK
         if ticker:
 

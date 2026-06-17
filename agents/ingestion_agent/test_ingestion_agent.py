@@ -35,6 +35,9 @@ while True:
     messages = response["messages"]
 
     if len(messages) > 0:
-        print(messages[-1].content)
+        #print(messages[-1].content)
+        from pprint import pprint
+
+        pprint(response)
     else:
         print("No response received.")
