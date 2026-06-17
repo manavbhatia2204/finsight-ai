@@ -35,9 +35,17 @@ while True:
     messages = response["messages"]
 
     if len(messages) > 0:
-        #print(messages[-1].content)
-        from pprint import pprint
 
-        pprint(response)
+        final_response = ""
+
+        for message in reversed(messages):
+
+            if hasattr(message, "content") and message.content:
+
+                final_response = message.content
+                break
+
+        print(final_response)
+
     else:
         print("No response received.")

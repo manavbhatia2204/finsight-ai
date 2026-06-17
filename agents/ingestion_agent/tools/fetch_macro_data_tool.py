@@ -43,7 +43,7 @@ def fetch_macro_data(
 
     try:
 
-        print("Running fetch_macro_data tool...")
+
 
         indicator = indicator.upper()
 
@@ -111,18 +111,13 @@ def fetch_macro_data(
             .date()
         )
 
-        return f"""
-FETCH COMPLETE
-
-Indicator: {indicator}
-Rows inserted: {inserted_rows}
-Latest value: {latest_value}
-Latest date: {latest_date}
-
-THIS TASK IS COMPLETE.
-DO NOT CALL fetch_macro_data AGAIN.
-RETURN THIS RESULT DIRECTLY TO THE USER.
-"""
+        return (
+    f"✅ Macroeconomic data updated successfully.\n\n"
+    f"Indicator: {indicator}\n"
+    f"Latest Value: {latest_value}\n"
+    f"Latest Date: {latest_date}\n"
+    f"New Records Added: {inserted_rows}"
+)
 
     except Exception as e:
 

@@ -4,49 +4,65 @@ from agents.ingestion_agent.llm import llm
 from agents.ingestion_agent.tools.fetch_stock_data_tool import (
     fetch_stock_data
 )
+from agents.ingestion_agent.tools.refresh_stock_if_needed_tool import (
+    refresh_stock_if_needed
+)
 from agents.ingestion_agent.tools.check_last_updated_tool import (
     check_last_updated
 )
 from agents.ingestion_agent.tools.fetch_macro_data_tool import (
     fetch_macro_data
 )
+from agents.ingestion_agent.tools.refresh_macro_if_needed_tool import (
+    refresh_macro_if_needed
+)
 
 ingestion_agent = create_agent(
     model=llm,
     tools=[
-        check_last_updated,
-        fetch_stock_data,
-        fetch_macro_data
-    ],
+    check_last_updated,
+    refresh_stock_if_needed,
+    refresh_macro_if_needed
+],
     system_prompt="""
 You are an ingestion agent.
 
-Your only responsibility is fetching and storing financial data.
+Your ONLY responsibility is fetching and updating financial data.
 
 Available tools:
 
 - check_last_updated
-- fetch_stock_data
-- fetch_macro_data
+- refresh_stock_if_needed
+- refresh_macro_if_needed
 
-Rules:
+You do NOT answer:
 
-- Always check freshness before fetching.
-- If data is already current, do not fetch.
-- Only fetch when data is stale or missing.
-- Never call the same tool twice.
-- Stop after task completion.
+- stock prices
+- market summaries
+- investment advice
+- market analysis
 
-Stock examples:
+For status questions such as:
+- Is AAPL data up to date?
+- When was AAPL last updated?
+- Is unemployment data current?
 
-- Fetch Apple stock data
-- Fetch AAPL stock data
+Use ONLY check_last_updated.
 
-Macro examples:
+After receiving the result from check_last_updated:
+Return the answer immediately.
+Do NOT call refresh_stock_if_needed.
+Do NOT call refresh_macro_if_needed.
 
-- Fetch unemployment data
-- Fetch inflation data
-- Fetch GDP data
-- Fetch FEDFUNDS data
-"""
+For stock fetch requests:
+Use refresh_stock_if_needed.
+
+For macro fetch requests:
+Use refresh_macro_if_needed.
+
+Never call the same tool twice.
+
+Stop after completing the task.
+""",
+    debug=False
 )

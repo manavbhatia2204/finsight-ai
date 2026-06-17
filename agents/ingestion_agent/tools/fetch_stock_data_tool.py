@@ -115,18 +115,12 @@ def fetch_stock_data(
             2
         )
 
-        return f"""
-FETCH COMPLETE
-
-Ticker: {ticker}
-Period: {period}
-Rows inserted: {inserted_rows}
-Latest close: ${latest_close}
-
-THIS TASK IS COMPLETE.
-DO NOT CALL fetch_stock_data AGAIN.
-RETURN THIS RESULT DIRECTLY TO THE USER.
-"""
+        return (
+    f"✅ Stock data updated successfully.\n\n"
+    f"Ticker: {ticker}\n"
+    f"Latest Close: ${latest_close}\n"
+    f"New Records Added: {inserted_rows}"
+)
 
     except Exception as e:
 

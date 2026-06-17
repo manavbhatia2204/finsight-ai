@@ -8,57 +8,52 @@ from api.models.stock_price import StockPrice
 from api.models.macro_indicator import MacroIndicator
 
 
+MACRO_FRESHNESS = {
+    "UNRATE": 60,
+    "CPIAUCSL": 60,
+    "FEDFUNDS": 60,
+    "GDP": 150,
+}
+
+
 @tool
 def check_last_updated(
     ticker: str = "",
     indicator: str = ""
 ) -> str:
     """
-Check whether stock or macroeconomic data is already current.
+    Check whether stock or macroeconomic data is already current.
 
-ALWAYS use this tool FIRST when the user asks:
+    Examples:
 
-- Is AAPL data up to date?
-- When was AAPL last updated?
-- Do we already have Apple data?
-- Should I fetch Apple data?
-- Is Apple data current?
-- Check if data needs refreshing
+    ticker="AAPL"
 
-Before calling fetch_stock_data, call this tool to determine
-whether new data is actually required.
+    indicator="UNRATE"
+    """
 
-If this tool says the data is up to date,
-DO NOT call fetch_stock_data.
 
-Examples:
-
-ticker="AAPL"
-
-indicator="CPIAUCSL"
-"""
+    def finish(message: str) -> str:
+        return message
 
     db = SessionLocal()
 
     try:
 
-        print("Running check_last_updated tool...")
-
-        # STOCK CHECK
+        # -----------------------------
+        # STOCKS
+        # -----------------------------
         if ticker:
 
             ticker = ticker.upper()
 
             stock = (
                 db.query(Stock)
-                .filter(
-                    Stock.ticker == ticker
-                )
+                .filter(Stock.ticker == ticker)
                 .first()
             )
 
             if stock is None:
-                return (
+                return finish(
                     f"No stock record found for {ticker}. "
                     f"Fetch recommended."
                 )
@@ -75,14 +70,33 @@ indicator="CPIAUCSL"
             )
 
             if latest_price is None:
-                return (
+                return finish(
                     f"No price history found for {ticker}. "
                     f"Fetch recommended."
                 )
 
             latest_date = latest_price.date
 
-        # MACRO CHECK
+            days_old = (
+                date.today() - latest_date
+            ).days
+
+            if days_old <= 1:
+
+                return finish(
+                    f"✅ {ticker} data is up to date.\n"
+                    f"Last available record: {latest_date}."
+                )
+
+            return finish(
+                f"{ticker} is {days_old} days old "
+                f"(last record: {latest_date}). "
+                f"Fetch recommended."
+            )
+
+        # -----------------------------
+        # MACRO DATA
+        # -----------------------------
         elif indicator:
 
             indicator = indicator.upper()
@@ -99,46 +113,39 @@ indicator="CPIAUCSL"
             )
 
             if latest_macro is None:
-                return (
+                return finish(
                     f"No macro data found for {indicator}. "
                     f"Fetch recommended."
                 )
 
             latest_date = latest_macro.date
 
-        else:
+            days_old = (
+                date.today() - latest_date
+            ).days
 
-            return (
-                "Provide either a ticker "
-                "or an indicator."
+            allowed_age = MACRO_FRESHNESS.get(
+                indicator,
+                60
             )
 
-        days_old = (
-            date.today() - latest_date
-        ).days
+            if days_old <= allowed_age:
 
-        if days_old == 0:
+                return finish(
+                    f"✅ {indicator} data is up to date.\n"
+                    f"Last available record: {latest_date}."
+                )
 
-            return (
-                f"{ticker or indicator} is up to date. "
-                f"Last record: today."
-            )
-
-        elif days_old == 1:
-
-            return (
-                f"{ticker or indicator} was last updated "
-                f"yesterday ({latest_date}). "
-                f"Consider re-fetching."
-            )
-
-        else:
-
-            return (
-                f"{ticker or indicator} is "
-                f"{days_old} days old "
+            return finish(
+                f"{indicator} is {days_old} days old "
                 f"(last record: {latest_date}). "
                 f"Fetch recommended."
+            )
+
+        else:
+
+            return finish(
+                "Provide either a ticker or an indicator."
             )
 
     finally:
