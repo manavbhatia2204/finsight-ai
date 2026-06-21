@@ -15,32 +15,40 @@ from rag.qa.rag_qa import (
     answer_question
 )
 
-print(
-    "FinSight AI RAG QA"
-)
-
-print(
-    "Type exit to quit"
-)
+print("=" * 60)
+print("FinSight AI RAG Research Assistant")
+print("Type 'exit' to quit.")
+print("=" * 60)
 
 while True:
 
-    question = input(
-        "\nQuestion: "
-    )
+    question = input("\nQuestion: ").strip()
 
     if question.lower() in [
         "exit",
-        "quit"
+        "quit",
+        "bye"
     ]:
+        print("\nGoodbye!")
         break
 
-    answer = answer_question(
-        question
-    )
+    if not question:
+        print("Please enter a question.")
+        continue
 
-    print(
-        "\nAnswer:\n"
-    )
+    try:
 
-    print(answer)
+        answer = answer_question(
+            question
+        )
+
+        print("\n" + "=" * 60)
+        print("ANSWER")
+        print("=" * 60)
+        print(answer)
+
+    except Exception as e:
+
+        print(
+            f"\nError: {str(e)}"
+        )
