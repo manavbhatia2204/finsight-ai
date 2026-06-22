@@ -2,185 +2,71 @@
 
 ## Overview
 
-FinSight AI is an AI-powered financial intelligence platform designed to automate financial data collection, document understanding, market research, and investment analysis.
+FinSight AI is a multi-agent financial intelligence platform designed to automate financial data collection, document understanding, market research, and stock prediction.
 
-The long-term vision is to build a multi-agent financial assistant capable of:
+The platform combines:
 
-* Fetching and maintaining market data automatically
-* Understanding financial filings and macroeconomic reports
-* Answering financial questions using Retrieval-Augmented Generation (RAG)
-* Generating market summaries and research reports
-* Coordinating multiple specialized agents through a central orchestrator
+* Financial data ingestion
+* Retrieval-Augmented Generation (RAG)
+* Financial research agents
+* Machine learning prediction agents
+* Multi-agent orchestration (coming in Week 6)
+
+The long-term goal is to provide institutional-style financial research through a coordinated AI system.
 
 ---
 
-# Current Project Status
+# Current Status
 
-## Week 1 — Foundation & Database Layer ✅
+## Agent 1 – Ingestion Agent ✅
 
-### Objectives
+### Responsibilities
 
-Build the core backend infrastructure and financial database.
+* Collect stock market data
+* Collect macroeconomic data
+* Maintain database freshness
 
-### Completed
+### Data Sources
 
-#### Database Setup
+#### Stock Data
 
-* PostgreSQL database configured
-* SQLAlchemy ORM configured
-* Database connection management implemented
-* Session handling implemented
+* Yahoo Finance (yfinance)
 
-#### Data Models
+Supported tickers:
 
-##### Stock
+* AAPL
+* MSFT
+* NVDA
+* AMZN
+* GOOGL
+* META
+* TSLA
 
-Stores:
+#### Macroeconomic Data
 
-* Ticker
-* Company Name
-* Exchange
-* Sector
+FRED:
 
-##### StockPrice
-
-Stores:
-
-* Open
-* High
-* Low
-* Close
-* Volume
-* Date
-
-##### MacroIndicator
-
-Stores:
-
-* Indicator Name
-* Indicator Code
-* Value
-* Date
-
-Supported indicators include:
-
-* UNRATE
 * CPIAUCSL
+* UNRATE
 * GDP
 * FEDFUNDS
 
-### Outcome
+### Features
 
-A working financial database capable of storing stock and macroeconomic time-series data.
-
----
-
-# Week 2 — Ingestion Agent ✅
-
-### Objectives
-
-Build an AI agent responsible for collecting and refreshing financial data.
-
-### Completed
-
-#### Stock Data Ingestion
-
-Implemented:
-
-* fetch_stock_data()
-
-Features:
-
-* Downloads stock data using yfinance
-* Stores data in PostgreSQL
-* Prevents duplicate records
-* Returns human-readable status messages
-
-#### Macroeconomic Data Ingestion
-
-Implemented:
-
-* fetch_macro_data()
-
-Features:
-
-* Downloads FRED economic data
-* Stores data in PostgreSQL
-* Prevents duplicate records
-
-Supported indicators:
-
-* UNRATE
-* CPIAUCSL
-* GDP
-* FEDFUNDS
-
-#### Data Freshness Validation
-
-Implemented:
-
-* check_last_updated()
-
-Features:
-
-* Checks latest stored records
-* Determines whether refresh is required
-* Applies different freshness rules for stocks and macroeconomic indicators
-
-Example:
-
-```python
-MACRO_FRESHNESS = {
-    "UNRATE": 45,
-    "CPIAUCSL": 45,
-    "FEDFUNDS": 45,
-    "GDP": 120
-}
-```
-
-#### Smart Refresh Wrappers
-
-Implemented:
-
-##### refresh_stock_if_needed()
-
-Flow:
-
-Check freshness → Refresh only if stale
-
-##### refresh_macro_if_needed()
-
-Flow:
-
-Check freshness → Refresh only if stale
-
-#### Ingestion Agent
-
-Built using LangChain create_agent().
-
-Capabilities:
-
-* Check whether data is current
-* Refresh stock data
-* Refresh macroeconomic data
-
-Restrictions:
-
-* Does not perform financial analysis
-* Does not generate market summaries
-* Does not provide investment advice
-
-### Outcome
-
-A functioning ingestion layer capable of maintaining an up-to-date financial database.
+* Automatic data ingestion
+* Duplicate prevention
+* Freshness validation
+* Smart refresh logic
 
 ---
 
-# Week 3 — Financial RAG Pipeline ✅
+## Agent 2 – Research Agent (RAG) ✅
 
-### Objectives
+### Responsibilities
 
-Build a document intelligence layer capable of understanding financial reports and answering questions.
+* Understand financial documents
+* Answer financial questions
+* Retrieve company-specific information
 
 ### Documents Indexed
 
@@ -188,274 +74,248 @@ Build a document intelligence layer capable of understanding financial reports a
 * Microsoft 10-K
 * Nvidia 10-K
 * FOMC Minutes
-* Federal Reserve Monetary Policy Report
+* Federal Reserve Monetary Policy Reports
 
-### Completed
-
-#### PDF Loader
-
-Implemented:
-
-* pdf_loader.py
-
-Features:
-
-* Reads PDF files
-* Extracts raw text
-
----
-
-#### Text Chunking
-
-Implemented:
-
-* text_chunker.py
-
-Features:
-
-* Splits documents into overlapping chunks
-* Uses RecursiveCharacterTextSplitter
-
-Configuration:
-
-* Chunk Size: 3000
-* Chunk Overlap: 300
-
----
-
-#### Embedding Generation
-
-Implemented:
-
-* embedding_generator.py
-
-Model:
-
-* sentence-transformers/all-MiniLM-L6-v2
-
-Output:
-
-* 384-dimensional embeddings
-
----
-
-#### Vector Database
-
-Implemented:
-
-* FAISS Vector Store
-
-Features:
-
-* Stores document embeddings
-* Supports semantic similarity search
-* Persists vector index to disk
-
----
-
-#### Metadata Store
-
-Implemented:
-
-* metadata.json
-
-Stores:
-
-* Chunk ID
-* Source Document
-* Company
-* Document Type
-* Chunk Text
-
-Example:
-
-```json
-{
-  "chunk_id": 0,
-  "source": "apple_10k.pdf",
-  "company": "Apple",
-  "document_type": "10-K"
-}
-```
-
----
-
-#### Multi-Document Indexing
-
-Implemented:
-
-* build_vector_store.py
-
-Features:
-
-* Automatically processes all PDFs
-* Generates embeddings
-* Builds FAISS index
-* Creates metadata store
-
----
-
-#### Semantic Retriever
-
-Implemented:
-
-* retriever.py
-
-Capabilities:
-
-* Converts user query into embeddings
-* Retrieves top relevant document chunks
-
-Example Queries:
-
-* What did Apple say about iPhone revenue?
-* What did Nvidia say about AI demand?
-* What did the Federal Reserve say about inflation?
-* What did Microsoft say about cloud growth?
-
----
-
-#### Retrieval-Augmented Question Answering (RAG)
-
-Implemented:
-
-* rag_qa.py
-
-Pipeline:
+### RAG Pipeline
 
 User Question
 ↓
-Retriever
+Query Rewriter
+↓
+Retriever (FAISS)
 ↓
 Relevant Chunks
 ↓
 Groq LLM
 ↓
-Grounded Answer
+Grounded Financial Answer
+
+### Features
+
+* Multi-document semantic search
+* Context-aware follow-up questions
+* Citation generation
+* Conversation memory
+* Query rewriting
 
 Example:
 
 Question:
-What did Apple say about iPhone revenue?
+
+What did Apple say about Services revenue?
 
 Answer:
-Apple reported iPhone net sales of $209.6 billion in FY2025, representing a 4% increase compared to FY2024.
 
-### Outcome
-
-A working Financial RAG system capable of answering questions from multiple financial documents using semantic search and LLM reasoning.
+Apple reported Services revenue of $109.2 billion in FY2025, representing a 14% increase compared to FY2024.
 
 ---
 
-# Current Architecture
+## Agent 3 – ML Prediction Agent ✅
 
-Database Layer
+### Responsibilities
 
-PostgreSQL
-↓
-Financial Data Storage
+Predict next-day stock direction using technical indicators and macroeconomic features.
 
-Document Intelligence Layer
+### Supported Tickers
 
-Financial PDFs
-↓
-PDF Loader
-↓
-Chunking
-↓
-Embeddings
-↓
-FAISS
-↓
-Retriever
-↓
-RAG QA
+* AAPL
+* MSFT
+* NVDA
+* AMZN
+* GOOGL
+* META
+* TSLA
 
-Agent Layer
+### Features
 
-Ingestion Agent
-↓
-Financial Database
+#### Technical Indicators
+
+* RSI
+* MACD
+* MACD Signal
+* MACD Histogram
+* Bollinger Bands
+* SMA 20
+* SMA 50
+* Volume Moving Average
+
+#### Macroeconomic Features
+
+* CPI
+* GDP
+* Federal Funds Rate
+* Unemployment Rate
+
+### Machine Learning
+
+Model:
+
+* XGBoost Classifier
+
+Validation:
+
+* TimeSeriesSplit
+
+Metrics:
+
+* Accuracy
+* Precision
+* Recall
+* F1 Score
+
+### Model Persistence
+
+Models are saved using:
+
+* joblib
+
+Generated models:
+
+* xgboost_AAPL.pkl
+* xgboost_MSFT.pkl
+* xgboost_NVDA.pkl
+* xgboost_AMZN.pkl
+* xgboost_GOOGL.pkl
+* xgboost_META.pkl
+* xgboost_TSLA.pkl
+
+### Example Prediction
+
+Prediction Result
+
+Ticker: MSFT
+
+Direction: UP
+
+Confidence UP: 76.93%
+
+Confidence DOWN: 23.07%
 
 ---
 
-# Planned Work
+# Database Architecture
 
-## Week 4 — Research Agent
+## stocks
 
-Planned Features:
+Stores:
 
-* Query financial knowledge base
-* Generate research answers
-* Compare companies
-* Analyze filings
-* Summarize earnings and reports
+* ticker
+* company_name
+* sector
+* exchange
 
----
+## stock_prices
 
-## Week 5 — Market Summary Agent
+Stores:
 
-Planned Features:
+* open
+* high
+* low
+* close
+* volume
+* date
 
-* Daily market summaries
-* Economic event summaries
-* Macro trend analysis
+## macro_indicators
 
----
+Stores:
 
-## Week 6 — Orchestrator
-
-Planned Features:
-
-* Route requests to correct agents
-* Coordinate multiple agents
-* Handle complex financial workflows
-
----
-
-## Future Roadmap
-
-* Portfolio Analysis
-* Financial Dashboard UI
-* Watchlists
-* News Analysis
-* Sentiment Analysis
-* Multi-Agent Collaboration
-* Investment Research Workflows
+* indicator_name
+* indicator_code
+* value
+* date
 
 ---
 
 # Technology Stack
 
-Backend
+## Backend
 
 * Python
 
-Database
+## Database
 
 * PostgreSQL
 * SQLAlchemy
 
-Data Sources
-
-* Yahoo Finance (yfinance)
-* FRED API
-
-AI & LLM
+## AI / LLM
 
 * LangChain
 * Groq
-* Llama 3
+* Llama 3.1
 
-RAG
+## RAG
 
-* Sentence Transformers
 * FAISS
+* Sentence Transformers
 * PyPDF
 
-Version Control
+## Machine Learning
 
-* Git
-* GitHub
+* XGBoost
+* Scikit-Learn
+* TA Library
+
+## Data Sources
+
+* Yahoo Finance
+* FRED API
+
+## DevOps (Planned)
+
+* Docker
+* Kubernetes
+* Prometheus
+* Grafana
 
 ---
+
+# Current Architecture
+
+User
+↓
+FinSight AI
+
+├── Ingestion Agent
+│ ├── Yahoo Finance
+│ └── FRED
+│
+├── Research Agent
+│ ├── Financial PDFs
+│ ├── FAISS
+│ └── Groq LLM
+│
+└── ML Prediction Agent
+├── Feature Engineering
+├── XGBoost Models
+└── Prediction Tools
+
+---
+
+# Roadmap
+
+## Week 6
+
+* Multi-Agent Orchestrator
+* Agent Routing
+* Agent Collaboration
+* LangGraph Integration
+
+## Week 7
+
+* Dockerization
+* Kubernetes Deployment
+* Prometheus Monitoring
+* Grafana Dashboards
+
+## Week 8
+
+* Streamlit UI
+* Portfolio Dashboard
+* Live Deployment
+
+---
+
+# Author
+
+Manav Bhatia
+

@@ -1,5 +1,4 @@
 import sys
-
 from pathlib import Path
 
 project_root = (
@@ -16,8 +15,36 @@ from agents.ml_prediction_agent.predict import (
     predict_stock
 )
 
-result = predict_stock(
-    "AAPL"
-)
+tickers = [
+    "AAPL",
+    "MSFT",
+    "NVDA",
+    "AMZN",
+    "GOOGL",
+    "META",
+    "TSLA"
+]
 
-print(result)
+for ticker in tickers:
+
+    result = predict_stock(
+        ticker
+    )
+
+    print("\n" + "=" * 40)
+
+    print(
+        f"Ticker: {result['ticker']}"
+    )
+
+    print(
+        f"Direction: {result['prediction']}"
+    )
+
+    print(
+        f"Confidence UP: {result['confidence_up']}%"
+    )
+
+    print(
+        f"Confidence DOWN: {result['confidence_down']}%"
+    )

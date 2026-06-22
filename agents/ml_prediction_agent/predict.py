@@ -16,13 +16,14 @@ def predict_stock(
     """
 
     model_path = Path(
-        "agents/ml_prediction_agent/model_store/xgboost_model.pkl"
+        f"agents/ml_prediction_agent/model_store/"
+        f"xgboost_{ticker.upper()}.pkl"
     )
 
     if not model_path.exists():
 
         raise FileNotFoundError(
-            "Trained model not found. Run train_model.py first."
+            f"No trained model found for {ticker}"
         )
 
     model = joblib.load(
@@ -61,14 +62,14 @@ def predict_stock(
             if prediction == 1
             else "DOWN"
         ),
-        "confidence_up": float(round(
-            confidence[1],
-            4
-        )),
-        "confidence_down": float(round(
-            confidence[0],
-            4
-        ))
+        "confidence_up": round(
+            float(confidence[1]) * 100,
+            2
+        ),
+        "confidence_down": round(
+            float(confidence[0]) * 100,
+            2
+        )
     }
 
 

@@ -177,7 +177,7 @@ def train_model(
 
     model_path = (
         model_dir /
-        "xgboost_model.pkl"
+        f"xgboost_{ticker.upper()}.pkl"
     )
 
     joblib.dump(
