@@ -34,7 +34,9 @@ while True:
         break
 
     if not query:
-        print("Please enter a question.")
+        print(
+            "Please enter a question."
+        )
         continue
 
     try:
@@ -47,18 +49,19 @@ while True:
             }
         )
 
-        # Send ONLY current question to agent
         response = research_agent.invoke(
+    {
+        "messages": [
             {
-                "messages": [
-                    {
-                        "role": "user",
-                        "content": query
-                    }
-                ]
+                "role": "user",
+                "content": query
             }
-        )
+        ]
+    }
+)
+        
 
+        #answer = response["output"]
         answer = response["messages"][-1].content
 
         print("\nAnswer:\n")

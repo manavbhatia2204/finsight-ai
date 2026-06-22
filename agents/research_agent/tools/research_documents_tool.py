@@ -26,13 +26,18 @@ def research_documents(
     Returns:
         Answer from retrieved documents.
     """
-
     rewritten_question = rewrite_question(
         chat_history,
         question
     )
 
-    
+    print(
+        f"\nOriginal Question: {question}"
+    )
+
+    print(
+        f"Rewritten Question: {rewritten_question}"
+    )
 
     return answer_question(
         rewritten_question

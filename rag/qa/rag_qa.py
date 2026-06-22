@@ -1,5 +1,9 @@
+import os
 import sys
 from pathlib import Path
+
+from dotenv import load_dotenv
+from langchain_groq import ChatGroq
 
 project_root = (
     Path(__file__)
@@ -11,10 +15,18 @@ sys.path.append(
     str(project_root)
 )
 
-from agents.ingestion_agent.llm import llm
+load_dotenv(
+    project_root / ".env"
+)
 
 from rag.retrieval.retriever import (
     retrieve
+)
+
+qa_llm = ChatGroq(
+    model="llama-3.3-70b-versatile",
+    api_key=os.getenv("GROQ_API_KEY"),
+    temperature=0
 )
 
 
@@ -51,13 +63,17 @@ You are a financial research assistant.
 IMPORTANT RULES:
 
 1. Answer ONLY using the provided context.
-2. Do NOT make up information.
-3. If the answer is not contained in the context,
+2. If relevant financial figures appear in the context,
+   extract and report them.
+3. Do NOT ignore tables or financial data.
+4. Do NOT say the answer is unavailable if relevant
+   information exists in the context.
+5. If the answer truly does not exist in the context,
    say:
    "I could not find the answer in the provided documents."
-4. Be concise and factual.
-5. When possible, include key figures, percentages,
-   dates, and financial metrics.
+6. Be concise and factual.
+7. Include key figures, percentages, dates, and
+   financial metrics whenever available.
 
 Question:
 {question}
@@ -66,7 +82,7 @@ Context:
 {context}
 """
 
-    response = llm.invoke(
+    response = qa_llm.invoke(
         prompt
     )
 

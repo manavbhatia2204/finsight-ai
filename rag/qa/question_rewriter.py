@@ -51,6 +51,8 @@ Federal Reserve inflation target
 Microsoft cloud revenue
 Nvidia AI demand
 """
+    
+
 
     response = llm.invoke(
         prompt
