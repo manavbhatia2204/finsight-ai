@@ -19,7 +19,7 @@ from agents.orchestrator_agent.graph import (
 result = graph.invoke(
     {
         "query": (
-            "Will TSLA stock go up?"
+            "What did Apple say about Services revenue?"
         )
     }
 )
@@ -30,22 +30,10 @@ print(
 
 print(result)
 
-if "research_result" in result:
+print(
+    "\nFinal Report:\n"
+)
 
-    print(
-        "\nResearch Result:\n"
-    )
-
-    print(
-        result["research_result"]
-    )
-
-if "prediction_result" in result:
-
-    print(
-        "\nPrediction Result:\n"
-    )
-
-    print(
-        result["prediction_result"]
-    )
+print(
+    result["final_report"]
+)

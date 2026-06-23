@@ -10,17 +10,34 @@ def prediction_node(
         "\nPrediction Node Executed"
     )
 
-    ticker = (
-        state.get(
-            "ticker"
+    ticker = state.get(
+        "ticker"
+    )
+
+    if ticker is None:
+
+        return {
+            "prediction_result": {
+                "error": (
+                    "Unsupported company or ticker."
+                )
+            }
+        }
+
+    try:
+
+        result = predict_stock(
+            ticker
         )
-        or "AAPL"
-    )
 
-    result = predict_stock(
-        ticker
-    )
+        return {
+            "prediction_result": result
+        }
 
-    return {
-        "prediction_result": result
-    }
+    except Exception as e:
+
+        return {
+            "prediction_result": {
+                "error": str(e)
+            }
+        }

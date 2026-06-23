@@ -13,6 +13,6 @@ class GraphState(
 
     research_result: str
 
-    prediction_result: str
+    prediction_result: dict
 
     final_report: str

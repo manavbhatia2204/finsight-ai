@@ -10,10 +10,20 @@ def research_node(
         "\nResearch Node Executed"
     )
 
-    result = ask_research_agent(
-        state["query"]
-    )
+    try:
 
-    return {
-        "research_result": result
-    }
+        result = ask_research_agent(
+            state["query"]
+        )
+
+        return {
+            "research_result": result
+        }
+
+    except Exception as e:
+
+        return {
+            "research_result": {
+                "error": str(e)
+            }
+        }
