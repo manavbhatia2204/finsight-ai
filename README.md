@@ -2,7 +2,7 @@
 
 ## Overview
 
-FinSight AI is a multi-agent financial intelligence platform designed to automate financial data collection, document understanding, market research, and stock prediction.
+FinSight AI is a multi-agent financial intelligence platform designed to automate financial data collection, document understanding, market research, stock prediction, and AI-driven financial analysis.
 
 The platform combines:
 
@@ -10,7 +10,8 @@ The platform combines:
 * Retrieval-Augmented Generation (RAG)
 * Financial research agents
 * Machine learning prediction agents
-* Multi-agent orchestration (coming in Week 6)
+* Multi-agent orchestration
+* REST API integration
 
 The long-term goal is to provide institutional-style financial research through a coordinated AI system.
 
@@ -30,7 +31,7 @@ The long-term goal is to provide institutional-style financial research through 
 
 #### Stock Data
 
-* Yahoo Finance (yfinance)
+Yahoo Finance (yfinance)
 
 Supported tickers:
 
@@ -44,7 +45,9 @@ Supported tickers:
 
 #### Macroeconomic Data
 
-FRED:
+FRED
+
+Supported indicators:
 
 * CPIAUCSL
 * UNRATE
@@ -55,8 +58,9 @@ FRED:
 
 * Automatic data ingestion
 * Duplicate prevention
-* Freshness validation
+* Data freshness validation
 * Smart refresh logic
+* PostgreSQL storage
 
 ---
 
@@ -67,6 +71,7 @@ FRED:
 * Understand financial documents
 * Answer financial questions
 * Retrieve company-specific information
+* Generate grounded financial responses
 
 ### Documents Indexed
 
@@ -79,15 +84,25 @@ FRED:
 ### RAG Pipeline
 
 User Question
+
 ↓
+
 Query Rewriter
+
 ↓
+
 Retriever (FAISS)
+
 ↓
+
 Relevant Chunks
+
 ↓
+
 Groq LLM
+
 ↓
+
 Grounded Financial Answer
 
 ### Features
@@ -98,7 +113,7 @@ Grounded Financial Answer
 * Conversation memory
 * Query rewriting
 
-Example:
+### Example
 
 Question:
 
@@ -106,7 +121,7 @@ What did Apple say about Services revenue?
 
 Answer:
 
-Apple reported Services revenue of $109.2 billion in FY2025, representing a 14% increase compared to FY2024.
+Apple reported Services revenue of approximately $109.2 billion in FY2025, representing significant growth compared to FY2024.
 
 ---
 
@@ -126,9 +141,7 @@ Predict next-day stock direction using technical indicators and macroeconomic fe
 * META
 * TSLA
 
-### Features
-
-#### Technical Indicators
+### Technical Indicators
 
 * RSI
 * MACD
@@ -139,7 +152,7 @@ Predict next-day stock direction using technical indicators and macroeconomic fe
 * SMA 50
 * Volume Moving Average
 
-#### Macroeconomic Features
+### Macroeconomic Features
 
 * CPI
 * GDP
@@ -156,7 +169,7 @@ Validation:
 
 * TimeSeriesSplit
 
-Metrics:
+Evaluation Metrics:
 
 * Accuracy
 * Precision
@@ -183,13 +196,141 @@ Generated models:
 
 Prediction Result
 
-Ticker: MSFT
+Ticker: TSLA
 
-Direction: UP
+Direction: DOWN
 
-Confidence UP: 76.93%
+Confidence UP: 40.57%
 
-Confidence DOWN: 23.07%
+Confidence DOWN: 59.43%
+
+### Features
+
+* Multi-ticker prediction support
+* Confidence scoring
+* Model persistence
+* Error handling
+* Reproducible predictions
+
+---
+
+## Agent 4 – Orchestrator Agent ✅
+
+### Responsibilities
+
+Coordinate multiple AI agents and route user requests to the appropriate workflow.
+
+### Built Using
+
+* LangGraph
+
+### Supported Routes
+
+#### Research Route
+
+User Query
+
+↓
+
+Research Agent
+
+↓
+
+Report Agent
+
+#### Prediction Route
+
+User Query
+
+↓
+
+Prediction Agent
+
+↓
+
+Report Agent
+
+#### Investment Analysis Route
+
+User Query
+
+↓
+
+Research Agent
+
+↓
+
+Prediction Agent
+
+↓
+
+Report Agent
+
+### Example Queries
+
+* What did Apple say about Services revenue?
+* Will TSLA stock go up?
+* Analyze Tesla and tell me if it is a good investment
+
+### Features
+
+* Shared graph state
+* Conditional routing
+* Multi-agent workflows
+* Company name detection
+* Ticker extraction
+* Error handling
+* Report generation
+
+### Error Handling
+
+Supported scenarios:
+
+* Unsupported tickers
+* Missing model files
+* Prediction failures
+* Research failures
+
+The graph completes gracefully without crashing.
+
+---
+
+# FastAPI Integration ✅
+
+FinSight AI is now exposed through a REST API.
+
+### Endpoints
+
+#### GET /
+
+Returns service status.
+
+#### GET /health
+
+Health check endpoint.
+
+Example Response:
+
+{
+"status": "healthy"
+}
+
+#### POST /ask
+
+Main FinSight endpoint.
+
+Example Request:
+
+{
+"query": "Will TSLA stock go up?"
+}
+
+Example Response:
+
+{
+"query": "Will TSLA stock go up?",
+"report": "Prediction Report..."
+}
 
 ---
 
@@ -231,6 +372,7 @@ Stores:
 ## Backend
 
 * Python
+* FastAPI
 
 ## Database
 
@@ -253,14 +395,18 @@ Stores:
 
 * XGBoost
 * Scikit-Learn
-* TA Library
+* TA-Lib
+
+## Workflow Orchestration
+
+* LangGraph
 
 ## Data Sources
 
 * Yahoo Finance
 * FRED API
 
-## DevOps (Planned)
+## DevOps (Upcoming)
 
 * Docker
 * Kubernetes
@@ -272,37 +418,41 @@ Stores:
 # Current Architecture
 
 User
-↓
-FinSight AI
 
-├── Ingestion Agent
-│ ├── Yahoo Finance
-│ └── FRED
+↓
+
+FastAPI
+
+↓
+
+Orchestrator Agent
+
+↓
+
+Router Node
+
+↓
+
+Research Agent ─────┐
 │
-├── Research Agent
-│ ├── Financial PDFs
-│ ├── FAISS
-│ └── Groq LLM
+Prediction Agent ───┤
 │
-└── ML Prediction Agent
-├── Feature Engineering
-├── XGBoost Models
-└── Prediction Tools
+▼
+
+Report Agent
+
+↓
+
+Final Response
 
 ---
 
-# Roadmap
-
-## Week 6
-
-* Multi-Agent Orchestrator
-* Agent Routing
-* Agent Collaboration
-* LangGraph Integration
+# Project Roadmap
 
 ## Week 7
 
 * Dockerization
+* Docker Compose
 * Kubernetes Deployment
 * Prometheus Monitoring
 * Grafana Dashboards
@@ -312,10 +462,20 @@ FinSight AI
 * Streamlit UI
 * Portfolio Dashboard
 * Live Deployment
+* Enhanced Reporting
+
+## Future Enhancements
+
+* Portfolio Analysis
+* News Intelligence Agent
+* Sentiment Analysis
+* Watchlists
+* Earnings Analysis
+* Additional Company Filings
+* Advanced Investment Reports
 
 ---
 
 # Author
 
 Manav Bhatia
-
