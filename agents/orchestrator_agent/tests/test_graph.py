@@ -19,7 +19,7 @@ from agents.orchestrator_agent.graph import (
 result = graph.invoke(
     {
         "query": (
-            "What did Apple say about Services revenue?"
+            "Analyze Tesla and tell me if it is a good investment"
         )
     }
 )
