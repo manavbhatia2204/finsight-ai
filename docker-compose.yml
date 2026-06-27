@@ -41,5 +41,9 @@ services:
     ports:
       - "8000:8000"
 
+    volumes:
+      - ./agents/ml_prediction_agent/model_store:/app/agents/ml_prediction_agent/model_store
+      - ./rag/vector_store:/app/rag/vector_store
+
 volumes:
   postgres_data:

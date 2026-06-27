@@ -1,13 +1,13 @@
 from pathlib import Path
 import sys
-
+from sqlalchemy import text
 from fastapi import (
     FastAPI,
     HTTPException
 )
 
 from pydantic import BaseModel
-
+from api.database.connection import engine
 project_root = (
     Path(__file__)
     .resolve()
@@ -63,10 +63,36 @@ def root():
 def health():
 
     return {
-        "status": "healthy"
+        "status": "healthy",
+        "service": "FinSight AI API"
     }
 
+@app.get("/ready")
+def readiness():
 
+    try:
+
+        with engine.connect() as connection:
+
+            connection.execute(
+                text("SELECT 1")
+            )
+
+        return {
+            "status": "ready",
+            "database": "connected"
+        }
+
+    except Exception as e:
+
+        raise HTTPException(
+            status_code=503,
+            detail={
+                "status": "not ready",
+                "database": "disconnected",
+                "error": str(e)
+            }
+        )
 @app.post("/ask")
 def ask_finsight(
     request: QueryRequest
