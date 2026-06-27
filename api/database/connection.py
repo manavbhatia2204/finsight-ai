@@ -1,10 +1,16 @@
 from sqlalchemy import create_engine
+from sqlalchemy.engine import URL
 
 from api.database.config import DB_CONFIG
 
-DATABASE_URL = (
-    f"postgresql+psycopg2://{DB_CONFIG['user']}:{DB_CONFIG['password']}"
-    f"@{DB_CONFIG['host']}:{DB_CONFIG['port']}/{DB_CONFIG['database']}"
+
+DATABASE_URL = URL.create(
+    drivername="postgresql+psycopg2",
+    username=DB_CONFIG["user"],
+    password=DB_CONFIG["password"],
+    host=DB_CONFIG["host"],
+    port=int(DB_CONFIG["port"]),
+    database=DB_CONFIG["database"],
 )
 
 engine = create_engine(DATABASE_URL)

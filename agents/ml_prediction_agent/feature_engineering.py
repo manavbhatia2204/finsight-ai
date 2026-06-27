@@ -153,11 +153,7 @@ def get_training_data(
         .ffill()
         .dropna()
     )
-    df = (
-    df
-    .ffill()
-    .dropna()
-)
+    
 # -----------------------------
 # Prediction Target
 # -----------------------------
