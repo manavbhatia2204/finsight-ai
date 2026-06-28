@@ -1,0 +1,32 @@
+tickers:
+  - symbol: AAPL
+    company: Apple Inc.
+    sector: Technology
+
+  - symbol: MSFT
+    company: Microsoft Corporation
+    sector: Technology
+
+  - symbol: NVDA
+    company: NVIDIA Corporation
+    sector: Technology
+
+  - symbol: AMZN
+    company: Amazon.com Inc.
+    sector: Consumer
+
+  - symbol: GOOGL
+    company: Alphabet Inc.
+    sector: Technology
+
+  - symbol: META
+    company: Meta Platforms Inc.
+    sector: Technology
+
+  - symbol: TSLA
+    company: Tesla Inc.
+    sector: Automotive
+
+settings:
+  history_period: "1y"
+  prediction_window: 365

@@ -13,59 +13,28 @@ sys.path.append(
 
 import pandas as pd
 
+from config.settings import CONFIG
+
 from api.database.session import SessionLocal
 from api.models.stock import Stock
 from api.models.stock_price import StockPrice
 
 
-STOCKS = [
-    {
-        "ticker": "AAPL",
-        "company_name": "Apple Inc.",
-        "sector": "Technology",
-        "exchange": "NASDAQ"
-    },
-    {
-        "ticker": "MSFT",
-        "company_name": "Microsoft Corporation",
-        "sector": "Technology",
-        "exchange": "NASDAQ"
-    },
-    {
-        "ticker": "NVDA",
-        "company_name": "NVIDIA Corporation",
-        "sector": "Technology",
-        "exchange": "NASDAQ"
-    },
-    {
-        "ticker": "AMZN",
-        "company_name": "Amazon.com Inc.",
-        "sector": "Consumer Discretionary",
-        "exchange": "NASDAQ"
-    },
-    {
-        "ticker": "GOOGL",
-        "company_name": "Alphabet Inc.",
-        "sector": "Communication Services",
-        "exchange": "NASDAQ"
-    },
-    {
-        "ticker": "META",
-        "company_name": "Meta Platforms Inc.",
-        "sector": "Communication Services",
-        "exchange": "NASDAQ"
-    },
-    {
-        "ticker": "TSLA",
-        "company_name": "Tesla Inc.",
-        "sector": "Consumer Discretionary",
-        "exchange": "NASDAQ"
-    }
-]
+STOCKS = []
+
+for ticker in CONFIG["tickers"]:
+
+    STOCKS.append(
+        {
+            "ticker": ticker["symbol"],
+            "company_name": ticker["company"],
+            "sector": ticker["sector"],
+            "exchange": "NASDAQ"
+        }
+    )
 
 
 def load_stock_prices():
-
     """
     Load stock metadata and historical
     prices into PostgreSQL.
@@ -100,15 +69,11 @@ def load_stock_prices():
                     exchange=stock_info["exchange"]
                 )
 
-                db.add(
-                    stock
-                )
+                db.add(stock)
 
                 db.commit()
 
-                db.refresh(
-                    stock
-                )
+                db.refresh(stock)
 
                 print(
                     f"Inserted {ticker} into stocks table"
@@ -119,8 +84,18 @@ def load_stock_prices():
                 f"{ticker.lower()}_stock_data.csv"
             )
 
+            csv_file = Path(csv_path)
+
+            if not csv_file.exists():
+
+                print(
+                    f"⚠ Stock data not found for {ticker}. Skipping..."
+                )
+
+                continue
+
             df = pd.read_csv(
-                csv_path
+                csv_file
             )
 
             inserted_rows = 0
@@ -149,9 +124,7 @@ def load_stock_prices():
                     volume=int(row["volume"])
                 )
 
-                db.add(
-                    price
-                )
+                db.add(price)
 
                 inserted_rows += 1
 

@@ -1,48 +1,94 @@
+import sys
+from pathlib import Path
+
 import yfinance as yf
 
-TICKERS = [
-    "AAPL",
-    "MSFT",
-    "NVDA",
-    "AMZN",
-    "GOOGL",
-    "META",
-    "TSLA"
-]
+project_root = (
+    Path(__file__)
+    .resolve()
+    .parent.parent
+)
 
-for ticker in TICKERS:
+sys.path.append(
+    str(project_root)
+)
 
-    print(f"\nDownloading {ticker}...")
+from config.settings import TICKERS
 
-    df = yf.download(
-        ticker,
-        period="2y",
-        auto_adjust=True,
-        progress=False
+
+def download_stock_data():
+    """
+    Download historical stock data for all configured tickers.
+    """
+
+    output_dir = (
+        project_root
+        / "data"
+        / "raw"
     )
 
-    if hasattr(df.columns, "levels"):
-        df.columns = df.columns.get_level_values(0)
-
-    df = df.reset_index()
-
-    df.columns = [
-        col.lower()
-        for col in df.columns
-    ]
-
-    output_path = (
-        f"data/raw/"
-        f"{ticker.lower()}_stock_data.csv"
+    output_dir.mkdir(
+        parents=True,
+        exist_ok=True
     )
 
-    df.to_csv(
-        output_path,
-        index=False
-    )
+    for ticker in TICKERS:
+
+        print(
+            f"\nDownloading {ticker}..."
+        )
+
+        df = yf.download(
+            ticker,
+            period="2y",
+            auto_adjust=True,
+            progress=False
+        )
+
+        if df.empty:
+
+            print(
+                f"⚠ No data found for {ticker}. Skipping..."
+            )
+
+            continue
+
+        if hasattr(
+            df.columns,
+            "levels"
+        ):
+
+            df.columns = (
+                df.columns
+                .get_level_values(0)
+            )
+
+        df = df.reset_index()
+
+        df.columns = [
+            column.lower()
+            for column in df.columns
+        ]
+
+        output_path = (
+            output_dir
+            / f"{ticker.lower()}_stock_data.csv"
+        )
+
+        df.to_csv(
+            output_path,
+            index=False
+        )
+
+        print(
+            f"✓ Saved {ticker} -> {output_path}"
+        )
 
     print(
-        f"Saved {ticker} -> {output_path}"
+        "\n✅ All downloads complete."
     )
 
-print("\nAll downloads complete.")
+
+if __name__ == "__main__":
+
+    download_stock_data()
