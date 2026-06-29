@@ -47,16 +47,18 @@ def wait_for_postgres():
 
             return
 
-        except OperationalError:
+        except OperationalError as e:
 
-            logger.info(
-                f"Waiting for PostgreSQL "
-                f"({attempt}/{retries})..."
-            )
+            logger.error(
+        f"PostgreSQL connection failed: {e}"
+    )
 
-            time.sleep(
-                delay
-            )
+    logger.info(
+        f"Waiting for PostgreSQL "
+        f"({attempt}/{retries})..."
+    )
+
+    time.sleep(delay)
 
     logger.error(
         "❌ PostgreSQL did not become ready."
