@@ -94,17 +94,17 @@ def start_api():
     logger.info(
         "Starting FastAPI..."
     )
-
+    port = os.getenv("PORT", "8000")
     os.execvp(
+    "uvicorn",
+    [
         "uvicorn",
-        [
-            "uvicorn",
-            "api.main:app",
-            "--host",
-            "0.0.0.0",
-            "--port",
-            "8000"
-        ]
+        "api.main:app",
+        "--host",
+        "0.0.0.0",
+        "--port",
+        port,
+    ]
     )
 
 

@@ -8,6 +8,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-EXPOSE 8000
+ENV PORT=7860
+
+EXPOSE 7860
 
 CMD ["python", "startup.py"]
