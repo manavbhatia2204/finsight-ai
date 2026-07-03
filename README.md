@@ -50,7 +50,7 @@ FinSight AI is an end-to-end financial intelligence platform powered by four coo
 <img src="assets/screenshots/dashboard.png" width="800"/>
 
 **Interactive Stock Charts**
-<img src="assets/screenshots/chart.png" width="800"/>
+<img src="assets\screenshots\chart.png" width="800"/>
 
 **REST API Documentation**
 <img src="assets/screenshots/swagger.png" width="800"/>
