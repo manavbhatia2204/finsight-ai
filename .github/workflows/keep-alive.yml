@@ -1,0 +1,16 @@
+name: Keep Supabase & HF Space Alive
+ 
+on:
+  schedule:
+    - cron: '0 6 * * 1,4'   # Every Monday and Thursday at 6:00 AM UTC
+  workflow_dispatch:         # Allows manual trigger from the Actions tab
+ 
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping FastAPI /ready endpoint (touches Supabase DB)
+        run: |
+          echo "Pinging API to keep Supabase and HF Space active..."
+          curl -f --retry 3 --retry-delay 10 https://manav2204-finsight-ai-api.hf.space/ready
+          echo "Ping successful."
