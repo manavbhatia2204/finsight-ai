@@ -23,6 +23,10 @@ from agents.orchestrator_agent.nodes.financial_metrics_node import (
     financial_metrics_node
 )
 
+from agents.orchestrator_agent.nodes.risk_analysis_node import (
+    risk_analysis_node
+)
+
 from agents.orchestrator_agent.nodes.report_node import (
     report_node
 )
@@ -52,6 +56,11 @@ builder.add_node(
 )
 
 builder.add_node(
+    "risk_analysis",
+    risk_analysis_node
+)
+
+builder.add_node(
     "report",
     report_node
 )
@@ -74,6 +83,7 @@ builder.add_conditional_edges(
         "research": "research",
         "prediction": "prediction",
         "financial_metrics": "financial_metrics",
+        "risk_analysis": "risk_analysis",
         "both": "research"
     }
 )
@@ -104,6 +114,11 @@ builder.add_edge(
 
 builder.add_edge(
     "financial_metrics",
+    "report"
+)
+
+builder.add_edge(
+    "risk_analysis",
     "report"
 )
 

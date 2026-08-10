@@ -3,7 +3,7 @@
 from langchain.tools import tool
 from agents.financial_intelligence_agent.fundamentals import get_fundamentals
 from agents.financial_intelligence_agent.growth_metrics import calculate_growth_metrics
-
+from agents.financial_intelligence_agent.risk_metrics import get_risk_metrics
 
 def _format_pct(value, is_ratio=True) -> str:
     """Format a number as a percentage string, handling None."""
@@ -63,7 +63,54 @@ def get_financial_metrics(ticker: str) -> str:
 """
     return report
 
+@tool(return_direct=True)
+def get_risk_analysis(ticker: str) -> str:
+    """
+    Get risk analysis for a stock ticker, including volatility,
+    maximum drawdown, Sharpe ratio, and beta relative to the S&P 500.
+    Use this when the user asks about a stock's risk, volatility,
+    how risky an investment is, or how it compares to the market.
+    
+    Example queries this tool answers:
+    - "What is Tesla's volatility?"
+    - "How risky is NVIDIA as an investment?"
+    - "What is Apple's beta?"
+    - "What is Microsoft's Sharpe ratio?"
+    """
+    ticker = ticker.upper()
+    metrics = get_risk_metrics(ticker)
 
+    vol = metrics["volatility"]
+    dd = metrics["max_drawdown"]
+    sharpe = metrics["sharpe_ratio"]
+    beta = metrics["beta"]
+
+    # Check if any sub-metric failed
+    if "error" in vol:
+        return f"DONE: {vol['error']}"
+
+    report = f"""DONE: Risk Analysis for {ticker}
+
+**Volatility**
+- Annualized Volatility: {vol.get('annualized_volatility_pct', 'N/A')}%
+
+**Drawdown**
+- Maximum Drawdown: {dd.get('max_drawdown_pct', 'N/A')}% (on {dd.get('max_drawdown_date', 'N/A')})
+
+**Risk-Adjusted Return**
+- Sharpe Ratio: {sharpe.get('sharpe_ratio', 'N/A')}
+- Annualized Return: {sharpe.get('annualized_return_pct', 'N/A')}%
+- Risk-Free Rate Used: {sharpe.get('risk_free_rate_pct', 'N/A')}%
+
+**Market Sensitivity**
+- Beta (vs S&P 500): {beta.get('beta', 'N/A')}
+"""
+    return report
+
+
+if __name__ == "__main__":
+    result = get_risk_analysis.invoke({"ticker": "AAPL"})
+    print(result)
 if __name__ == "__main__":
     for test_ticker in ["MSFT", "NVDA", "TSLA", "GOOGL"]:
         print(f"\n{'='*60}")

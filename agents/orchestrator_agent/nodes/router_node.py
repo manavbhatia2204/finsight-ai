@@ -79,6 +79,21 @@ def router_node(
         "DEBT",
         "CAGR"
     ]
+    risk_keywords = [
+        "RISK",
+        "VOLATILITY",
+        "VOLATILE",
+        "SHARPE",
+        "BETA",
+        "DRAWDOWN",
+        "RISKY",
+        "STANDARD DEVIATION"
+    ]
+
+    has_risk = any(
+        word in query
+        for word in risk_keywords
+    )
 
     has_prediction = any(
         word in query
@@ -101,6 +116,9 @@ def router_node(
         and has_research
     ):
         route = "both"
+
+    elif has_risk:
+        route = "risk_analysis"
 
     elif has_financial_metrics:
         route = "financial_metrics"

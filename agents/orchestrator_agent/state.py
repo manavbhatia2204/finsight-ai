@@ -17,4 +17,6 @@ class GraphState(
 
     financial_metrics_result: str
 
+    risk_analysis_result: str
+
     final_report: str

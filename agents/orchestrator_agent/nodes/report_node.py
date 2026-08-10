@@ -17,6 +17,10 @@ def report_node(
         "financial_metrics_result"
     )
 
+    risk_analysis_result = state.get(
+        "risk_analysis_result"
+    )
+
     # RESEARCH ERROR
     if (
         isinstance(
@@ -67,10 +71,32 @@ def report_node(
             )
         }
 
+    # RISK ANALYSIS ERROR
+    if (
+        risk_analysis_result
+        and isinstance(
+            risk_analysis_result,
+            dict
+        )
+        and "error" in risk_analysis_result
+    ):
+        return {
+            "final_report":
+            (
+                "Risk Analysis Error\n\n"
+                f"{risk_analysis_result['error']}"
+            )
+        }
+
     # FINANCIAL METRICS ONLY
     if financial_metrics_result:
 
         report = financial_metrics_result
+
+    # RISK ANALYSIS ONLY
+    elif risk_analysis_result:
+
+        report = risk_analysis_result
 
     # BOTH AGENTS
     elif (
