@@ -63,6 +63,23 @@ def router_node(
         "GOOD INVESTMENT"
     ]
 
+    financial_metrics_keywords = [
+        "P/E",
+        "PE RATIO",
+        "VALUATION",
+        "FUNDAMENTALS",
+        "FUNDAMENTAL",
+        "MARGIN",
+        "PROFITABILITY",
+        "GROWTH",
+        "REVENUE",
+        "EARNINGS",
+        "ROE",
+        "ROA",
+        "DEBT",
+        "CAGR"
+    ]
+
     has_prediction = any(
         word in query
         for word in prediction_keywords
@@ -73,12 +90,20 @@ def router_node(
         for word in research_keywords
     )
 
+    has_financial_metrics = any(
+        word in query
+        for word in financial_metrics_keywords
+    )
+
     # Investment-style questions should use both agents
     if (
         ticker is not None
         and has_research
     ):
         route = "both"
+
+    elif has_financial_metrics:
+        route = "financial_metrics"
 
     elif has_prediction:
         route = "prediction"

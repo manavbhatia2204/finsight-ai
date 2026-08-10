@@ -223,3 +223,5 @@ data/raw/*.csv
 # Python cache
 __pycache__/
 *.pyc
+project_snapshot.py
+project_snapshot.txt

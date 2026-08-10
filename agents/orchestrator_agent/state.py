@@ -15,4 +15,6 @@ class GraphState(
 
     prediction_result: dict
 
+    financial_metrics_result: str
+
     final_report: str
