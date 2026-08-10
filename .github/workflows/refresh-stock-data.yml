@@ -1,0 +1,35 @@
+name: Refresh Stock Price Data
+
+on:
+  schedule:
+    - cron: '0 7 * * 1'   # Every Monday at 7:00 AM UTC
+  workflow_dispatch:        # Allows manual trigger from the Actions tab
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Download latest stock data
+        run: python scripts/download_stocks.py
+
+      - name: Load stock data into database
+        env:
+          DB_USER: ${{ secrets.DB_USER }}
+          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+          DB_HOST: ${{ secrets.DB_HOST }}
+          DB_PORT: ${{ secrets.DB_PORT }}
+          DB_NAME: ${{ secrets.DB_NAME }}
+        run: python scripts/load_stock_prices.py
