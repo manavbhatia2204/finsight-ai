@@ -225,3 +225,5 @@ __pycache__/
 *.pyc
 project_snapshot.py
 project_snapshot.txt
+check_staleness.py
+msft_debug.csv
