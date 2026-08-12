@@ -1,0 +1,50 @@
+name: CI - Test and Build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          lfs: true  # your models/FAISS index are tracked via Git LFS
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run test suite
+        env:
+          DB_USER: ${{ secrets.DB_USER }}
+          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+          DB_HOST: ${{ secrets.DB_HOST }}
+          DB_PORT: ${{ secrets.DB_PORT }}
+          DB_NAME: ${{ secrets.DB_NAME }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+        run: |
+          python -m pytest agents/ml_prediction_agent/tests/test_model_integrity.py agents/orchestrator_agent/tests/test_routing.py agents/financial_intelligence_agent/tests/test_financial_intelligence.py api/tests/test_database.py -v
+
+  docker-build:
+    runs-on: ubuntu-latest
+    needs: test  # only attempt Docker build if tests pass
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Build Docker image
+        run: docker build -t finsight-ai:ci-test .
