@@ -391,6 +391,29 @@ Supabase PostgreSQL   (Database)
 
 Full interactive documentation is available via [Swagger UI](https://manav2204-finsight-ai-api.hf.space/docs).
 
+## 🎯 RAG Evaluation
+
+FinSight AI includes a repeatable evaluation framework that measures retrieval quality against a fixed set of 15 test questions spanning all indexed documents.
+
+**Methodology:**
+- Each question checks two things: whether retrieval pulls from the correct source document, and whether the retrieved content contains the expected keywords for a genuinely correct answer
+- The evaluation dataset is fixed — not regenerated per run — so results are comparable over time and catch regressions
+
+**Latest results:**
+
+| Metric | Score |
+|---|---|
+| Pass rate | 15/15 (100%) |
+| Avg keyword coverage | 94.5% |
+| Source match rate | 100% |
+
+**Run it yourself:**
+```bash
+python -m rag.evaluation.run_eval
+```
+
+**A real bug this framework caught:** the evaluation initially returned a 26.7% pass rate — every non-Apple question was silently retrieving Apple 10-K content regardless of what was asked. Investigation traced this to the vector store being built before all 5 source documents existed in the ingestion folder, meaning 4 of 5 documents were never indexed despite being present in the repo. Rebuilding the index after the fix raised the pass rate to 100%. This is the kind of production data-integrity issue that's easy to miss with manual spot-checking but immediately visible with systematic evaluation.
+
 ### Deployment Engineering Note
 
 Getting a multi-service AI system (agents, ML models, vector index, database) running reliably across three separate free-tier cloud platforms required solving binary asset management with Git LFS, and working around memory constraints during deployment.
