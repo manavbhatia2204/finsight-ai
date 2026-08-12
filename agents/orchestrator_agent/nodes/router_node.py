@@ -1,3 +1,12 @@
+from prometheus_client import Counter
+
+agent_route_counter = Counter(
+    "finsight_agent_route_total",
+    "Number of requests handled by each agent route",
+    ["route"]
+)
+
+
 def router_node(
     state
 ):
@@ -172,6 +181,8 @@ def router_node(
     print(
         f"Ticker B Found: {ticker_b}"
     )
+
+    agent_route_counter.labels(route=route).inc()
 
     return {
         "route": route,

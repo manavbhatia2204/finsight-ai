@@ -132,3 +132,4 @@ yfinance==1.4.1
 zstandard==0.25.0
 pytest
 pytest-cov
+prometheus-fastapi-instrumentator
