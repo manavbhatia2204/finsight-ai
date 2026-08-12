@@ -1,0 +1,327 @@
+{
+  "timestamp": "2026-08-12T23:52:25.871918",
+  "total_questions": 15,
+  "passed": 15,
+  "pass_rate_pct": 100.0,
+  "avg_keyword_coverage_pct": 94.5,
+  "source_match_rate_pct": 100.0,
+  "results": [
+    {
+      "question_id": "apple_1",
+      "question": "What are the main risks Apple faces related to its supply chain?",
+      "source_matched": true,
+      "expected_source": "apple_10k.pdf",
+      "retrieved_sources": [
+        "apple_10k.pdf",
+        "nvidia_10k.pdf"
+      ],
+      "keyword_coverage": 1.0,
+      "keywords_found": [
+        "supply chain",
+        "manufacturing",
+        "suppliers"
+      ],
+      "keywords_expected": [
+        "supply chain",
+        "manufacturing",
+        "suppliers"
+      ],
+      "passed": true
+    },
+    {
+      "question_id": "apple_2",
+      "question": "How does Apple generate revenue from services?",
+      "source_matched": true,
+      "expected_source": "apple_10k.pdf",
+      "retrieved_sources": [
+        "microsoft_10k.pdf",
+        "apple_10k.pdf"
+      ],
+      "keyword_coverage": 1.0,
+      "keywords_found": [
+        "services",
+        "App Store",
+        "subscription"
+      ],
+      "keywords_expected": [
+        "services",
+        "App Store",
+        "subscription"
+      ],
+      "passed": true
+    },
+    {
+      "question_id": "apple_3",
+      "question": "What competitive risks does Apple mention in its filing?",
+      "source_matched": true,
+      "expected_source": "apple_10k.pdf",
+      "retrieved_sources": [
+        "apple_10k.pdf"
+      ],
+      "keyword_coverage": 1.0,
+      "keywords_found": [
+        "competition",
+        "competitive",
+        "market"
+      ],
+      "keywords_expected": [
+        "competition",
+        "competitive",
+        "market"
+      ],
+      "passed": true
+    },
+    {
+      "question_id": "msft_1",
+      "question": "What is Microsoft's strategy for cloud computing growth?",
+      "source_matched": true,
+      "expected_source": "microsoft_10k.pdf",
+      "retrieved_sources": [
+        "microsoft_10k.pdf"
+      ],
+      "keyword_coverage": 1.0,
+      "keywords_found": [
+        "cloud",
+        "Azure",
+        "growth"
+      ],
+      "keywords_expected": [
+        "cloud",
+        "Azure",
+        "growth"
+      ],
+      "passed": true
+    },
+    {
+      "question_id": "msft_2",
+      "question": "What risks does Microsoft identify related to cybersecurity?",
+      "source_matched": true,
+      "expected_source": "microsoft_10k.pdf",
+      "retrieved_sources": [
+        "microsoft_10k.pdf",
+        "apple_10k.pdf",
+        "nvidia_10k.pdf"
+      ],
+      "keyword_coverage": 1.0,
+      "keywords_found": [
+        "cybersecurity",
+        "security",
+        "breach"
+      ],
+      "keywords_expected": [
+        "cybersecurity",
+        "security",
+        "breach"
+      ],
+      "passed": true
+    },
+    {
+      "question_id": "msft_3",
+      "question": "How does Microsoft describe its AI investments?",
+      "source_matched": true,
+      "expected_source": "microsoft_10k.pdf",
+      "retrieved_sources": [
+        "microsoft_10k.pdf"
+      ],
+      "keyword_coverage": 1.0,
+      "keywords_found": [
+        "AI",
+        "artificial intelligence",
+        "investment"
+      ],
+      "keywords_expected": [
+        "AI",
+        "artificial intelligence",
+        "investment"
+      ],
+      "passed": true
+    },
+    {
+      "question_id": "nvda_1",
+      "question": "What does NVIDIA say about demand for its data center products?",
+      "source_matched": true,
+      "expected_source": "nvidia_10k.pdf",
+      "retrieved_sources": [
+        "nvidia_10k.pdf"
+      ],
+      "keyword_coverage": 1.0,
+      "keywords_found": [
+        "data center",
+        "demand",
+        "GPU"
+      ],
+      "keywords_expected": [
+        "data center",
+        "demand",
+        "GPU"
+      ],
+      "passed": true
+    },
+    {
+      "question_id": "nvda_2",
+      "question": "What risks does NVIDIA mention about semiconductor supply?",
+      "source_matched": true,
+      "expected_source": "nvidia_10k.pdf",
+      "retrieved_sources": [
+        "apple_10k.pdf",
+        "nvidia_10k.pdf"
+      ],
+      "keyword_coverage": 1.0,
+      "keywords_found": [
+        "semiconductor",
+        "supply",
+        "manufacturing"
+      ],
+      "keywords_expected": [
+        "semiconductor",
+        "supply",
+        "manufacturing"
+      ],
+      "passed": true
+    },
+    {
+      "question_id": "nvda_3",
+      "question": "How does NVIDIA describe competition in the AI chip market?",
+      "source_matched": true,
+      "expected_source": "nvidia_10k.pdf",
+      "retrieved_sources": [
+        "nvidia_10k.pdf"
+      ],
+      "keyword_coverage": 0.67,
+      "keywords_found": [
+        "competition",
+        "market"
+      ],
+      "keywords_expected": [
+        "competition",
+        "AI chip",
+        "market"
+      ],
+      "passed": true
+    },
+    {
+      "question_id": "fomc_1",
+      "question": "What did the Federal Reserve discuss about interest rates?",
+      "source_matched": true,
+      "expected_source": null,
+      "retrieved_sources": [
+        "monetary_policy_report.pdf"
+      ],
+      "keyword_coverage": 1.0,
+      "keywords_found": [
+        "interest rate",
+        "federal funds",
+        "rate"
+      ],
+      "keywords_expected": [
+        "interest rate",
+        "federal funds",
+        "rate"
+      ],
+      "passed": true
+    },
+    {
+      "question_id": "fomc_2",
+      "question": "What economic indicators did the Fed committee review?",
+      "source_matched": true,
+      "expected_source": "fomc_minutes.pdf",
+      "retrieved_sources": [
+        "monetary_policy_report.pdf",
+        "fomc_minutes.pdf"
+      ],
+      "keyword_coverage": 1.0,
+      "keywords_found": [
+        "inflation",
+        "employment",
+        "economic"
+      ],
+      "keywords_expected": [
+        "inflation",
+        "employment",
+        "economic"
+      ],
+      "passed": true
+    },
+    {
+      "question_id": "mpr_1",
+      "question": "What does the monetary policy report say about inflation trends?",
+      "source_matched": true,
+      "expected_source": "monetary_policy_report.pdf",
+      "retrieved_sources": [
+        "monetary_policy_report.pdf",
+        "fomc_minutes.pdf"
+      ],
+      "keyword_coverage": 1.0,
+      "keywords_found": [
+        "inflation",
+        "price",
+        "trend"
+      ],
+      "keywords_expected": [
+        "inflation",
+        "price",
+        "trend"
+      ],
+      "passed": true
+    },
+    {
+      "question_id": "mpr_2",
+      "question": "What does the report say about labor market conditions?",
+      "source_matched": true,
+      "expected_source": "monetary_policy_report.pdf",
+      "retrieved_sources": [
+        "monetary_policy_report.pdf"
+      ],
+      "keyword_coverage": 1.0,
+      "keywords_found": [
+        "labor market",
+        "employment",
+        "unemployment"
+      ],
+      "keywords_expected": [
+        "labor market",
+        "employment",
+        "unemployment"
+      ],
+      "passed": true
+    },
+    {
+      "question_id": "cross_1",
+      "question": "How do Apple and Microsoft each describe their approach to services revenue?",
+      "source_matched": true,
+      "expected_source": null,
+      "retrieved_sources": [
+        "microsoft_10k.pdf",
+        "apple_10k.pdf"
+      ],
+      "keyword_coverage": 1.0,
+      "keywords_found": [
+        "services",
+        "revenue"
+      ],
+      "keywords_expected": [
+        "services",
+        "revenue"
+      ],
+      "passed": true
+    },
+    {
+      "question_id": "hard_1",
+      "question": "What specific dollar figures does NVIDIA report for R&D spending?",
+      "source_matched": true,
+      "expected_source": "nvidia_10k.pdf",
+      "retrieved_sources": [
+        "nvidia_10k.pdf"
+      ],
+      "keyword_coverage": 0.5,
+      "keywords_found": [
+        "research and development"
+      ],
+      "keywords_expected": [
+        "research and development",
+        "R&D"
+      ],
+      "passed": true
+    }
+  ]
+}
