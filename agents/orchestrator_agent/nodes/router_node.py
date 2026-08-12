@@ -43,6 +43,21 @@ def router_node(
         "TSLA": "TSLA"
     }
 
+    off_topic_keywords = [
+        "WEATHER",
+        "RECIPE",
+        "MOVIE",
+        "SPORTS",
+        "GAME",
+        "JOKE",
+        "POEM",
+        "CAPITAL OF",
+        "WHO IS",
+        "TRANSLATE",
+        "SONG",
+        "LYRICS"
+    ]
+
     found_tickers = []
 
     for company_name, symbol in (
@@ -149,7 +164,23 @@ def router_node(
         for word in comparison_keywords
     )
 
-    if ticker_b is not None:
+    is_off_topic = (
+        any(
+            word in query
+            for word in off_topic_keywords
+        )
+        and ticker is None
+        and not has_financial_metrics
+        and not has_risk
+        and not has_prediction
+        and not has_research
+        and not has_comparison
+    )
+
+    if is_off_topic:
+        route = "off_topic"
+
+    elif ticker_b is not None:
         route = "comparison"
 
     elif (

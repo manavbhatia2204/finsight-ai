@@ -23,4 +23,6 @@ class GraphState(
 
     comparison_result: str
 
+    off_topic_result: str
+
     final_report: str

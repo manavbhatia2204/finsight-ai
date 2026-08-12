@@ -31,6 +31,10 @@ from agents.orchestrator_agent.nodes.comparison_node import (
     comparison_node
 )
 
+from agents.orchestrator_agent.nodes.off_topic_node import (
+    off_topic_node
+)
+
 from agents.orchestrator_agent.nodes.report_node import (
     report_node
 )
@@ -70,6 +74,11 @@ builder.add_node(
 )
 
 builder.add_node(
+    "off_topic",
+    off_topic_node
+)
+
+builder.add_node(
     "report",
     report_node
 )
@@ -94,6 +103,7 @@ builder.add_conditional_edges(
         "financial_metrics": "financial_metrics",
         "risk_analysis": "risk_analysis",
         "comparison": "comparison",
+        "off_topic": "off_topic",
         "both": "research"
     }
 )
@@ -134,6 +144,11 @@ builder.add_edge(
 
 builder.add_edge(
     "comparison",
+    "report"
+)
+
+builder.add_edge(
+    "off_topic",
     "report"
 )
 

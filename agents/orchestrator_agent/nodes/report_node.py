@@ -25,6 +25,10 @@ def report_node(
         "comparison_result"
     )
 
+    off_topic_result = state.get(
+        "off_topic_result"
+    )
+
     # RESEARCH ERROR
     if (
         isinstance(
@@ -109,8 +113,13 @@ def report_node(
             )
         }
 
+    # OFF TOPIC ONLY
+    if off_topic_result:
+
+        report = off_topic_result
+
     # COMPARISON ONLY
-    if comparison_result:
+    elif comparison_result:
 
         report = comparison_result
 
