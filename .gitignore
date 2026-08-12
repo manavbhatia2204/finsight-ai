@@ -227,3 +227,6 @@ project_snapshot.py
 project_snapshot.txt
 check_staleness.py
 msft_debug.csvcheck_models.py 
+debug_metadata_mapping.py
+debug_retrieval.py
+debug_source_distribution.py
