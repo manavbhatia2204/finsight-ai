@@ -4,6 +4,7 @@ from langchain.tools import tool
 from agents.financial_intelligence_agent.fundamentals import get_fundamentals
 from agents.financial_intelligence_agent.growth_metrics import calculate_growth_metrics
 from agents.financial_intelligence_agent.risk_metrics import get_risk_metrics
+from agents.financial_intelligence_agent.comparison import compare_companies, format_comparison
 
 def _format_pct(value, is_ratio=True) -> str:
     """Format a number as a percentage string, handling None."""
@@ -116,3 +117,23 @@ if __name__ == "__main__":
         print(f"\n{'='*60}")
         result = get_financial_metrics.invoke({"ticker": test_ticker})
         print(result)
+
+@tool(return_direct=True)
+def compare_stocks(ticker_a: str, ticker_b: str) -> str:
+    """
+    Compare two stocks side by side using fundamentals and risk metrics.
+    Use this when the user asks to compare two companies, or asks
+    which of two stocks is better on valuation, profitability, or risk.
+    
+    Example queries this tool answers:
+    - "Compare Apple and Microsoft"
+    - "Tesla vs NVIDIA, which is riskier?"
+    - "Should I buy Google or Amazon?"
+    """
+    data = compare_companies(ticker_a, ticker_b)
+    return format_comparison(data)
+
+
+if __name__ == "__main__":
+    result = compare_stocks.invoke({"ticker_a": "TSLA", "ticker_b": "NVDA"})
+    print(result)

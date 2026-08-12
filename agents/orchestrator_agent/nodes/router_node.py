@@ -10,8 +10,6 @@ def router_node(
         "\nRouter Node Executed"
     )
 
-    ticker = None
-
     COMPANY_TO_TICKER = {
         "APPLE": "AAPL",
         "AAPL": "AAPL",
@@ -36,15 +34,31 @@ def router_node(
         "TSLA": "TSLA"
     }
 
+    found_tickers = []
+
     for company_name, symbol in (
         COMPANY_TO_TICKER.items()
     ):
 
         if company_name in query:
 
-            ticker = symbol
+            if symbol not in found_tickers:
 
-            break
+                found_tickers.append(
+                    symbol
+                )
+
+    ticker = (
+        found_tickers[0]
+        if found_tickers
+        else None
+    )
+
+    ticker_b = (
+        found_tickers[1]
+        if len(found_tickers) > 1
+        else None
+    )
 
     prediction_keywords = [
         "PREDICT",
@@ -79,6 +93,7 @@ def router_node(
         "DEBT",
         "CAGR"
     ]
+
     risk_keywords = [
         "RISK",
         "VOLATILITY",
@@ -88,6 +103,16 @@ def router_node(
         "DRAWDOWN",
         "RISKY",
         "STANDARD DEVIATION"
+    ]
+
+    comparison_keywords = [
+        "COMPARE",
+        "COMPARISON",
+        "VS",
+        "VERSUS",
+        "OR",
+        "BETTER",
+        "WHICH IS"
     ]
 
     has_risk = any(
@@ -110,8 +135,15 @@ def router_node(
         for word in financial_metrics_keywords
     )
 
-    # Investment-style questions should use both agents
-    if (
+    has_comparison = any(
+        word in query
+        for word in comparison_keywords
+    )
+
+    if ticker_b is not None:
+        route = "comparison"
+
+    elif (
         ticker is not None
         and has_research
     ):
@@ -137,7 +169,12 @@ def router_node(
         f"Ticker Found: {ticker}"
     )
 
+    print(
+        f"Ticker B Found: {ticker_b}"
+    )
+
     return {
         "route": route,
-        "ticker": ticker
+        "ticker": ticker,
+        "ticker_b": ticker_b
     }

@@ -11,6 +11,8 @@ class GraphState(
 
     ticker: str
 
+    ticker_b: str
+
     research_result: str
 
     prediction_result: dict
@@ -18,5 +20,7 @@ class GraphState(
     financial_metrics_result: str
 
     risk_analysis_result: str
+
+    comparison_result: str
 
     final_report: str

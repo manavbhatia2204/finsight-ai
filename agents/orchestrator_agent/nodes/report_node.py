@@ -21,6 +21,10 @@ def report_node(
         "risk_analysis_result"
     )
 
+    comparison_result = state.get(
+        "comparison_result"
+    )
+
     # RESEARCH ERROR
     if (
         isinstance(
@@ -88,8 +92,30 @@ def report_node(
             )
         }
 
+    # COMPARISON ERROR
+    if (
+        comparison_result
+        and isinstance(
+            comparison_result,
+            dict
+        )
+        and "error" in comparison_result
+    ):
+        return {
+            "final_report":
+            (
+                "Comparison Error\n\n"
+                f"{comparison_result['error']}"
+            )
+        }
+
+    # COMPARISON ONLY
+    if comparison_result:
+
+        report = comparison_result
+
     # FINANCIAL METRICS ONLY
-    if financial_metrics_result:
+    elif financial_metrics_result:
 
         report = financial_metrics_result
 
