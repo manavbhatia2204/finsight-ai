@@ -1,19 +1,26 @@
 from pathlib import Path
 import sys
+import traceback
 from sqlalchemy import text
 from fastapi import (
     FastAPI,
-    HTTPException
+    HTTPException,
+    Request
 )
-
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
+
+from slowapi import Limiter, _rate_limit_exceeded_handler
+from slowapi.util import get_remote_address
+from slowapi.errors import RateLimitExceeded
+
 from api.database.connection import engine
+
 project_root = (
     Path(__file__)
     .resolve()
     .parent.parent
 )
-
 sys.path.append(
     str(project_root)
 )
@@ -21,19 +28,15 @@ sys.path.append(
 from agents.orchestrator_agent.orchestrator_agent import (
     run_orchestrator
 )
-
 from agents.ml_prediction_agent.predict import (
     predict_stock
 )
-
 from api.database.session import (
     SessionLocal
 )
-
 from api.models.stock import (
     Stock
 )
-
 from api.models.stock_price import (
     StockPrice
 )
@@ -41,6 +44,28 @@ from api.models.stock_price import (
 app = FastAPI(
     title="FinSight AI API",
     version="1.0.0"
+)
+
+# --- Rate limiting setup ---
+limiter = Limiter(
+    key_func=get_remote_address
+)
+app.state.limiter = limiter
+app.add_exception_handler(
+    RateLimitExceeded,
+    _rate_limit_exceeded_handler
+)
+
+# --- CORS setup ---
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "https://finsight-ai-manav.streamlit.app",
+        "http://localhost:8501",
+    ],
+    allow_credentials=True,
+    allow_methods=["GET", "POST"],
+    allow_headers=["*"],
 )
 
 
@@ -52,7 +77,6 @@ class QueryRequest(
 
 @app.get("/")
 def root():
-
     return {
         "status": "running",
         "service": "FinSight AI"
@@ -61,30 +85,24 @@ def root():
 
 @app.get("/health")
 def health():
-
     return {
         "status": "healthy",
         "service": "FinSight AI API"
     }
 
+
 @app.get("/ready")
 def readiness():
-
     try:
-
         with engine.connect() as connection:
-
             connection.execute(
                 text("SELECT 1")
             )
-
         return {
             "status": "ready",
             "database": "connected"
         }
-
     except Exception as e:
-
         raise HTTPException(
             status_code=503,
             detail={
@@ -93,55 +111,53 @@ def readiness():
                 "error": str(e)
             }
         )
+
+
 @app.post("/ask")
+@limiter.limit("10/minute")
 def ask_finsight(
-    request: QueryRequest
+    request: Request,
+    body: QueryRequest
 ):
-
     try:
-
         result = run_orchestrator(
-            request.query
+            body.query
         )
-
         return {
-            "query": request.query,
+            "query": body.query,
             "report": result
         }
-
     except Exception as e:
-
+        print("ASK ERROR:", str(e))
+        traceback.print_exc()
         raise HTTPException(
             status_code=500,
-            detail=str(e)
+            detail="Something went wrong processing your request. Please try again."
         )
 
 
 @app.get("/predict/{ticker}")
+@limiter.limit("20/minute")
 def predict(
+    request: Request,
     ticker: str
 ):
-
     try:
-
         result = predict_stock(
             ticker.upper()
         )
-
         return result
-
-    except FileNotFoundError as e:
-
+    except FileNotFoundError:
         raise HTTPException(
             status_code=404,
-            detail=str(e)
+            detail=f"No prediction model available for {ticker.upper()}."
         )
-
     except Exception as e:
-
+        print("PREDICT ERROR:", str(e))
+        traceback.print_exc()
         raise HTTPException(
             status_code=500,
-            detail=str(e)
+            detail="Something went wrong generating the prediction. Please try again."
         )
 
 
@@ -150,11 +166,8 @@ def get_stock_history(
     ticker: str,
     limit: int = 30
 ):
-
     db = SessionLocal()
-
     try:
-
         stock = (
             db.query(Stock)
             .filter(
@@ -162,9 +175,7 @@ def get_stock_history(
             )
             .first()
         )
-
         if stock is None:
-
             raise HTTPException(
                 status_code=404,
                 detail=(
@@ -172,7 +183,6 @@ def get_stock_history(
                     f"not found"
                 )
             )
-
         prices = (
             db.query(StockPrice)
             .filter(
@@ -184,7 +194,6 @@ def get_stock_history(
             .limit(limit)
             .all()
         )
-
         return {
             "ticker": stock.ticker,
             "company_name": stock.company_name,
@@ -202,7 +211,5 @@ def get_stock_history(
                 for price in prices
             ]
         }
-
     finally:
-
         db.close()
