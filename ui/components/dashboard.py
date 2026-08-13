@@ -5,7 +5,7 @@ from components.market_snapshot import render_market_snapshot
 from components.prediction_card import render_prediction_card
 from components.research_card import render_research_card
 from components.stock_chart import render_stock_chart
-
+from components.faq import render_faq
 from pdf.report_generator import generate_pdf
 
 from utils.api_client import (
@@ -122,3 +122,4 @@ def render_dashboard(
         mime="application/pdf",
         use_container_width=True,
     )
+    render_faq()
