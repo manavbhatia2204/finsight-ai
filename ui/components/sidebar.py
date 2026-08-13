@@ -50,4 +50,15 @@ def render_sidebar():
         use_container_width=True,
     )
 
+    with st.sidebar.expander("❓ What can I ask?", expanded=False):
+        st.markdown("""
+- **Fundamentals:** "What is Apple's P/E ratio?"
+- **Risk:** "What is Tesla's volatility?"
+- **Prediction:** "Will TSLA go up tomorrow?"
+- **Comparison:** "Compare Apple and Microsoft"
+- **Research:** "What did the Fed say about rates?"
+
+Supported: AAPL, MSFT, NVDA, AMZN, GOOGL, META, TSLA
+        """)
+
     return ticker, question, run_analysis
