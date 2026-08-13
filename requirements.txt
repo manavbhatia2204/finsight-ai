@@ -133,3 +133,4 @@ zstandard==0.25.0
 pytest
 pytest-cov
 prometheus-fastapi-instrumentator
+slowapi==0.1.10

@@ -34,8 +34,7 @@ jobs:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
         run: |
-          python -m pytest agents/ml_prediction_agent/tests/test_model_integrity.py agents/orchestrator_agent/tests/test_routing.py agents/financial_intelligence_agent/tests/test_financial_intelligence.py api/tests/test_database.py -v
-
+          python -m pytest agents/ml_prediction_agent/tests/test_model_integrity.py agents/orchestrator_agent/tests/test_routing.py agents/financial_intelligence_agent/tests/test_financial_intelligence.py api/tests/test_database.py api/tests/test_app_startup.py -v
   docker-build:
     runs-on: ubuntu-latest
     needs: test  # only attempt Docker build if tests pass
