@@ -13,7 +13,9 @@ from pydantic import BaseModel
 from slowapi import Limiter, _rate_limit_exceeded_handler
 from slowapi.util import get_remote_address
 from slowapi.errors import RateLimitExceeded
+
 from prometheus_fastapi_instrumentator import Instrumentator
+
 from api.database.connection import engine
 
 project_root = (
@@ -68,14 +70,15 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# --- Observability setup ---
+Instrumentator().instrument(app).expose(app, endpoint="/metrics")
+
 
 class QueryRequest(
     BaseModel
 ):
     query: str
 
-# --- Observability setup ---
-Instrumentator().instrument(app).expose(app, endpoint="/metrics")
 
 @app.get("/")
 def root():
@@ -215,3 +218,47 @@ def get_stock_history(
         }
     finally:
         db.close()
+
+
+@app.get("/stocks/{ticker}/live")
+@limiter.limit("30/minute")
+def get_live_price(
+    request: Request,
+    ticker: str
+):
+    """
+    Fetch the current live price directly from yfinance,
+    bypassing the database for real-time freshness.
+    """
+    try:
+        import yfinance as yf
+
+        stock = yf.Ticker(ticker.upper())
+        info = stock.info
+
+        if not info or info.get("regularMarketPrice") is None:
+            raise HTTPException(
+                status_code=404,
+                detail=f"No live data found for {ticker.upper()}."
+            )
+
+        return {
+            "ticker": ticker.upper(),
+            "current_price": info.get("currentPrice") or info.get("regularMarketPrice"),
+            "previous_close": info.get("previousClose"),
+            "day_change_pct": round(
+                ((info.get("currentPrice", 0) - info.get("previousClose", 1))
+                 / info.get("previousClose", 1)) * 100,
+                2
+            ) if info.get("previousClose") else None,
+            "volume": info.get("volume"),
+            "market_cap": info.get("marketCap"),
+        }
+
+    except HTTPException:
+        raise
+    except Exception:
+        raise HTTPException(
+            status_code=500,
+            detail="Unable to fetch live price data. Please try again."
+        )
